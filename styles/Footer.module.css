@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    margin: 10px auto 60px;
+    text-align: center;
+    max-width: 1400px;
+    color: white;
+}
+
+.link {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
