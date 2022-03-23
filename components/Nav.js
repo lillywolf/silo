@@ -3,15 +3,15 @@ import styles from '../styles/Nav.module.css'
 
 export default function Nav() {
     return (
-        <div className={styles.container}>
+        <div className={ `${ styles.container } text-center mt-3`}>
             <Link href="/about">
-                <a className={styles.link}>ABOUT</a>
+                <a className={ `${ styles.link } m-3` }>ABOUT</a>
             </Link>
             <Link href="/events">
-                <a className={styles.link}>EVENTS</a>
+                <a className={ `${ styles.link } m-3` }>EVENTS</a>
             </Link>
             <Link href="/contact">
-                <a className={styles.link}>CONTACT</a>
+                <a className={ `${ styles.link } m-3 mr-0 lg:mr-3` }>CONTACT</a>
             </Link>
         </div>
     );

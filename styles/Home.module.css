@@ -11,8 +11,6 @@
 .splash {
   position: relative;
   height: auto;
-  max-width: 1400px;
-  margin: 20px auto;
 }
 
 .footer a {
@@ -33,15 +31,8 @@
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
 .title,
 .description {
-  text-align: center;
 }
 
 .description {
