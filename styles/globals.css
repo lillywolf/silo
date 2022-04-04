@@ -2,15 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Continuum';
+  src: url('../public/assets/Continuum/contb.ttf');
+  src: url('../public/assets/Continuum/contl.ttf');
+  src: url('../public/assets/Continuum/contm.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: monospace, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   color: white;
-  background-color: black;
+  height: 100vh;
+}
+
+#__next {
+  height: 100vh;
 }
 
 a {
@@ -20,4 +33,119 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.hearts {
+  font-size: 18px;
+}
+
+#mc_embed_signup {
+  /* background-color:rgba(0, 0, 0, 0.3); */
+  border: 1px solid black;
+  background-color: white;
+  font-size: 12px;
+  padding: 10px;
+  display: flex;
+  color: black;
+  max-width: 320px;
+}
+
+#mc_embed_signup h3 {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#mc_embed_signup .sign-up {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: black;
+  border-radius: 3px;
+  padding: 5px 10px;
+  border: none;
+  opacity: 0.9;
+  cursor: pointer;
+  margin: 0px;
+  float: right;
+  color: white;
+  font-size: 14px;
+}
+
+#mc_embed_signup #mce-success-response {
+}
+
+#mc_embed_signup form {
+  text-align: inherit !important;
+}
+
+#mc_embed_signup .email {
+  border-radius: 3px;
+  height: 34px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#mc_embed_signup #mc-field-email {
+  margin-top: 10px;
+  color: black;
+  border: none;
+  min-height: 48px;
+  width: 100%;
+}
+
+#mce-error-response, #mce-success-response {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#mc_embed_signup .mce_inline_error {
+  color: black !important;
+  padding: 10px 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 12px !important;
+  background-color: transparent !important;
+  font-weight: normal !important;
+}
+
+#mc_embed_signup #mce-EMAIL {
+  padding: 10px !important;
+  font-size: 14px !important;
+  background-color: white !important;
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  #mc_embed_signup {
+    background-color: black;
+    display: inline-block;
+  }
+
+  #mc_embed_signup h3 {
+    color: white;
+  }
+
+  #mc_embed_signup .sign-up {
+    background-color: black;
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+  }
+
+  #mc_embed_signup .mce_inline_error {
+    color: tomato !important;
+  }
+
+  #mce-error-response, #mce-success-response {
+    color: white;
+  }
+
+  .hearts {
+    display: none;
+  }
 }

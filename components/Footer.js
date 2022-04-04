@@ -4,6 +4,9 @@ import styles from '../styles/Footer.module.css'
 export default function Footer() {
     return (
         <div className={styles.container}>
+            <Link href="/about">
+                <a className={styles.link}>ABOUT</a>
+            </Link>
             <Link href="/contact">
                 <a className={styles.link}>CONTACT</a>
             </Link>
