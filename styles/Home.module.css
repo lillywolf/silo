@@ -13,6 +13,8 @@
 .splash {
   position: relative;
   height: auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .footer a {

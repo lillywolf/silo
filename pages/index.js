@@ -19,17 +19,19 @@ export default function Home() {
         <div className='absolute z-10 w-full md:hidden'>
           <MobileNav />
         </div>
-        <div className='absolute z-10 w-full mt-2 lg:flex-col lg:justify-center lg:h-25 lg:mt-4'>
+        <div className='absolute z-10 w-full mt-4 lg:flex-col lg:justify-center lg:h-25'>
           <div className='hidden md:width-full md:block'>
             <Nav />
           </div>
         </div>
-        <div className={styles.splash}>
-          <Image className={styles.splashImage} src="/splash-min.jpeg" width="100%" height="67%" layout="responsive" objectFit="cover">
-          </Image>
-        </div>
-        <div className='bg-black m-auto lg:bg-transparent lg:absolute lg:left-20 lg:top-20'>
-          <EmailSignup />
+        <div className='bg-black relative'>
+          <div className={styles.splash}>
+            <Image className={styles.splashImage} src="/splash-min.jpeg" width="100%" height="67%" layout="responsive" objectFit="cover">
+            </Image>
+            <div className='bg-black m-auto lg:bg-transparent lg:absolute lg:left-20 lg:top-20'>
+              <EmailSignup />
+            </div>
+          </div>
         </div>
       </main>
       <div className='flex flex-grow flex-col'>
