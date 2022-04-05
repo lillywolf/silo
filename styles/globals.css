@@ -15,7 +15,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: monospace, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   color: white;
@@ -39,32 +39,34 @@ a {
   font-size: 18px;
 }
 
+.subscribe {
+  font-size: 16px;
+}
+
 #mc_embed_signup {
-  /* background-color:rgba(0, 0, 0, 0.3); */
-  border: 1px solid black;
-  background-color: white;
+  background-color: #0d0d0d;
   font-size: 12px;
-  padding: 10px;
+  padding: 20px 30px;
   display: flex;
-  color: black;
+  color: white;
   max-width: 320px;
+  min-width: 300px;
 }
 
 #mc_embed_signup h3 {
   font-weight: normal;
   font-size: 12px;
+  margin: 5px 0;
 }
 
 #mc_embed_signup .sign-up {
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  background-color: black;
+  background-color: rgb(255, 255, 255, 0.1);
   border-radius: 3px;
-  padding: 5px 10px;
+  padding: 4px 10px;
   border: none;
   opacity: 0.9;
   cursor: pointer;
-  margin: 0px;
-  float: right;
+  float: left;
   color: white;
   font-size: 14px;
 }
@@ -78,10 +80,11 @@ a {
 
 #mc_embed_signup .email {
   border-radius: 3px;
-  height: 34px;
+  height: 30px;
+  margin: 5px 0;
   padding: 5px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 #mc_embed_signup #mc-field-email {
@@ -92,15 +95,20 @@ a {
   width: 100%;
 }
 
+#mc_embed_signup form {
+  width: 100%;
+}
+
 #mce-error-response, #mce-success-response {
   font-size: 12px;
   margin-bottom: 10px;
 }
 
 #mc_embed_signup .mce_inline_error {
-  color: black !important;
+  color: white !important;
   padding: 10px 0 !important;
   margin-bottom: 0 !important;
+  margin-top: 5px !important;
   font-size: 12px !important;
   background-color: transparent !important;
   font-weight: normal !important;
@@ -110,10 +118,13 @@ a {
   padding: 10px !important;
   font-size: 14px !important;
   background-color: white !important;
+  color: black !important;
 }
 
-@media only screen and (max-width: 640px) {
-
+@media only screen and (max-width: 300px) {
+  #mc_embed_signup {
+    min-width: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -121,7 +132,7 @@ a {
 
 @media only screen and (max-width: 1024px) {
   #mc_embed_signup {
-    background-color: black;
+    background-color: #0d0d0d;
     display: inline-block;
   }
 
@@ -130,7 +141,7 @@ a {
   }
 
   #mc_embed_signup .sign-up {
-    background-color: black;
+    background-color: #0d0d0d;
     border: 1px solid white;
     margin: 0 auto;
     width: 100%;
@@ -139,6 +150,7 @@ a {
 
   #mc_embed_signup .mce_inline_error {
     color: tomato !important;
+    margin-top: 0 !important;
   }
 
   #mce-error-response, #mce-success-response {

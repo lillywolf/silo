@@ -5,11 +5,11 @@
     width: 100%;
     color: white;
     /* background-color: palevioletred; */
-    background-color: black;
+    background-color: #0d0d0d;
 }
 
 .link {
     margin: 10px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
 }

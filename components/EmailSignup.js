@@ -1,6 +1,8 @@
+import styles from '../styles/EmailSignup.module.css'
+
 export default function EmailSignup() {
     return (
-        <div className='m-auto py-5 text-center lg:text-left lg:border lg:border-white lg:py-0' dangerouslySetInnerHTML={{ __html: mailchimpSnippet() }} />
+        <div className={ `${ styles.container } tracking-widest m-auto py-5 text-center lg:text-left lg:py-0` } dangerouslySetInnerHTML={{ __html: mailchimpSnippet() }} />
     );
 }
 
@@ -10,8 +12,8 @@ function mailchimpSnippet() {
         <div id="mc_embed_signup">
         <form action="https://secretloft.us14.list-manage.com/subscribe/post?u=d9dcc8b8380559a2218a1e426&amp;id=6c77cd1c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-            <p class="hearts">Subscribe &#x1F31A;&#x1F31A;&#x1F496;</p>
-            <h3>Sign up to get emails about our parties!</h3>
+            <p class="subscribe">&#x1F496;&#x1F496;</p>
+            <h3>Sign up to get emails!</h3>
             <div class="mc-field-group" id="mc-field-email">
                 <label for="mce-EMAIL"></label>
                 <input type="email" placeholder="YOUR EMAIL" value="" name="EMAIL" class="required email" id="mce-EMAIL">
