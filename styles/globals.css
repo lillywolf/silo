@@ -46,11 +46,10 @@ a {
 #mc_embed_signup {
   background-color: #0d0d0d;
   font-size: 12px;
-  padding: 20px 30px;
+  padding: 20px 30px 25px;
   display: flex;
   color: white;
-  max-width: 320px;
-  min-width: 300px;
+  width: 100%;
 }
 
 #mc_embed_signup h3 {
@@ -62,20 +61,16 @@ a {
 #mc_embed_signup .sign-up {
   background-color: rgb(255, 255, 255, 0.1);
   border-radius: 3px;
-  padding: 4px 10px;
+  padding: 5px 10px;
   border: none;
   opacity: 0.9;
   cursor: pointer;
-  float: left;
+  width: 100%;
   color: white;
   font-size: 14px;
 }
 
 #mc_embed_signup #mce-success-response {
-}
-
-#mc_embed_signup form {
-  text-align: inherit !important;
 }
 
 #mc_embed_signup .email {
@@ -96,6 +91,7 @@ a {
 }
 
 #mc_embed_signup form {
+  text-align: inherit !important;
   width: 100%;
 }
 
@@ -104,8 +100,12 @@ a {
   margin-bottom: 10px;
 }
 
+#mce-success-response {
+  color: greenyellow;
+}
+
 #mc_embed_signup .mce_inline_error {
-  color: white !important;
+  color: orangered !important;
   padding: 10px 0 !important;
   margin-bottom: 0 !important;
   margin-top: 5px !important;
@@ -119,6 +119,32 @@ a {
   font-size: 14px !important;
   background-color: white !important;
   color: black !important;
+}
+
+.genres {
+  margin: 10px 0 23px;
+}
+
+.genre {
+  margin: 8px 0;
+  display: flex;
+}
+
+.genre input {
+  margin-top: 3px;
+}
+
+.genre label {
+  margin-left: 5px;
+}
+
+/* CSS For the email signup page */
+.email-signup #mc_embed_signup {
+  font-size: 14px;
+}
+
+.email-signup #mc_embed_signup h3 {
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 300px) {
@@ -143,13 +169,10 @@ a {
   #mc_embed_signup .sign-up {
     background-color: #0d0d0d;
     border: 1px solid white;
-    margin: 0 auto;
-    width: 100%;
-    float: none;
+    margin: 5px auto;
   }
 
   #mc_embed_signup .mce_inline_error {
-    color: tomato !important;
     margin-top: 0 !important;
   }
 
@@ -159,5 +182,9 @@ a {
 
   .hearts {
     display: none;
+  }
+
+  .genre {
+    justify-content: center;
   }
 }
