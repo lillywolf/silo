@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={ `${ styles.main } m-auto relative` }>
-        <div className='z-10 w-full bg-[#0d0d0d] h-12 sm:h-16 md:hidden'>
+        <div className='hidden z-10 w-full bg-[#0d0d0d] h-12 sm:h-16 md:hidden'>
           <MobileNav />
         </div>
         <div className='hidden w-full bg-[#0d0d0d] overflow-hidden md:block md:h-[4.3rem] lg:h-25'>
