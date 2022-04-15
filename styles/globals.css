@@ -58,6 +58,10 @@ a {
   margin: 5px 0;
 }
 
+#mc_embed_signup .icon {
+  font-size: 15px;
+}
+
 #mc_embed_signup .sign-up {
   background-color: rgb(255, 255, 255, 0.1);
   border-radius: 3px;
@@ -160,6 +164,7 @@ a {
   #mc_embed_signup {
     background-color: #0d0d0d;
     display: inline-block;
+    padding: 0px 20px;
   }
 
   #mc_embed_signup h3 {

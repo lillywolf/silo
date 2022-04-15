@@ -12,8 +12,8 @@ function mailchimpSnippet() {
         <div id="mc_embed_signup">
         <form action="https://secretloft.us14.list-manage.com/subscribe/post?u=d9dcc8b8380559a2218a1e426&amp;id=6c77cd1c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-            <p class="subscribe">&#x1F496;&#x1F496;</p>
-            <h3>Sign up to get emails!</h3>
+            <!-- p class="subscribe">&#x1F496;&#x1F496;</p -->
+            <h3>Get SILO emails <span class="icon">&#x1F496;</span></h3>
             <div class="mc-field-group" id="mc-field-email">
                 <label for="mce-EMAIL"></label>
                 <input type="email" placeholder="YOUR EMAIL" value="" name="EMAIL" class="required email" id="mce-EMAIL">
