@@ -190,6 +190,10 @@ a {
     display: none;
   }
 
+  .genres {
+    margin: 5px 0 15px;
+  }
+
   .genre {
     justify-content: center;
   }
