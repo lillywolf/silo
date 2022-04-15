@@ -19,7 +19,7 @@ function mailchimpSnippet() {
                 <input type="email" placeholder="YOUR EMAIL" value="" name="EMAIL" class="required email" id="mce-EMAIL">
             </div>
             <div class="mc-field-group input-group genres">
-                <p class="genres-label">I'm interested in:</p>
+                <p class="genres-label">I'm interested in (optional):</p>
                 <ul>
                     <li class="genre"><input type="checkbox" value="4" name="group[45589][4]" id="mce-group[45589]-45589-0"><label for="mce-group[45589]-45589-0">House</label></li>
                     <li class="genre"><input type="checkbox" value="8" name="group[45589][8]" id="mce-group[45589]-45589-1"><label for="mce-group[45589]-45589-1">Techno</label></li>

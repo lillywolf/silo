@@ -10,17 +10,19 @@ export default function MobileNav() {
     }
 
     return (
-      <div className='relative'>      
-        { !navOpen && (
-          <div className='absolute ml-3 mt-4 md:mr-0' onClick={ onNavClick }>
-            <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="20" height="20" fill="white">
-                <rect width="100" height="10" rx="5"></rect>
-                <rect y="30" width="100" height="10" rx="5"></rect>
-                <rect y="60" width="100" height="10" rx="5"></rect>
-            </svg>
-          </div>
-        )}
-        { navOpen && <Menu onNavClick={onNavClick} />}
+      <div className='relative'>
+        <div className='hidden'>  
+          { !navOpen && (
+            <div className='absolute ml-3 mt-4 md:mr-0' onClick={ onNavClick }>
+              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="20" height="20" fill="white">
+                  <rect width="100" height="10" rx="5"></rect>
+                  <rect y="30" width="100" height="10" rx="5"></rect>
+                  <rect y="60" width="100" height="10" rx="5"></rect>
+              </svg>
+            </div>
+          )}
+          { navOpen && <Menu onNavClick={onNavClick} />}
+        </div>
         <div className='absolute right-0 inline-block top-2 mr-3'>
           <h1 className='font-sans font-bold tracking-widest text-2xl'>
             SILO

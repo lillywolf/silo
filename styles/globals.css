@@ -63,10 +63,10 @@ a {
 }
 
 #mc_embed_signup .sign-up {
-  background-color: rgb(255, 255, 255, 0.1);
+  /* background-color: rgb(255, 255, 255, 0.1); */
+  border: 1px solid white;
   border-radius: 3px;
   padding: 5px 10px;
-  border: none;
   opacity: 0.9;
   cursor: pointer;
   width: 100%;
