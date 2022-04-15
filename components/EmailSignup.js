@@ -22,9 +22,11 @@ function mailchimpSnippet() {
                 <p class="genres-label">I'm interested in:</p>
                 <ul>
                     <li class="genre"><input type="checkbox" value="4" name="group[45589][4]" id="mce-group[45589]-45589-0"><label for="mce-group[45589]-45589-0">House</label></li>
-                    <li class="genre"><input type="checkbox" value="8" name="group[45589][8]" id="mce-group[45589]-45589-1"><label for="mce-group[45589]-45589-1">Deep House</label></li>
-                    <li class="genre"><input type="checkbox" value="16" name="group[45589][16]" id="mce-group[45589]-45589-2"><label for="mce-group[45589]-45589-2">Minimal House</label></li>
-                    <li class="genre"><input type="checkbox" value="32" name="group[45589][32]" id="mce-group[45589]-45589-3"><label for="mce-group[45589]-45589-3">Techno</label></li>
+                    <li class="genre"><input type="checkbox" value="8" name="group[45589][8]" id="mce-group[45589]-45589-1"><label for="mce-group[45589]-45589-1">Techno</label></li>
+                    <li class="genre"><input type="checkbox" value="16" name="group[45589][16]" id="mce-group[45589]-45589-2"><label for="mce-group[45589]-45589-2">Deep House</label></li>
+                    <li class="genre"><input type="checkbox" value="32" name="group[45589][32]" id="mce-group[45589]-45589-3"><label for="mce-group[45589]-45589-3">Tech House</label></li>
+                    <li class="genre"><input type="checkbox" value="64" name="group[45589][64]" id="mce-group[45589]-45589-4"><label for="mce-group[45589]-45589-4">Minimal</label></li>
+                    <li class="genre"><input type="checkbox" value="256" name="group[45589][256]" id="mce-group[45589]-45589-6"><label for="mce-group[45589]-45589-6">Classics</label></li>
                 </ul>
             </div>
             <div id="mce-responses" class="clear">
