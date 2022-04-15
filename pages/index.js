@@ -32,7 +32,8 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className='flex flex-grow flex-col'>
+      <div className='w-full flex flex-grow flex-col bg-[#0d0d0d] md:hidden'/>
+      <div className='hidden flex flex-grow flex-col md:block'>
         <Footer />
       </div>
     </div>
