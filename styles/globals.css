@@ -227,11 +227,19 @@ a {
   }
 
   .genres-list {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .genre.all {
     display: inline-block;
+  }
+
+  .genre.all input {
+    float: left;
+  }
+
+  .genre.all label {
+    float: left;
   }
 
   .genre {
