@@ -5,8 +5,8 @@ export default function Nav() {
     return (
         <>
             <div className='max-w-[1400px] mx-auto'>
-                <div className='inline-block float-right mr-16 pt-2'>
-                    <h1 className='relative font-sans font-bold tracking-widest text-2xl sm:text-center sm:text-3xl'>
+                <div className='block mx-auto pt-2'>
+                    <h1 className='font-sans font-bold tracking-widest text-2xl sm:text-center sm:text-5xl'>
                         SILO
                     </h1>
                     <div className='text-[10px] text-center leading-3 font-sans'>BROOKLYN</div>
