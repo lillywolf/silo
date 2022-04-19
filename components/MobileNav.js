@@ -24,7 +24,7 @@ export default function MobileNav() {
           { navOpen && <Menu onNavClick={onNavClick} />}
         </div>
         <div className='absolute left-0 inline-block top-2 mr-3'>
-          <h1 className='font-sans font-bold tracking-widest text-2xl'>
+          <h1 className='font-[Abel] font-bold tracking-widest text-3xl'>
             SILO
           </h1>
           <div className='text-[10px] hidden ml-1 font-sans leading-3 sm:block'>BROOKLYN</div>
