@@ -156,7 +156,7 @@ a {
 }
 
 .genre {
-  margin: 1px;
+  margin: 1px 3px;
   display: inline-flex;
 }
 
@@ -238,7 +238,6 @@ a {
   }
 
   .genre {
-    margin: 3px;
     justify-content: center;
   }
 }
