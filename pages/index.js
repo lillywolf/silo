@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className='bg-[#0d0d0d] relative'>
           <div className={styles.splash}>
-            <Image className={styles.splashImage} src="/splash-grayscale.jpg" width="100%" height="67%" layout="responsive" objectFit="cover">
+            <Image className={styles.splashImage} src="/splash-grayscale-xs.jpeg" width="100%" height="67%" layout="responsive" objectFit="cover">
             </Image>
             <div className='bg-[#0d0d0d] m-auto xs:w-[360px] sm:w-[520px] lg:w-[360px] lg:absolute lg:left-8 lg:top-24'>
               <EmailSignup />
