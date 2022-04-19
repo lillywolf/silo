@@ -82,7 +82,7 @@ a {
   cursor: pointer;
   width: 140px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #mc_embed_signup #mce-success-response {
@@ -156,7 +156,7 @@ a {
 }
 
 .genre {
-  margin: 3px 3px;
+  margin: 1px;
   display: inline-flex;
 }
 
@@ -238,6 +238,7 @@ a {
   }
 
   .genre {
+    margin: 3px;
     justify-content: center;
   }
 }

@@ -1,9 +1,12 @@
-import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/Nav.module.css'
 
 export default function Nav() {
     return (
         <>
+            <div className='absolute left-3 top-3 w-10 h-10'>
+                <a href="http://instagram.com/silobrooklyn"><Image src='/instagram-white.svg' layout='fill'/></a>
+            </div>
             <div className='max-w-[1400px] mx-auto'>
                 <div className='block mx-auto pt-2'>
                     <h1 className='font-sans font-bold tracking-widest text-2xl sm:text-center sm:text-5xl'>
