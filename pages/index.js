@@ -26,7 +26,7 @@ export default function Home() {
           <div className={styles.splash}>
             <Image className={styles.splashImage} src="/splash-grayscale.jpg" width="100%" height="67%" layout="responsive" objectFit="cover">
             </Image>
-            <div className='bg-[#0d0d0d] m-auto xs:w-[320px] lg:bg-transparent lg:absolute lg:left-20 lg:top-20'>
+            <div className='bg-[#0d0d0d] m-auto xs:w-[360px] sm:w-[520px] lg:w-[360px] lg:absolute lg:left-8 lg:top-24'>
               <EmailSignup />
             </div>
           </div>

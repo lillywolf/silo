@@ -11,11 +11,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Abel';
+  src: url('../public/assets/Abel/Abel-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Abel, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   color: white;
@@ -54,8 +61,12 @@ a {
 
 #mc_embed_signup h3 {
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   margin: 5px 0;
+}
+
+#mc_embed_signup h4 {
+  margin-top: 15px;
 }
 
 #mc_embed_signup .icon {
@@ -66,12 +77,12 @@ a {
   /* background-color: rgb(255, 255, 255, 0.1); */
   border: 1px solid white;
   border-radius: 3px;
-  padding: 5px 10px;
+  padding: 4px 10px;
   opacity: 0.9;
   cursor: pointer;
-  width: 100%;
+  width: 140px;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #mc_embed_signup #mce-success-response {
@@ -91,6 +102,7 @@ a {
   color: black;
   border: none;
   min-height: 48px;
+  max-width: 360px;
   width: 100%;
 }
 
@@ -120,18 +132,32 @@ a {
 
 #mc_embed_signup #mce-EMAIL {
   padding: 10px !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
   background-color: white !important;
   color: black !important;
 }
 
+#mc_embed_signup #mce-EMAIL::placeholder {
+  color: black;
+}
+
 .genres {
-  margin: 10px 0 23px;
+  margin: 10px 0 20px;
+}
+
+.genres-label {
+  font-size: 14px;
+}
+
+.genres-list {
+  margin-top: 10px;
+  color: #ff96ce;
+  font-size: 12px;
 }
 
 .genre {
-  margin: 8px 0;
-  display: flex;
+  margin: 3px 3px;
+  display: inline-flex;
 }
 
 .genre input {
@@ -140,6 +166,10 @@ a {
 
 .genre label {
   margin-left: 5px;
+}
+
+.genre.all {
+  display: none;
 }
 
 /* CSS For the email signup page */
@@ -167,8 +197,11 @@ a {
     padding: 0px 20px;
   }
 
+  #mc-field-email {
+    margin: 10px auto 0 !important;
+  }
+
   #mc_embed_signup h3 {
-    font-size: 14px;
     color: white;
   }
 
@@ -176,6 +209,8 @@ a {
     background-color: #0d0d0d;
     border: 1px solid white;
     margin: 5px auto;
+    width: 100%;
+    max-width: 300px;
   }
 
   #mc_embed_signup .mce_inline_error {
@@ -192,6 +227,14 @@ a {
 
   .genres {
     margin: 5px 0 15px;
+  }
+
+  .genres-list {
+    font-size: 14px;
+  }
+
+  .genre.all {
+    display: inline-block;
   }
 
   .genre {
