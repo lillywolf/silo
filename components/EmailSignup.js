@@ -12,7 +12,7 @@ function mailchimpSnippet() {
         <div id="mc_embed_signup">
         <form action="https://secretloft.us14.list-manage.com/subscribe/post?u=d9dcc8b8380559a2218a1e426&amp;id=6c77cd1c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-            <h3>We’re building a new dance floor in the heart of Bushwick. Coming fall '22.</h3>
+            <h3>We’re building a new dance floor in the heart of Brooklyn. Coming Fall '22.</h3>
             <!-- p class="subscribe">&#x1F496;&#x1F496;</p -->
             <h4>Sign up for early access to our parties:</h4>
             <div class="mc-field-group" id="mc-field-email">
@@ -26,7 +26,7 @@ function mailchimpSnippet() {
                     <li class="genre"><input type="checkbox" value="8" name="group[45589][8]" id="mce-group[45589]-45589-1"><label for="mce-group[45589]-45589-1">TECHNO</label></li>
                     <li class="genre"><input type="checkbox" value="16" name="group[45589][16]" id="mce-group[45589]-45589-2"><label for="mce-group[45589]-45589-2">DEEP HOUSE</label></li>
                     <li class="genre"><input type="checkbox" value="32" name="group[45589][32]" id="mce-group[45589]-45589-3"><label for="mce-group[45589]-45589-3">TECH HOUSE</label></li>
-                    <li class="genre"><input type="checkbox" value="64" name="group[45589][64]" id="mce-group[45589]-45589-4"><label for="mce-group[45589]-45589-4">MINIMAL</label></li>
+                    <li class="genre"><input type="checkbox" value="1024" name="group[45589][1024]" id="mce-group[45589]-45589-8"><label for="mce-group[45589]-45589-8">MELODIC</label></li>
                     <li class="genre all"><input type="checkbox" value="512" name="group[45589][512]" id="mce-group[45589]-45589-7"><label for="mce-group[45589]-45589-7">I just want to dance</label></li>                
                 </ul>
             </div>

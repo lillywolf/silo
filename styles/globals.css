@@ -165,11 +165,8 @@ a {
 }
 
 .genre label {
+  padding-top: 1px;
   margin-left: 5px;
-}
-
-.genre.all {
-  display: none;
 }
 
 /* CSS For the email signup page */
@@ -239,5 +236,9 @@ a {
 
   .genre {
     justify-content: center;
+  }
+
+  .genre label {
+    padding-top: 0;
   }
 }
