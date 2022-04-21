@@ -27,6 +27,7 @@ body {
 
   color: white;
   height: 100vh;
+  scrollbar-color: transparent;
 }
 
 #__next {
