@@ -27,11 +27,11 @@ body {
 
   color: white;
   height: 100vh;
-  scrollbar-color: transparent;
 }
 
 #__next {
   height: 100vh;
+  overflow: auto;
 }
 
 a {
