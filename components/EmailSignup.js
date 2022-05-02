@@ -36,7 +36,8 @@ function mailchimpSnippet() {
             </div>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9dcc8b8380559a2218a1e426_6c77cd1c9d" tabindex="-1" value=""></div>
-                <input type="submit" value="Sign up!" name="subscribe" id="mc-embedded-subscribe" class="sign-up">
+                <input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="sign-up">
+                <span class="arrow">→</span>
             </div>
         </form>
         </div>

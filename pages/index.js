@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={ `${ styles.main } m-auto relative` }>
-        <div className='absolute z-10 w-full bg-transparent left-3 h-12 sm:h-16 md:hidden'>
+        <div className='absolute z-10 w-full bg-transparent h-12 sm:h-16 md:hidden'>
           <MobileNav />
         </div>
         <div className='hidden absolute z-10 w-full bg-transparent md:block md:h-[4.3rem] lg:h-25'>
@@ -26,7 +26,7 @@ export default function Home() {
           <div className={styles.splash}>
             <Image className={styles.splashImage} src="/splash-grayscale-xs.jpeg" width="100%" height="67%" layout="responsive" objectFit="cover">
             </Image>
-            <div className='bg-[#0d0d0d] m-auto xs:w-[360px] sm:w-[520px] lg:w-[360px] lg:absolute lg:left-8 lg:top-24'>
+            <div className='bg-[#0d0d0d] m-auto sm:w-[520px] lg:w-[380px] lg:fixed lg:left-8 lg:top-28'>
               <EmailSignup />
             </div>
           </div>

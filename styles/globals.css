@@ -12,8 +12,72 @@
 }
 
 @font-face {
+  font-family: 'Merriweather';
+  src: url('../public/assets/Merriweather/Merriweather-Black.ttf') font-weight-black;
+  src: url('../public/assets/Merriweather/Merriweather-Bold.ttf') font-weight-bold;
+  src: url('../public/assets/Merriweather/Merriweather-Regular.ttf') font-weight-normal;
+  src: url('../public/assets/Merriweather/Merriweather-Light.ttf') font-weight-lighter;
+}
+
+@font-face {
+  font-family: 'Exo2';
+  src: url('../public/assets/Exo2/Exo2-VariableFont_wght.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Teko';
+  src: url('../public/assets/Teko/Teko-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('../public/assets/RobotoCondensed/RobotoCondensed-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Bold';
+  src: url('../public/assets/RobotoCondensed/RobotoCondensed-Bold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Italic';
+  src: url('../public/assets/RobotoCondensed/RobotoCondensed-Italic.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Abel';
   src: url('../public/assets/Abel/Abel-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../public/assets/Playfair/PlayfairDisplay.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('../public/assets/Alegreya/Alegreya-VariableFont_wght.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url('../public/assets/CormorantGaramond/CormorantGaramond-Medium.ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -54,19 +118,22 @@ a {
 #mc_embed_signup {
   background-color: #0d0d0d;
   font-size: 12px;
-  padding: 20px 30px 25px;
+  padding: 30px 40px 35px;
   display: flex;
   color: white;
   width: 100%;
 }
 
 #mc_embed_signup h3 {
+  /* font-family: 'Merriweather'; */
   font-weight: normal;
   font-size: 16px;
   margin: 5px 0;
 }
 
 #mc_embed_signup h4 {
+  /* font-family: 'Merriweather'; */
+  font-size: 12px;
   margin-top: 15px;
 }
 
@@ -76,14 +143,38 @@ a {
 
 #mc_embed_signup .sign-up {
   /* background-color: rgb(255, 255, 255, 0.1); */
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  font-family: 'RobotoCondensed-Bold';
   border-radius: 3px;
-  padding: 4px 10px;
   opacity: 0.9;
   cursor: pointer;
-  width: 140px;
+  width: 100%;
   color: white;
-  font-size: 14px;
+  font-size: 22px;
+  text-align: left;
+  display: inline;
+}
+
+#mc_embed_signup input:focus {
+  background: transparent;
+  border-color: none;
+}
+
+#mc_embed_signup input:active {
+  background: transparent !important;
+  border: none;
+}
+
+#mc_embed_signup #mce-EMAIL:-webkit-autofill,
+#mc_embed_signup #mce-EMAIL:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 35px;
+  left: 121px;
+  font-size: 22px;
 }
 
 #mc_embed_signup #mce-success-response {
@@ -95,7 +186,7 @@ a {
   margin: 5px 0;
   padding: 5px;
   width: 100%;
-  border: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 #mc_embed_signup #mc-field-email {
@@ -132,14 +223,16 @@ a {
 }
 
 #mc_embed_signup #mce-EMAIL {
-  padding: 10px !important;
+  font-family: 'RobotoCondensed';
+  padding: 15px 0 !important;
   font-size: 16px !important;
-  background-color: white !important;
-  color: black !important;
+  background-color: #0d0d0d !important;
+  color: white !important;
 }
 
 #mc_embed_signup #mce-EMAIL::placeholder {
-  color: black;
+  color: white;
+  opacity: 0.5;
 }
 
 .genres {
@@ -147,12 +240,15 @@ a {
 }
 
 .genres-label {
+  /* font-family: 'Merriweather'; */
   font-size: 14px;
 }
 
 .genres-list {
-  margin-top: 10px;
-  color: #ff96ce;
+  font-family: 'RobotoCondensed';
+  margin-top: 3px;
+  /* color: #ff96ce; */
+  color: lightpink;
   font-size: 12px;
 }
 
@@ -162,12 +258,12 @@ a {
 }
 
 .genre input {
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 .genre label {
-  padding-top: 1px;
-  margin-left: 5px;
+  padding-top: 3px;
+  margin-left: 8px;
 }
 
 /* CSS For the email signup page */
@@ -176,6 +272,7 @@ a {
 }
 
 .email-signup #mc_embed_signup h3 {
+  /* font-family: 'Merriweather'; */
   font-size: 14px;
 }
 
@@ -199,6 +296,10 @@ a {
     margin: 10px auto 0 !important;
   }
 
+  #mc_embed_signup #mce-EMAIL {
+    text-align: center;
+  }
+
   #mc_embed_signup h3 {
     color: white;
   }
@@ -209,6 +310,13 @@ a {
     margin: 5px auto;
     width: 100%;
     max-width: 200px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .arrow {
+    display: none;
   }
 
   #mc_embed_signup .mce_inline_error {
@@ -224,23 +332,17 @@ a {
   }
 
   .genres {
-    margin: 5px 0 15px;
+    margin: 5px 0 5px;
   }
 
   .genres-list {
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 12px;
   }
 
-  .genre.all {
-    display: inline-block;
-  }
-
-  .genre.all input {
-    float: left;
-  }
-
-  .genre.all label {
-    float: left;
+  .genre input {
+    margin-top: 2px !important;
   }
 
   .genre {
