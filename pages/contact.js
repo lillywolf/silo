@@ -1,7 +1,17 @@
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
+import MobileNav from '../components/MobileNav'
+
 export default function Contact() {
     return (
         <div className='absolute w-full h-screen top-0 left-0 bg-[#0d0d0d]'>
-            <div className='relative w-full mt-10 ml-10'>
+            <div className='absolute w-full z-10 bg-transparent h-12 sm:h-16 md:hidden'>
+                <MobileNav />
+            </div>
+            <div className='hidden absolute z-10 w-full bg-transparent md:block md:h-[4.3rem] lg:h-25'>
+                <Nav />
+            </div>
+            <div className='relative mt-16 ml-5'>
                 <p>For booking inquiries:</p>
                 <a href="mailto:booking@silobrooklyn.com" className='underline'>BOOKING@SILOBROOKLYN.COM</a>
                 <p className='mt-4'>For all others:</p>

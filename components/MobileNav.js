@@ -59,6 +59,11 @@ const Menu = ({ onNavClick }) => {
               <Link href="/contact">
                   <a className='block w-3/4 mt-1'>CONTACT</a>
               </Link>
+              <div className='text-xs mt-6'>
+                <Link href="/">
+                    <a className='inline-block'>HOME</a>
+                </Link>
+              </div>
             </div>
         </div>
     );
