@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <div className='absolute w-full h-screen top-0 bg-[#0d0d0d]'>
+        <div className='absolute w-full h-screen top-0 left-0 bg-[#0d0d0d]'>
             <div className='relative w-full mt-10 ml-10'>
                 <p>For booking inquiries:</p>
                 <a href="mailto:booking@silobrooklyn.com" className='underline'>BOOKING@SILOBROOKLYN.COM</a>
