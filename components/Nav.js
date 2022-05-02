@@ -7,8 +7,12 @@ export default function Nav() {
     return (
         <>
             <div className='absolute left-4 md:top-9'>
-                <a className='ml-6' href="/about">ABOUT</a>
-                <a className='ml-6' href="/contact">BOOKING</a>
+                <div className='inline-block ml-6'>
+                    <Link href="/about">ABOUT</Link>
+                </div>
+                <div className='inline-block ml-6'>
+                    <Link href="/contact">BOOKING</Link>
+                </div>
             </div>
             <div className='bg-[#0d0d0d] h-24 mx-auto'>
                 <div className='block mx-auto pt-2'>
