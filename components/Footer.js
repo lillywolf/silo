@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
     return (
         <div className='flex justify-between h-full w-full py-3 pl-6'>
-            <div className='text-left inline-block'>
+            <div className='text-left inline-block pr-6'>
                 <Link href="/about">
                     <a className='text-[12px] mr-4'>ABOUT</a>
                 </Link>
