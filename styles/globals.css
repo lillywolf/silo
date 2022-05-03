@@ -94,6 +94,7 @@ body {
 }
 
 #__next {
+  background-color: #0d0d0d;
   height: 100vh;
   overflow: auto;
 }

@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import SocialIcons from './SocialIcons';
 
 export default function MobileNav() {
     const [navOpen, setNavOpen] = useState();
     const menuHiddenClass = navOpen 
       ? 'translate-x-0'
       : 'translate-x-[-100%]';
-    const menuClass = `${ menuHiddenClass } absolute w-full transition-all ease-in duration-150`;
+    const menuClass = `${ menuHiddenClass } fixed bottom-0 top-0 w-full transition-all ease-in duration-150`;
 
     function onNavClick() {
         setNavOpen(!navOpen);
@@ -43,7 +44,7 @@ export default function MobileNav() {
 const Menu = ({ onNavClick }) => {
     return (
         <div className='relative z-10 bg-[#0d0d0d] h-full w-full sm:w-1/2'>
-            <div className='w-full h-screen p-5'>
+            <div className='bottom-0 w-full h-full p-5'>
               <div className='w-full overflow-hidden cursor-pointer' onClick={ onNavClick }>
                 <div className='w-2 h-3 relative inline-block float-left mt-[10px]'>
                     <Image src='/x.svg' className='mt-1' layout='fill' />
@@ -51,17 +52,20 @@ const Menu = ({ onNavClick }) => {
                 <div className='inline-block float-left ml-2 mt-2 text-xs'>CLOSE</div>
               </div>
               <Link href="/about">
-                  <a className='block w-3/4 mt-4'>ABOUT</a>
+                  <a className='block w-3/4 mt-4' onClick={onNavClick}>ABOUT</a>
               </Link>
               <Link href="/events">
-                  <a className='block w-3/4 mt-1'>EVENTS</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>EVENTS</a>
               </Link>
               <Link href="/contact">
-                  <a className='block w-3/4 mt-1'>CONTACT</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>CONTACT</a>
               </Link>
+              <div className='pt-8' onClick={onNavClick}>
+                <SocialIcons />
+              </div>
               <div className='text-xs mt-6'>
                 <Link href="/">
-                    <a className='inline-block'>HOME</a>
+                    <a className='inline-block' onClick={onNavClick}>HOME</a>
                 </Link>
               </div>
             </div>
