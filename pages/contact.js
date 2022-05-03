@@ -17,6 +17,9 @@ export default function Contact() {
                 <p className='mt-4'>For all others:</p>
                 <a href="mailto:contact@silobrooklyn.com" className='underline'>CONTACT@SILOBROOKLYN.COM</a>
             </div>
+            <div className='fixed bottom-0 w-full flex bg-[#0d0d0d] pt-16 sm:pt-0'>
+                <Footer />
+            </div>
         </div>
     );
 }
