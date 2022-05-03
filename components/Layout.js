@@ -12,7 +12,7 @@ export default function Layout({ children }) {
                 <Nav />
             </div>
             {children}
-            <div className='fixed bottom-0 w-full flex bg-[#0d0d0d] s:pt-16 md:block md:relative lg:fixed'>
+            <div className='relative xs:fixed bottom-0 w-full flex bg-[#0d0d0d] s:pt-16 md:block md:relative lg:fixed'>
                 <Footer />
             </div>
         </div>
