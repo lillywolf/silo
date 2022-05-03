@@ -20,7 +20,7 @@ export default function Footer() {
                     <a className='text-[12px] mr-4'>ACCESSIBILITY</a>
                 </Link>
             </div>
-            <div className='inline-block text-[12px] pr-6 pt-[2px] leading-[24px]'>
+            <div className='inline-block text-[12px] pr-6 leading-[24px]'>
                 90 SCOTT AVE BROOKLYN
             </div>
         </div>
