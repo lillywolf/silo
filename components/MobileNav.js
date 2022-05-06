@@ -1,14 +1,16 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import SocialIcons from './SocialIcons';
+import Lockup from './Lockup';
+import MarkWhite from './MarkWhite';
 
 export default function MobileNav() {
     const [navOpen, setNavOpen] = useState();
     const menuHiddenClass = navOpen 
       ? 'translate-x-0'
       : 'translate-x-[-100%]';
-    const menuClass = `${ menuHiddenClass } fixed bottom-0 top-0 w-full transition-all ease-in duration-150`;
+    const menuClass = `${ menuHiddenClass } z-10 fixed bottom-0 top-0 w-full transition-all ease-in duration-150`;
 
     function onNavClick() {
         setNavOpen(!navOpen);
@@ -16,7 +18,7 @@ export default function MobileNav() {
 
     return (
       <div className='absolute w-full'>
-        <div className='w-full'>
+        <div className='inline-block'>
           { !navOpen && (
             <div className='inline-block ml-4 mt-4 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
               + MENU
@@ -31,15 +33,65 @@ export default function MobileNav() {
             <Menu onNavClick={onNavClick} />
           </div>
         </div>
-        <div className='hidden relative inline-block mr-3'>
-          <h1 className='font-[Abel] ml-4 tracking-widest text-l'>
-            SILO
-          </h1>
-          <div className='text-[10px] hidden ml-1 font-sans leading-3 sm:block'>BROOKLYN</div>
+        {/* <div className='absolute bg-[#0d0d0d] right-4 top-4 w-16 h-12 px-2'> */}
+          {/* <div className='relative w-[40px] h-[30px] py-6 mx-1'>
+            <MarkWhite />
+          </div> */}
+        <div className='absolute w-16 h-20 sm:w-24 sm:h-28 right-4 top-4'>
+          <Link className='w-full h-full' href='/'>
+            <a><Logo /></a>
+          </Link>
+          {/* <div className='hidden sm:block'>
+            <MarkWhite />
+          </div> */}
+          {/* <div className='hidden sm:block border-t-[0.5px] border-black border-solid'>
+            <Brooklyn />
+          </div> */}
+          {/* <div className='relative w-16 h-full'>
+            <Lockup /> */}
+          {/* </div> */}
         </div>  
       </div>
     );
 }
+
+const Logo = () => {
+  return (
+    <div className='relative bg-[#0d0d0d] w-full h-8 sm:h-12'>
+        <div className='relative h-full w-12 left-2 sm:w-16 sm:left-4'>
+          <Image src='/logotype_white.svg' layout='fill' objectFit='contain'/>
+        </div>
+    </div>
+  );
+}
+
+const MarkBlack = () => {
+  return (
+    <div className='relative bg-white h-12 sm:h-16 w-full'>
+      <div className='relative h-8 sm:h-12 sm:w-24 left-0 top-2'>
+        <Image src='/mark_black.svg' layout='fill' objectFit='contain'/>
+      </div>
+    </div>
+  );
+}
+
+const Brooklyn = () => {
+  return (
+    <div className='relative px-2 py-1 bg-white text-[#0d0d0d] font=["Inconsolata-Bold"] text-xs tracking-[0.4em]'>
+      BROOKLYN
+    </div>
+  );
+}
+
+// const MarkWhite = () => {
+//   return (
+//     <div className='bg-white h-20 w-full'>
+//       <div className='relative h-16 w-28 left-0 top-2'>
+//         <Image src='/mark_white.svg' layout='fill' objectFit='contain'/>
+//       </div>
+//     </div>
+//   );
+// }
 
 const Menu = ({ onNavClick }) => {
     return (
