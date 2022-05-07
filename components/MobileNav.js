@@ -37,7 +37,7 @@ export default function MobileNav() {
           {/* <div className='relative w-[40px] h-[30px] py-6 mx-1'>
             <MarkWhite />
           </div> */}
-        <div className='absolute w-20 h-20 sm:w-24 sm:h-28 right-2 top-2'>
+        <div className='absolute w-[40px] h-[40px] xs:w-12 xs:h-12 right-3 top-2'>
           <Link className='w-full h-full' href='/'>
             <a><Logo /></a>
           </Link>
@@ -57,9 +57,9 @@ export default function MobileNav() {
 
 const Logo = () => {
   return (
-    <div className='relative w-full h-8 sm:h-12'>
-        <div className='relative h-full w-12 left-4 sm:w-16 sm:left-4'>
-          <Image src='/logotype_white.svg' layout='fill' objectFit='contain'/>
+    <div className='relative w-full h-full'>
+        <div className='relative h-full w-full'>
+          <Image src='/mark_white.svg' layout='fill' objectFit='contain'/>
         </div>
     </div>
   );
@@ -68,7 +68,7 @@ const Logo = () => {
 const MarkBlack = () => {
   return (
     <div className='relative bg-white h-12 sm:h-16 w-full'>
-      <div className='relative h-8 sm:h-12 sm:w-24 left-0 top-2'>
+      <div className='relative h-8 sm:h-12 sm:w-24 top-2'>
         <Image src='/mark_black.svg' layout='fill' objectFit='contain'/>
       </div>
     </div>
