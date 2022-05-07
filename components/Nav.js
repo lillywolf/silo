@@ -19,7 +19,7 @@ export default function Nav() {
     window.addEventListener('scroll', onScroll);
 
     return () => {
-      window.removeEventListener('scroll');
+      window.removeEventListener('scroll', onScroll);
     }
   }, []);
 
@@ -37,9 +37,9 @@ export default function Nav() {
             <Link href="/contact">BOOKING</Link>
           </div>
         </div>
-        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } bg-[#0d0d0d] absolute inset-1/2 top-4 -ml-16 md:w-28 md:h-20 lg:w-36 px-3 py-3 lg:h-24`}>
+        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } bg-[#0d0d0d] absolute inset-1/2 top-4 px-3 py-3 md:w-24 md:h-12 md:-ml-[50px] lg:w-32 lg:-ml-16 lg:h-16`}>
           <div className='relative w-full h-full'>
-            <Image className='' src='/lockup_white.svg' layout='fill'/>
+            <Image className='' src='/logotype_white.svg' layout='fill'/>
           </div>
         </div>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.logo } hidden relative block w-24 h-16 px-5`}>

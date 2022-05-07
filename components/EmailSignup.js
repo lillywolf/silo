@@ -2,7 +2,10 @@ import styles from '../styles/EmailSignup.module.css'
 
 export default function EmailSignup() {
     return (
+        <>
+        {/* <div className={ `${ styles.arrowUp } -mt-4` }></div> */}
         <div className={ `${ styles.container } tracking-widest m-auto py-4 text-center lg:text-left lg:py-0` } dangerouslySetInnerHTML={{ __html: mailchimpSnippet() }} />
+        </>
     );
 }
 
