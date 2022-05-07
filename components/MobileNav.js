@@ -37,7 +37,7 @@ export default function MobileNav() {
           {/* <div className='relative w-[40px] h-[30px] py-6 mx-1'>
             <MarkWhite />
           </div> */}
-        <div className='absolute w-20 h-20 sm:w-24 sm:h-28 right-4 top-4'>
+        <div className='absolute w-20 h-20 sm:w-24 sm:h-28 right-2 top-2'>
           <Link className='w-full h-full' href='/'>
             <a><Logo /></a>
           </Link>
