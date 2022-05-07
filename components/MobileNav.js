@@ -57,7 +57,7 @@ export default function MobileNav() {
 
 const Logo = () => {
   return (
-    <div className='relative bg-[#0d0d0d] w-full h-8 sm:h-12'>
+    <div className='relative w-full h-8 sm:h-12'>
         <div className='relative h-full w-12 left-4 sm:w-16 sm:left-4'>
           <Image src='/logotype_white.svg' layout='fill' objectFit='contain'/>
         </div>
