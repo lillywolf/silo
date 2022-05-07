@@ -37,7 +37,7 @@ export default function Nav() {
             <Link href="/contact">BOOKING</Link>
           </div>
         </div>
-        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } bg-[#0d0d0d] absolute inset-1/2 top-4 px-3 py-3 md:w-24 md:h-12 md:-ml-[50px] lg:w-32 lg:-ml-16 lg:h-16`}>
+        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } bg-[#0d0d0d] absolute inset-1/2 top-4 px-3 py-3 md:w-24 md:h-12 md:-ml-[50px] lg:w-32 lg:-ml-16 lg:h-12`}>
           <div className='relative w-full h-full'>
             <Image className='' src='/logotype_white.svg' layout='fill'/>
           </div>
