@@ -17,7 +17,7 @@ export default function MobileNav() {
     }
 
     return (
-      <div className='absolute w-full'>
+      <div className='absolute w-full font-[Abel]'>
         <div className='inline-block'>
           { !navOpen && (
             <div className='inline-block ml-4 mt-4 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>

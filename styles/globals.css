@@ -236,7 +236,8 @@ a {
 }
 
 #mce-success-response {
-  color: greenyellow;
+  color: white;
+  padding-bottom: 10px;
 }
 
 #mc_embed_signup .mce_inline_error {
@@ -273,10 +274,10 @@ a {
 
 .genres-list {
   font-family: 'RobotoCondensed';
-  margin-top: 3px;
+  margin-top: 8px;
   /* color: #ff96ce; */
-  color: lavender;
-  /* darkseagreen, violet, antiquewhite, lightblue, lightsteelblue, lavender */
+  color: lightpink;
+  /* darkseagreen, violet, antiquewhite, lightblue, lightsteelblue, lavender, salmon */
   font-size: 12px;
 }
 

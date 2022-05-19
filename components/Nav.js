@@ -23,29 +23,29 @@ export default function Nav() {
     }
   }, []);
 
-  useEffect(() => {
-    console.log(scrollTop);
-  }, [scrollTop])
-
   return (
-      <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } fixed w-full h-20 mx-auto`}>
+      <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } font-[Abel] fixed w-full h-20 mx-auto`}>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.links } hidden absolute right-4 md:top-5`}>
           {/* <div className='inline-block mr-6 text-xs'>
             <Link href="/about">ABOUT</Link>
           </div> */}
-          <div className='inline-block mr-24 text-xs'>
+          <div className='inline-block mr-24 text-s'>
             <Link href="/contact">BOOKING</Link>
           </div>
         </div>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-24 -ml-12 h-16`}>
-          <div className='relative w-full h-full'>
-            <Image className='' src='/mark_white.svg' layout='fill'/>
-          </div>
+          <Link href="/">
+            <div className='relative w-full h-full cursor-pointer'>
+              <Image className='' src='/mark_white.svg' layout='fill'/>
+            </div>
+          </Link>
         </div>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.logo } hidden relative block w-24 h-16 px-5`}>
-          <div className='relative w-full h-full'>
-            <Image className='' src='/logotype_white.svg' layout='fill'/>
-          </div>
+          <Link href="/">
+            <div className='relative w-full h-full cursor-pointer'>
+              <Image className='' src='/mark_white.svg' layout='fill'/>
+            </div>
+          </Link>
         </div>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.socialLinks } hidden absolute right-0 top-2 md:top-5`}>
           <SocialIcons />

@@ -1,6 +1,6 @@
 export default function Privacy() {
     return (
-        <div className='text-center w-full mt-10 mx-auto'>
+        <div className='absolute w-full text-center mt-40 mx-auto'>
             COMING SOON
         </div>
     );

@@ -24,9 +24,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className='relative bottom-0 w-full flex bg-[#0d0d0d] pt-16 sm:fixed sm:pt-0 md:block md:relative lg:fixed'>
-          <Footer />
-      </div>
     </div>
   )
 }
