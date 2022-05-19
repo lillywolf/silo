@@ -29,9 +29,9 @@ export default function Nav() {
           {/* <div className='inline-block mr-6 text-xs'>
             <Link href="/about">ABOUT</Link>
           </div> */}
-          <div className='inline-block mr-24 text-s'>
+          {/* <div className='inline-block mr-24 text-s'>
             <Link href="/contact">BOOKING</Link>
-          </div>
+          </div> */}
         </div>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-24 -ml-12 h-16`}>
           <Link href="/">
@@ -47,9 +47,9 @@ export default function Nav() {
             </div>
           </Link>
         </div>
-        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.socialLinks } hidden absolute right-0 top-2 md:top-5`}>
+        {/* <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.socialLinks } hidden absolute right-0 top-2 md:top-5`}>
           <SocialIcons />
-        </div>
+        </div> */}
       </div>
   );
 }
