@@ -3,28 +3,27 @@ import SocialIcons from './SocialIcons';
 
 export default function Footer() {
     return (
-        <div className='font-[Abel] flex justify-between h-full w-full py-3 pl-6'>
-            <div className='text-left inline-block pr-6'>
+        <div className='flex justify-between h-full w-full py-6 pl-6'>
+            <div className='text-left text-[10px] leading-5 inline-block md:text-xs md:pr-6'>
                 <Link href="/about">
-                    <a className='text-[12px] mr-4'>ABOUT</a>
+                    <a className='mr-3 md:mr-6'>ABOUT</a>
                 </Link>
                 <Link href="/contact">
-                    <a className='text-[12px] mr-4'>CONTACT</a>
+                    <a className='mr-3 md:mr-6'>CONTACT</a>
                 </Link>
                 <Link href="/terms">
-                    <a className='text-[12px] mr-4'>TERMS & CONDITIONS</a>
+                    <a className='mr-3 md:mr-6'>TERMS & CONDITIONS</a>
                 </Link>
                 <Link href="/privacy">
-                    <a className='text-[12px] mr-4'>PRIVACY POLICY</a>
+                    <a className='mr-3 md:mr-6'>PRIVACY POLICY</a>
                 </Link>
                 <Link href="/a11y">
-                    <a className='text-[12px] mr-4'>ACCESSIBILITY</a>
+                    <a className='mr-3 md:mr-6'>ACCESSIBILITY</a>
                 </Link>
             </div>
-            {/* <div className='inline-block text-[12px] pr-6 leading-[24px]'>
+            <div className='inline-block text-[10px] md:text-xs leading-5 pr-6'>
                 90 SCOTT AVE BROOKLYN
-            </div> */}
-            <SocialIcons />
+            </div>
         </div>
     );
 }

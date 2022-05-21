@@ -14,11 +14,11 @@ export default function Home() {
       </Head>
 
       <main className={ `${ styles.main } m-auto relative` }>
-        <div className='bg-[#0d0d0d] relative'>
-          <div className={styles.splash}>
-            <Image className={styles.splashImage} src="/splash-grayscale-xs.jpeg" width="100%" height="67%" layout="responsive" objectFit="cover">
+        <div className='bg-[#eeeeeeff] relative'>
+          <div className='sm:w-[700px] mx-auto mt-16 md:mt-48'>
+            <Image className={ styles.splashImage } src="/splash-min-xs.jpeg" width="50%" height="37%" layout="responsive" objectFit="contain">
             </Image>
-            <div className='bg-[#0d0d0d] m-auto sm:w-[520px] lg:bottom-52 lg:w-[380px] lg:fixed lg:right-16 xl:bottom-24'>
+            <div className='m-auto sm:w-[520px] lg:border lg:border-[#2b2b2b] lg:bottom-36 lg:w-[380px] lg:fixed lg:right-36'>
               <EmailSignup />
             </div>
           </div>
@@ -27,3 +27,4 @@ export default function Home() {
     </div>
   )
 }
+''

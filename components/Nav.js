@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 import styles from '../styles/Nav.module.css'
 
-export default function Nav() {
+export default function Nav({ showBigLogo }) {
   const [scrolling, setScrolling] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);
 
@@ -33,19 +33,33 @@ export default function Nav() {
             <Link href="/contact">BOOKING</Link>
           </div> */}
         </div>
-        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-24 -ml-12 h-16`}>
-          <Link href="/">
-            <div className='relative w-full h-full cursor-pointer'>
-              <Image className='' src='/mark_white.svg' layout='fill'/>
-            </div>
-          </Link>
-        </div>
+        { showBigLogo &&
+          <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-60 -ml-24 h-40`}>
+            <Link href="/">
+              <div className='relative w-full h-full cursor-pointer'>
+                <Image className='' src='/lockup_black.svg' layout='fill'/>
+              </div>
+            </Link>
+          </div>
+        }
+        { !showBigLogo &&
+          <div className='w-full h-8 mt-4'>
+            <Link href="/">
+              <div className='relative mx-auto w-20 h-8 cursor-pointer'>
+                <Image className='' src='/mark_black.svg' layout='fill'/>
+              </div>
+            </Link>
+          </div>
+        }
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.logo } hidden relative block w-24 h-16 px-5`}>
           <Link href="/">
             <div className='relative w-full h-full cursor-pointer'>
-              <Image className='' src='/mark_white.svg' layout='fill'/>
+              <Image className='' src='/mark_black.svg' layout='fill'/>
             </div>
           </Link>
+        </div>
+        <div className='absolute right-0 top-4'>
+          <SocialIcons />
         </div>
         {/* <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.socialLinks } hidden absolute right-0 top-2 md:top-5`}>
           <SocialIcons />

@@ -17,39 +17,28 @@ export default function MobileNav() {
     }
 
     return (
-      <div className='absolute w-full font-[Abel]'>
-        <div className='inline-block'>
+      <div className='absolute w-full'>
+        <div className='absolute z-10'>
           { !navOpen && (
-            <div className='inline-block ml-4 mt-4 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
-              + MENU
-              {/* <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="20" height="20" fill="white">
-                  <rect width="100" height="10" rx="5"></rect>
-                  <rect y="30" width="100" height="10" rx="5"></rect>
-                  <rect y="60" width="100" height="10" rx="5"></rect>
-              </svg> */}
+            <div className='ml-0 mt-3 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
+              {/* + MENU */}
+              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="14" height="14" fill="black">
+                  <rect width="100" height="6" rx="5"></rect>
+                  <rect y="30" width="100" height="6" rx="5"></rect>
+                  <rect y="60" width="100" height="6" rx="5"></rect>
+              </svg>
             </div>
           )}
           <div className={ menuClass }>
-            <Menu onNavClick={onNavClick} />
+            <Menu onNavClick={ onNavClick } />
           </div>
         </div>
-        {/* <div className='absolute bg-[#0d0d0d] right-4 top-4 w-16 h-12 px-2'> */}
-          {/* <div className='relative w-[40px] h-[30px] py-6 mx-1'>
-            <MarkWhite />
-          </div> */}
-        <div className='absolute w-[40px] h-[40px] xs:w-12 xs:h-12 right-3 top-2'>
-          <Link className='w-full h-full' href='/'>
-            <a><Logo /></a>
-          </Link>
-          {/* <div className='hidden sm:block'>
-            <MarkWhite />
-          </div> */}
-          {/* <div className='hidden sm:block border-t-[0.5px] border-black border-solid'>
-            <Brooklyn />
-          </div> */}
-          {/* <div className='relative w-16 h-full'>
-            <Lockup /> */}
-          {/* </div> */}
+        <div className='absolute w-full h-8 mt-3'>
+          <div className='relative h-8 w-12 mx-auto'>
+            <Link className='' href='/'>
+              <a><MarkBlack /></a>
+            </Link>
+          </div>
         </div>  
       </div>
     );
@@ -67,11 +56,7 @@ const Logo = () => {
 
 const MarkBlack = () => {
   return (
-    <div className='relative bg-white h-12 sm:h-16 w-full'>
-      <div className='relative h-8 sm:h-12 sm:w-24 top-2'>
-        <Image src='/mark_black.svg' layout='fill' objectFit='contain'/>
-      </div>
-    </div>
+    <Image src='/mark_black.svg' layout='fill' objectFit='contain'/>
   );
 }
 
@@ -95,7 +80,7 @@ const Brooklyn = () => {
 
 const Menu = ({ onNavClick }) => {
     return (
-        <div className='relative z-10 bg-[#0d0d0d] h-full w-full sm:w-1/2'>
+        <div className='relative z-10 bg-[#eeeeeeff] text-[#2b2b2b] h-full w-full sm:w-1/2'>
             <div className='bottom-0 w-full h-full p-5'>
               <div className='w-full overflow-hidden cursor-pointer' onClick={ onNavClick }>
                 <div className='w-2 h-3 relative inline-block float-left mt-[10px]'>

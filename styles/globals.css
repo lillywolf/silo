@@ -61,6 +61,20 @@
 }
 
 @font-face {
+  font-family: 'PTSerif';
+  src: url('../public/assets/PTSerif/PTSerif-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSerif-Bold';
+  src: url('../public/assets/PTSerif/PTSerif-Bold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'RobotoCondensed';
   src: url('../public/assets/RobotoCondensed/RobotoCondensed-Regular.ttf');
   font-weight: 400;
@@ -91,7 +105,7 @@
 @font-face {
   font-family: 'Playfair';
   src: url('../public/assets/Playfair/PlayfairDisplay.ttf');
-  font-weight: 400;
+  font-weight:500;
   font-style: normal;
 }
 
@@ -109,20 +123,25 @@
   font-style: normal;
 }
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Abel, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: RobotoCondensed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  color: white;
+  color: black;
   height: 100vh;
-  background-color: #0d0d0d;
+  background-color: #eeeeeeff;
 }
 
 #__next {
-  background-color: #0d0d0d;
+  background-color: #eeeeeeff;
 }
 
 a {
@@ -143,24 +162,25 @@ a {
 }
 
 #mc_embed_signup {
-  background-color: #0d0d0d;
+  animation: 1s ease-out 0s 1 fadein;
+  font-family: 'PTSerif';
+  background-color: #eeeeeeff;
   font-size: 12px;
-  padding: 30px 40px;
+  padding: 30px 35px;
   display: flex;
-  color: white;
+  color: #2b2b2b;
   width: 100%;
 }
 
 #mc_embed_signup h3 {
-  /* font-family: 'Merriweather'; */
-  font-weight: normal;
   font-size: 16px;
-  margin: 5px 0;
+  letter-spacing: 0.2px;
+  margin: 0px 0;
 }
 
 #mc_embed_signup h4 {
-  /* font-family: 'Merriweather'; */
-  font-size: 12px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
   margin-top: 15px;
 }
 
@@ -169,14 +189,11 @@ a {
 }
 
 #mc_embed_signup .sign-up {
-  /* background-color: rgb(255, 255, 255, 0.1); */
-  /* border: 1px solid white; */
   font-family: 'RobotoCondensed-Bold';
-  border-radius: 3px;
   opacity: 0.9;
   cursor: pointer;
   width: 100%;
-  color: white;
+  color: black;
   font-size: 22px;
   text-align: left;
   display: inline;
@@ -200,8 +217,9 @@ a {
 .arrow {
   position: absolute;
   bottom: 30px;
-  left: 121px;
+  left: 115px;
   font-size: 22px;
+  font-family: 'RobotoCondensed-Bold';
 }
 
 #mc_embed_signup #mce-success-response {
@@ -213,12 +231,12 @@ a {
   margin: 5px 0;
   padding: 5px;
   width: 100%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #2b2b2b;
 }
 
 #mc_embed_signup #mc-field-email {
   margin-top: 10px;
-  color: black;
+  color: #eeeeeeff;
   border: none;
   min-height: 48px;
   max-width: 360px;
@@ -236,7 +254,7 @@ a {
 }
 
 #mce-success-response {
-  color: white;
+  color: black;
   padding-bottom: 10px;
 }
 
@@ -254,12 +272,12 @@ a {
   font-family: 'RobotoCondensed';
   padding: 15px 0 !important;
   font-size: 16px !important;
-  background-color: #0d0d0d !important;
-  color: white !important;
+  background-color: #eeeeeeff !important;
+  color: black !important;
 }
 
 #mc_embed_signup #mce-EMAIL::placeholder {
-  color: white;
+  color: #2b2b2b;
   opacity: 0.5;
 }
 
@@ -268,30 +286,32 @@ a {
 }
 
 .genres-label {
-  /* font-family: 'Merriweather'; */
+  letter-spacing: 0.2px;
   font-size: 14px;
 }
 
 .genres-list {
   font-family: 'RobotoCondensed';
   margin-top: 8px;
-  /* color: #ff96ce; */
-  color: lightpink;
+  color: black;
   /* darkseagreen, violet, antiquewhite, lightblue, lightsteelblue, lavender, salmon */
-  font-size: 12px;
+  font-size: 13px;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .genre {
-  margin: 1px 3px;
-  display: inline-flex;
+  margin: 1px 0;
+  display: flex;
 }
 
 .genre input {
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .genre label {
-  padding-top: 3px;
+  /* padding-top: 3px; */
+  margin-top: 3px;
   margin-left: 8px;
 }
 
@@ -301,7 +321,6 @@ a {
 }
 
 .email-signup #mc_embed_signup h3 {
-  /* font-family: 'Merriweather'; */
   font-size: 14px;
 }
 
@@ -316,7 +335,7 @@ a {
 
 @media only screen and (max-width: 1024px) {
   #mc_embed_signup {
-    background-color: #0d0d0d;
+    background-color: #eeeeeeff;
     display: inline-block;
     padding: 0px 20px;
   }
@@ -330,18 +349,23 @@ a {
   }
 
   #mc_embed_signup h3 {
-    color: white;
+    color: black;
+    font-size: 15px;
+  }
+
+  #mc_embed_signup h4 {
+    margin-top: 10px;
   }
 
   #mc_embed_signup .sign-up {
-    background-color: #0d0d0d;
-    border: 1px solid white;
+    background-color: #eeeeeeff;
+    border: 1px solid #434343;
     margin: 5px auto;
     width: 100%;
     max-width: 200px;
-    padding: 2px 0 0;
+    padding: 2px 0 0px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .arrow {
@@ -353,7 +377,7 @@ a {
   }
 
   #mce-error-response, #mce-success-response {
-    color: white;
+    color: black;
   }
 
   .hearts {
@@ -361,24 +385,27 @@ a {
   }
 
   .genres {
-    margin: 5px 0 5px;
+    margin: 10px 0 20px;
+    flex-shrink: 0;
   }
 
   .genres-list {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
-    font-size: 12px;
-  }
-
-  .genre input {
-    margin-top: 2px !important;
-  }
-
-  .genre {
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
-  .genre label {
-    padding-top: 0;
+  .genre {
+    letter-spacing: 0.5px;
+    display: flex;
+    margin: 0px 6px;
+    justify-content: center;
+  }
+
+  .genres-label {
+    font-size: 13px;
   }
 }
