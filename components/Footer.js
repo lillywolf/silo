@@ -3,7 +3,7 @@ import SocialIcons from './SocialIcons';
 
 export default function Footer() {
     return (
-        <div className='flex justify-between h-full w-full py-6 pl-6'>
+        <div className='flex justify-between h-full w-full py-2 pl-6 border-[#2b2b2b] border-t'>
             <div className='text-left text-[10px] leading-5 inline-block md:text-xs md:pr-6'>
                 <Link href="/about">
                     <a className='mr-3 md:mr-6'>ABOUT</a>
