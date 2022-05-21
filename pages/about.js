@@ -13,7 +13,7 @@ export default function About() {
                     <br></br>
                     <p>At capacity 500, we have some of the most innovative production you will find in a smaller room.</p>
                     <br></br>
-                    <p>Every single feature of the space, from the sound to the stage lighting down to the material used to pad the dance floor, has been mapped out with input from dozens of industry veterans. No outsourcing, no handing off to a commercial design firm – SILO is designed and built by people who work and party in nightclubs.</p>
+                    <p className='pb-32'>Every single feature of the space, from the sound to the stage lighting down to the material used to pad the dance floor, has been mapped out with input from dozens of industry veterans. No outsourcing, no handing off to a commercial design firm – SILO is designed and built by people who work and party in nightclubs.</p>
                 </div>
             </div>
         </>

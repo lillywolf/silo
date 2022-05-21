@@ -12,7 +12,7 @@ export default function Layout({ children, pathname }) {
                 <Nav showBigLogo={ pathname === '/' }/>
             </div>
             {children}
-            <div className='sticky top-[100vh] bottom-0 w-full flex bg-[#eeeeeeff] border-top text-black sm:pt-0 md:block'>
+            <div className='fixed bottom-0 w-full flex bg-[#eeeeeeff] border-top text-black sm:pt-0 md:block'>
                 <Footer />
             </div>
         </div>
