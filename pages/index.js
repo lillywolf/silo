@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
 
       <main className={ `${ styles.main } m-auto relative` }>
-        <div className='bg-[#eeeeeeff] relative'>
-          <div className='sm:w-[700px] mx-auto mt-16 md:mt-48'>
-            <Image className={ styles.splashImage } src="/splash-min-xs.jpeg" width="50%" height="37%" layout="responsive" objectFit="contain">
+        <div className='relative'>
+          <div className='px-2 sm:w-[700px] mx-auto mt-16 md:mt-40'>
+            <Image src="/splash-grayscale-xs.jpeg" width="50%" height="37%" layout="responsive" objectFit="contain">
             </Image>
             <div className='m-auto sm:w-[520px] lg:border lg:border-[#2b2b2b] lg:bottom-36 lg:w-[380px] lg:fixed lg:right-36'>
               <EmailSignup />

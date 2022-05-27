@@ -18,29 +18,31 @@ function mailchimpSnippet() {
             <h3>We’re building a new dance floor in the heart of Brooklyn. Coming Fall '22.</h3>
             <!-- p class="subscribe">&#x1F496;&#x1F496;</p -->
             <h4>Sign up for early access to our parties:</h4>
-            <div class="mc-field-group" id="mc-field-email">
-                <label for="mce-EMAIL"></label>
-                <input type="email" placeholder="YOUR EMAIL" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            <div class="mc-email-group">
+                <div class="mc-field-group" id="mc-field-email">
+                    <label for="mce-EMAIL"></label>
+                    <input type="email" placeholder="YOUR EMAIL" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9dcc8b8380559a2218a1e426_6c77cd1c9d" tabindex="-1" value=""></div>
+                    <input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="sign-up">
+                    <span class="arrow">→</span>
+                </div>
             </div>
             <div class="mc-field-group input-group genres">
                 <p class="genres-label">I'm interested in:</p>
                 <ul class="genres-list">
-                    <li class="genre"><input type="checkbox" value="4" name="group[45589][4]" id="mce-group[45589]-45589-0"><label for="mce-group[45589]-45589-0">House</label></li>
-                    <li class="genre"><input type="checkbox" value="8" name="group[45589][8]" id="mce-group[45589]-45589-1"><label for="mce-group[45589]-45589-1">Techno</label></li>
-                    <li class="genre"><input type="checkbox" value="16" name="group[45589][16]" id="mce-group[45589]-45589-2"><label for="mce-group[45589]-45589-2">Deep House</label></li>
-                    <li class="genre"><input type="checkbox" value="32" name="group[45589][32]" id="mce-group[45589]-45589-3"><label for="mce-group[45589]-45589-3">Tech House</label></li>
-                    <li class="genre"><input type="checkbox" value="1024" name="group[45589][1024]" id="mce-group[45589]-45589-8"><label for="mce-group[45589]-45589-8">Melodic</label></li>
+                    <li class="genre"><input type="checkbox" value="4" name="group[45589][4]" id="mce-group[45589]-45589-0"><label for="mce-group[45589]-45589-0">HOUSE</label></li>
+                    <li class="genre"><input type="checkbox" value="8" name="group[45589][8]" id="mce-group[45589]-45589-1"><label for="mce-group[45589]-45589-1">TECHNO</label></li>
+                    <li class="genre"><input type="checkbox" value="16" name="group[45589][16]" id="mce-group[45589]-45589-2"><label for="mce-group[45589]-45589-2">DEEP HOUSE</label></li>
+                    <li class="genre"><input type="checkbox" value="32" name="group[45589][32]" id="mce-group[45589]-45589-3"><label for="mce-group[45589]-45589-3">TECH HOUSE</label></li>
+                    <li class="genre"><input type="checkbox" value="1024" name="group[45589][1024]" id="mce-group[45589]-45589-8"><label for="mce-group[45589]-45589-8">MELODIC</label></li>
                     <li class="genre all"><input type="checkbox" value="512" name="group[45589][512]" id="mce-group[45589]-45589-7"><label for="mce-group[45589]-45589-7">I just want to dance!</label></li>                
                 </ul>
             </div>
             <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d9dcc8b8380559a2218a1e426_6c77cd1c9d" tabindex="-1" value=""></div>
-                <input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="sign-up">
-                <span class="arrow">→</span>
             </div>
         </form>
         </div>

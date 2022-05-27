@@ -22,7 +22,7 @@ export default function MobileNav() {
           { !navOpen && (
             <div className='ml-0 mt-3 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
               {/* + MENU */}
-              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="14" height="14" fill="black">
+              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="16" height="16" fill="black">
                   <rect width="100" height="6" rx="5"></rect>
                   <rect y="30" width="100" height="6" rx="5"></rect>
                   <rect y="60" width="100" height="6" rx="5"></rect>
@@ -33,7 +33,7 @@ export default function MobileNav() {
             <Menu onNavClick={ onNavClick } />
           </div>
         </div>
-        <div className='absolute w-full h-8 mt-3'>
+        <div className='absolute w-full h-8 mt-4'>
           <div className='relative h-8 w-12 mx-auto'>
             <Link className='' href='/'>
               <a><MarkBlack /></a>
