@@ -4,6 +4,7 @@ import { useState } from 'react';
 import SocialIcons from './SocialIcons';
 import Lockup from './Lockup';
 import MarkWhite from './MarkWhite';
+import SocialIconsBlack from './SocialIconsBlack';
 
 export default function MobileNav() {
     const [navOpen, setNavOpen] = useState();
@@ -20,9 +21,9 @@ export default function MobileNav() {
       <div className='absolute w-full'>
         <div className='absolute z-10'>
           { !navOpen && (
-            <div className='ml-0 mt-3 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
+            <div className='ml-1 mt-4 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
               {/* + MENU */}
-              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="16" height="16" fill="black">
+              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="16" height="16" fill="white">
                   <rect width="100" height="6" rx="5"></rect>
                   <rect y="30" width="100" height="6" rx="5"></rect>
                   <rect y="60" width="100" height="6" rx="5"></rect>
@@ -33,10 +34,10 @@ export default function MobileNav() {
             <Menu onNavClick={ onNavClick } />
           </div>
         </div>
-        <div className='absolute w-full h-8 mt-4'>
-          <div className='relative h-8 w-12 mx-auto'>
+        <div className='absolute w-full h-6 mt-7'>
+          <div className='relative h-6 w-10 mx-auto'>
             <Link className='' href='/'>
-              <a><MarkBlack /></a>
+              <a><MarkWhite /></a>
             </Link>
           </div>
         </div>  
@@ -98,7 +99,7 @@ const Menu = ({ onNavClick }) => {
                   <a className='block w-3/4 mt-1' onClick={onNavClick}>CONTACT</a>
               </Link>
               <div className='pt-8' onClick={onNavClick}>
-                <SocialIcons />
+                <SocialIconsBlack />
               </div>
               <div className='text-xs mt-6'>
                 <Link href="/">

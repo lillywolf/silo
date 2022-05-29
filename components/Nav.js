@@ -37,7 +37,7 @@ export default function Nav({ showBigLogo }) {
           <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-36 -ml-12 h-40`}>
             <Link href="/">
               <div className='relative w-full h-full cursor-pointer'>
-                <Image className='opacity-60' src='/lockup_white.svg' layout='fill'/>
+                <Image className='opacity-70' src='/lockup_white.svg' layout='fill'/>
               </div>
             </Link>
           </div>

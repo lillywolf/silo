@@ -135,12 +135,13 @@ body {
   font-family: RobotoCondensed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  color: #2b2b2b;
+  color: white;
+  background-color: #0c0c0c;
   height: 100vh;
 }
 
 #__next {
-  background-color: #eeeeeeff;
+  background-color: #0c0c0c;
 }
 
 a {
@@ -166,8 +167,8 @@ a {
   font-size: 12px;
   padding: 30px 35px;
   display: flex;
-  color: #2b2b2b;
-  background-color: #eeeeeeff;
+  color: white;
+  background-color: #0c0c0c;
   width: 100%;
 }
 
@@ -179,13 +180,13 @@ a {
 }
 
 #mc_embed_signup h3 {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.2px;
   margin: 0px 0;
 }
 
 #mc_embed_signup h4 {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 0.2px;
   margin-top: 15px;
 }
@@ -199,12 +200,14 @@ a {
   opacity: 0.9;
   cursor: pointer;
   color: white;
-  font-size: 22px;
-  text-align: left;
+  margin-top: 4px;
+  font-size: 14px;
   height: 33px;
-  width: 100px;
+  width: 78px;
   background-color: black;
+  border: 1px solid white;
   display: inline-block;
+  padding: 2px 0 0px;
 }
 
 #mc_embed_signup input:focus {
@@ -237,18 +240,18 @@ a {
   height: 30px;
   margin: 5px 0;
   padding: 5px;
-  border: 1px solid #2b2b2b;
+  border-bottom: 1px solid white;
   width: 100%;
 }
 
 #mc_embed_signup #mc-field-email {
-  color: #eeeeeeff;
+  color: white;
   border: none;
   min-height: 48px;
   text-align: left;
   flex-grow: 1;
   flex-shrink: 1;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 #mc_embed_signup form {
@@ -258,12 +261,11 @@ a {
 
 #mce-error-response, #mce-success-response {
   font-size: 12px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 #mce-success-response {
-  color: black;
-  padding-bottom: 10px;
+  color: white;
 }
 
 #mc_embed_signup .mce_inline_error {
@@ -279,18 +281,18 @@ a {
 #mc_embed_signup #mce-EMAIL {
   font-family: 'RobotoCondensed';
   padding: 15px 8px !important;
-  font-size: 16px !important;
-  background-color: #eeeeeeff !important;
-  color: black !important;
+  font-size: 14px !important;
+  background-color: #0c0c0c !important;
+  color: white !important;
 }
 
 #mc_embed_signup #mce-EMAIL::placeholder {
-  color: #2b2b2b;
+  color: white;
   opacity: 0.5;
 }
 
 .genres {
-  padding: 5px 0;
+  padding: 5px 0 0;
 }
 
 .genres-label {
@@ -299,11 +301,10 @@ a {
 }
 
 .genres-list {
-  background-color: #ead3e9;
   font-family: 'RobotoCondensed';
-  margin-top: 8px;
-  color: #2b2b2b;
-  padding: 10px 0;
+  margin-top: 5px;
+  color: lightpink;
+  padding: 0;
   /* darkseagreen, violet, antiquewhite, lightblue, lightsteelblue, lavender, salmon */
   font-size: 13px;
   /* display: flex;
@@ -346,7 +347,7 @@ a {
 @media only screen and (max-width: 1024px) {
   #mc_embed_signup {
     display: inline-block;
-    padding: 0px 20px 80px;
+    padding: 0px 10px 80px;
   }
 
   #mc-field-email {
@@ -356,8 +357,7 @@ a {
   #mc_embed_signup h3 {
     /* border-bottom: 1px dashed grey; */
     padding-bottom: 5px;
-    color: #2b2b2b;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #mc_embed_signup h4 {
@@ -365,23 +365,18 @@ a {
   }
 
   #mc_embed_signup .sign-up {
-    border: 1px solid #434343;
-    margin: 5px auto;
-    padding: 1px 0 0px;
+    border: 1px solid white;
+    margin: 4px auto;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .arrow {
     display: none;
   }
 
-  #mc_embed_signup .mce_inline_error {
-    margin-top: 0 !important;
-  }
-
   #mce-error-response, #mce-success-response {
-    color: black;
+    color: white;
   }
 
   .hearts {

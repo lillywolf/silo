@@ -15,10 +15,10 @@ export default function Home() {
 
       <main className={ `${ styles.main } m-auto relative` }>
         <div className='relative'>
-          <div className='px-2 sm:w-[700px] mx-auto mt-16 md:mt-40'>
+          <div className='px-4 sm:w-[700px] mx-auto mt-16 md:mt-40'>
             <Image src="/splash-grayscale-xs.jpeg" width="50%" height="37%" layout="responsive" objectFit="contain">
             </Image>
-            <div className='m-auto sm:w-[520px] lg:border lg:border-[#2b2b2b] lg:bottom-36 lg:w-[380px] lg:fixed lg:right-36'>
+            <div className='m-auto sm:w-[520px] lg:border lg:border-[#2b2b2b] lg:bottom-20 lg:w-[380px] lg:fixed lg:right-36'>
               <EmailSignup />
             </div>
           </div>
