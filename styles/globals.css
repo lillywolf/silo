@@ -390,7 +390,7 @@ a {
   .genres-list {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -404,6 +404,6 @@ a {
   }
 
   .genres-label {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
