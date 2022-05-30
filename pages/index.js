@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer'
 import EmailSignup from '../components/EmailSignup'
+import Consent from '../components/Consent'
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
         <title>SILO Brooklyn</title>
         <meta name="description" content="SILO Brooklyn" />
         <link rel="icon" href="/favicon.ico" />
+        {/* NOTE: Consent must be the first script tag on the page */}
+        <Consent />
       </Head>
 
       <main className={ `${ styles.main } m-auto relative` }>
