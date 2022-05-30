@@ -5,10 +5,10 @@ import Footer from "./Footer";
 export default function Layout({ children, pathname }) {
     return (
         <div className='width-full min-h-screen'>
-            <div className='absolute top-0 w-full z-10 bg-transparent h-12 sm:h-16 md:hidden'>
+            <div className='absolute top-0 w-full z-10 bg-[#0c0c0c] h-12 sm:h-16 md:hidden'>
                 <MobileNav />
             </div>
-            <div className='hidden absolute top-0 z-10 w-full bg-transparent md:block md:h-[4.3rem] lg:h-25'>
+            <div className='hidden absolute top-0 z-10 w-full bg-[#0c0c0c] md:block md:h-[4.3rem] lg:h-25'>
                 <Nav showBigLogo={ pathname === '/' }/>
             </div>
             {children}

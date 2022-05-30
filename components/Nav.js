@@ -24,7 +24,7 @@ export default function Nav({ showBigLogo }) {
   }, []);
 
   return (
-      <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } font-[Abel] fixed w-full h-20 mx-auto`}>
+      <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } bg-[#0c0c0c] fixed w-full h-20 mx-auto`}>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.links } hidden absolute right-4 md:top-5`}>
           {/* <div className='inline-block mr-6 text-xs'>
             <Link href="/about">ABOUT</Link>
