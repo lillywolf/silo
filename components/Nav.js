@@ -26,24 +26,33 @@ export default function Nav({ showBigLogo }) {
   return (
       <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } bg-[#0c0c0c] fixed w-full h-20 mx-auto`}>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.links } hidden absolute right-4 md:top-5`}>
-          {/* <div className='inline-block mr-6 text-xs'>
+          {/* <div className='inline-block mr-6 text-s'>
             <Link href="/about">ABOUT</Link>
-          </div> */}
-          {/* <div className='inline-block mr-24 text-s'>
+          </div>
+          <div className='inline-block mr-24 text-s'>
             <Link href="/contact">BOOKING</Link>
-          </div> */}
+          </div>
+        </div> */}
+        </div>
+        <div className='absolute mt-4'>
+          <div className='inline-block ml-6 text-s'>
+            <Link href="/about">ABOUT</Link>
+          </div>
+          <div className='inline-block ml-6 text-s'>
+            <Link href="/contact">CONTACT</Link>
+          </div>
         </div>
         { showBigLogo &&
           <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-36 -ml-12 h-40`}>
             <Link href="/">
               <div className='relative w-full h-full cursor-pointer'>
-                <Image className='opacity-70' src='/lockup_white.svg' layout='fill'/>
+                <Image className='opacity-90' src='/lockup_white.svg' layout='fill'/>
               </div>
             </Link>
           </div>
         }
         { !showBigLogo &&
-          <div className='w-full h-8 mt-4'>
+          <div className='w-full mt-4 h-8'>
             <Link href="/">
               <div className='relative mx-auto w-20 h-8 cursor-pointer'>
                 <Image className='' src='/mark_white.svg' layout='fill'/>

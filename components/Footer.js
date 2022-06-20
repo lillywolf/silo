@@ -5,11 +5,8 @@ export default function Footer() {
     return (
         <div className='justify-between h-full w-full py-2 pl-3 border-[#2b2b2b] border-t md:flex'>
             <div className='text-center text-[10px] leading-5 md:inline-block md:text-xs md:pr-6 md:text-left'>
-                <Link href="/about">
-                    <a className='mr-3 md:mr-6'>ABOUT</a>
-                </Link>
-                <Link href="/contact">
-                    <a className='mr-3 md:mr-6'>CONTACT</a>
+            <   Link href="/location">
+                    <a className='mr-3 md:mr-6'>LOCATION</a>
                 </Link>
                 <Link href="/terms">
                     <a className='mr-3 md:mr-6'>TERMS</a>

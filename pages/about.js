@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
     return (
         <>
@@ -9,11 +11,20 @@ export default function About() {
                     <br></br>
                     <p>x x x x x</p>
                     <br></br>
+                    <div className='relative max-w-[400px]'>
+                        <Image src='/exterior_1.jpeg' width={300} height={200} layout="responsive" objectFit="contain"/>
+                    </div>
+                    <br></br>
                     <p>SILO is constructed in a decommissioned hangar in East Williamsburg, Brooklyn.</p>
                     <br></br>
                     <p>At capacity 500, we have some of the most innovative production you will find in a smaller room.</p>
                     <br></br>
-                    <p className='pb-32'>Every single feature of the space, from the sound to the stage lighting down to the material used to pad the dance floor, has been mapped out with input from dozens of industry veterans. No outsourcing, no handing off to a commercial design firm – SILO is designed and built by people who work and party in nightclubs.</p>
+                    <p>Every single feature of the space, from the sound to the stage lighting down to the material used to pad the dance floor, has been mapped out with input from dozens of industry veterans. No outsourcing, no handing off to a commercial design firm – SILO is designed and built by people who work and party in nightclubs.</p>
+                    <br></br>
+                    <div className='relative max-w-[400px]'>
+                        <Image src='/stage_1.jpeg' width={300} height={200} layout="responsive" objectFit="contain"/>
+                    </div>
+                    <p className='pb-32'></p>
                 </div>
             </div>
         </>
