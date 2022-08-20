@@ -24,56 +24,68 @@ export default function Nav({ showBigLogo }) {
   }, []);
 
   return (
-      <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } bg-[#0c0c0c] fixed w-full h-20 mx-auto`}>
+      <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.nav } bg-[#111111] fixed w-full mx-auto`}>
         <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.links } hidden absolute right-4 md:top-5`}>
-          {/* <div className='inline-block mr-6 text-s'>
-            <Link href="/about">ABOUT</Link>
-          </div>
-          <div className='inline-block mr-24 text-s'>
-            <Link href="/contact">BOOKING</Link>
-          </div>
-        </div> */}
         </div>
-        <div className='absolute mt-4'>
-          <div className='inline-block ml-6 text-s'>
-            <Link href="/about">ABOUT</Link>
+        { showBigLogo && 
+          <div className='absolute mt-12'>
+            <Links />
           </div>
-          <div className='inline-block ml-6 text-s'>
-            <Link href="/contact">CONTACT</Link>
-          </div>
-        </div>
+        }
         { showBigLogo &&
-          <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } absolute inset-1/2 top-2 px-3 py-3 w-36 -ml-12 h-40`}>
+          <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } flex justify-center top-2 px-3 py-3`}>
             <Link href="/">
-              <div className='relative w-full h-full cursor-pointer'>
-                <Image className='opacity-90' src='/lockup_white.svg' layout='fill'/>
+              <div className='font-[BasementGrotesque-Black] text-[60px] cursor-pointer'>
+                SILO
               </div>
             </Link>
+          </div>
+        }
+        { !showBigLogo && 
+          <div className='absolute mt-6'>
+            <Links />
           </div>
         }
         { !showBigLogo &&
-          <div className='w-full mt-4 h-8'>
+          <div className='flex justify-center mt-4'>
             <Link href="/">
-              <div className='relative mx-auto w-20 h-8 cursor-pointer'>
-                <Image className='' src='/mark_white.svg' layout='fill'/>
+            <div className='font-[BasementGrotesque-Black] text-[30px] cursor-pointer'>
+                SILO
               </div>
             </Link>
           </div>
         }
-        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.logo } hidden relative block w-24 h-16 px-5`}>
+        <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.logo } hidden flex justify-center`}>
           <Link href="/">
-            <div className='relative w-full h-full cursor-pointer'>
-              <Image className='' src='/mark_white.svg' layout='fill'/>
+            <div className='font-[BasementGrotesque-Black] text-[30px] cursor-pointer'>
+              SILO
             </div>
           </Link>
         </div>
-        <div className='absolute right-0 top-4'>
-          <SocialIcons />
-        </div>
-        {/* <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.socialLinks } hidden absolute right-0 top-2 md:top-5`}>
-          <SocialIcons />
-        </div> */}
+        { showBigLogo && 
+          <div className='absolute right-12 top-12'>
+            <SocialIcons />
+          </div>
+        }
+        { !showBigLogo && 
+          <div className='absolute right-12 top-6'>
+            <SocialIcons />
+          </div>
+        }
       </div>
+  );
+}
+
+const Links = () => {
+  return (
+    <>
+      <div className='inline-block ml-12 text-s'>
+        <Link href="/about">ABOUT</Link>
+      </div>
+      <div className='inline-block ml-6 text-s'>
+        <Link href="/contact">CONTACT</Link>
+      </div>
+    </>
   );
 }
 

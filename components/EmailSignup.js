@@ -4,7 +4,7 @@ export default function EmailSignup() {
     return (
         <>
         {/* <div className={ `${ styles.arrowUp } -mt-4` }></div> */}
-        <div className={ `${ styles.container } tracking-widest m-auto py-4 text-center lg:text-left lg:py-0` } dangerouslySetInnerHTML={{ __html: mailchimpSnippet() }} />
+        <div className={ `${ styles.container } tracking-widest m-auto text-center lg:text-left lg:py-0` } dangerouslySetInnerHTML={{ __html: mailchimpSnippet() }} />
         </>
     );
 }
@@ -15,7 +15,7 @@ function mailchimpSnippet() {
         <div id="mc_embed_signup">
         <form action="https://secretloft.us14.list-manage.com/subscribe/post?u=d9dcc8b8380559a2218a1e426&amp;id=6c77cd1c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-            <h3>We’re building a new dance floor in the heart of Brooklyn. Coming Fall '22.</h3>
+            <h3>We’re building a new dance floor in Brooklyn.</h3>
             <!-- p class="subscribe">&#x1F496;&#x1F496;</p -->
             <h4>Sign up for early access to our parties:</h4>
             <div class="mc-email-group">
@@ -28,7 +28,7 @@ function mailchimpSnippet() {
                     <input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="sign-up">
                 </div>
             </div>
-            <div class="mc-field-group input-group genres">
+            <!-- div class="mc-field-group input-group genres">
                 <p class="genres-label">I'm interested in:</p>
                 <ul class="genres-list">
                     <li class="genre"><input type="checkbox" value="4" name="group[45589][4]" id="mce-group[45589]-45589-0"><label for="mce-group[45589]-45589-0">HOUSE</label></li>
@@ -38,7 +38,7 @@ function mailchimpSnippet() {
                     <li class="genre"><input type="checkbox" value="1024" name="group[45589][1024]" id="mce-group[45589]-45589-8"><label for="mce-group[45589]-45589-8">MELODIC</label></li>
                     <li class="genre all"><input type="checkbox" value="512" name="group[45589][512]" id="mce-group[45589]-45589-7"><label for="mce-group[45589]-45589-7">I just want to dance!</label></li>                
                 </ul>
-            </div>
+            </div -->
             <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>

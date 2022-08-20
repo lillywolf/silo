@@ -1,6 +1,5 @@
 .scrolled.nav {
-  /* background-color: #0d0d0d; */
-  height: 60px;
+  height: 80px;
   transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition-property: background-color;
 }

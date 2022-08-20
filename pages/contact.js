@@ -4,13 +4,13 @@ import MobileNav from '../components/MobileNav'
 
 export default function Contact() {
     return (
-        <div className='mt-32 w-9/12 text-s mx-auto lg:w-6/12'>
-            <div className='relative mt-16 ml-5 lg:ml-16 lg:mt-28'>
+        <div className='absolute w-full mt-12 text-s text-center mx-auto'>
+            <div className='relative mt-16 lg:mt-28'>
                 <p>For booking inquiries:</p>
-                <a href="mailto:booking@silobrooklyn.com" className='underline'>BOOKING@SILOBROOKLYN.COM</a>
+                <a href="mailto:booking@silobrooklyn.com" className='underline'>booking@silobrooklyn.com</a>
                 <p className='mt-4'>For all others:</p>
-                <a href="mailto:contact@silobrooklyn.com" className='underline'>CONTACT@SILOBROOKLYN.COM</a>
-                <br></br>
+                <a href="mailto:contact@silobrooklyn.com" className='underline'>contact@silobrooklyn.com</a>
+                {/* <br></br>
                 <br></br>
                 <br></br>
                 <p>BACKLINE</p>
@@ -24,7 +24,7 @@ export default function Contact() {
                 <p>DJ:</p>
                 <p>4x CDJ 3000s</p>
                 <p>Pioneer DJM-V10</p>
-                <p>2x Technics 1200 turntables</p>
+                <p>2x Technics 1200 turntables</p> */}
             </div>
         </div>
     );

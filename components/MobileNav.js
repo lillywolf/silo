@@ -34,10 +34,10 @@ export default function MobileNav() {
             <Menu onNavClick={ onNavClick } />
           </div>
         </div>
-        <div className='absolute w-full h-6 mt-7'>
-          <div className='relative h-6 w-10 mx-auto'>
+        <div className='absolute w-full h-6'>
+          <div className='font-[BasementGrotesque-Black] text-[30px] text-center relative mx-auto'>
             <Link className='' href='/'>
-              <a><MarkWhite /></a>
+              <a>SILO</a>
             </Link>
           </div>
         </div>  
@@ -48,8 +48,8 @@ export default function MobileNav() {
 const Logo = () => {
   return (
     <div className='relative w-full h-full'>
-        <div className='relative h-full w-full'>
-          <Image src='/mark_white.svg' layout='fill' objectFit='contain'/>
+        <div className='font-[BasementGrotesque-Black] relative h-full w-full'>
+          SILO
         </div>
     </div>
   );
