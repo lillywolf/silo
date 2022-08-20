@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Footer from '../components/Footer'
 import EmailSignup from '../components/EmailSignup'
 import Consent from '../components/Consent'
+
+import exteriorPhoto from '../public/exterior_2.webp'
 
 export default function Home() {
   return (
@@ -19,8 +20,16 @@ export default function Home() {
       <main className={ `${ styles.main } m-auto relative` }>
         <div className='relative'>
           <div className='px-4 sm:w-[700px] mx-auto mt-16 md:mt-40'>
-            <Image src="/exterior-min.jpeg" width="90%" height="57%" layout="responsive" objectFit="contain">
-            </Image>
+            {/* <Image src="/exterior-min.jpeg" width="90%" height="57%" layout="responsive" objectFit="contain">
+            </Image> */}
+            <Image
+              src={exteriorPhoto}
+              width="90%"
+              height="57%"
+              layout="responsive"
+              objectFit="contain"
+              alt="Photo of the venue exterior"
+            />
           </div>
           <div className='m-auto pt-6 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
