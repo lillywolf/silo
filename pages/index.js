@@ -23,7 +23,7 @@ export default function Home() {
             {/* <Image src="/exterior-min.jpeg" width="90%" height="57%" layout="responsive" objectFit="contain">
             </Image> */}
             <Image
-              src="/exterior-min.webp"
+              src="/exterior-compressed.jpg"
               width="90%"
               height="57%"
               layout="responsive"
