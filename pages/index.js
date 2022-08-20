@@ -4,8 +4,6 @@ import styles from '../styles/Home.module.css'
 import EmailSignup from '../components/EmailSignup'
 import Consent from '../components/Consent'
 
-import exteriorPhoto from '../public/exterior_2.webp'
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -20,8 +18,6 @@ export default function Home() {
       <main className={ `${ styles.main } m-auto relative` }>
         <div className='relative'>
           <div className='px-4 sm:w-[700px] mx-auto mt-16 md:mt-40'>
-            {/* <Image src="/exterior-min.jpeg" width="90%" height="57%" layout="responsive" objectFit="contain">
-            </Image> */}
             <Image
               src="/exterior-compressed.jpg"
               width="90%"

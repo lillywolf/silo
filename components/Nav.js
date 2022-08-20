@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import SocialIcons from './SocialIcons'
-import MarkWhite from './MarkWhite';
 import { useEffect, useState } from 'react';
 
 import styles from '../styles/Nav.module.css'
@@ -35,7 +33,7 @@ export default function Nav({ showBigLogo }) {
         { showBigLogo &&
           <div className={`${ scrollTop > 100 ? styles.scrolled : '' } ${ styles.lockup } flex justify-center top-2 px-3 py-3`}>
             <Link href="/">
-              <div className='font-[BasementGrotesque-Black] text-[60px] cursor-pointer'>
+              <div className='font-[BasementGrotesque-Black] text-[#fdfadf] text-[60px] cursor-pointer'>
                 SILO
               </div>
             </Link>
@@ -49,7 +47,7 @@ export default function Nav({ showBigLogo }) {
         { !showBigLogo &&
           <div className='flex justify-center mt-4'>
             <Link href="/">
-            <div className='font-[BasementGrotesque-Black] text-[30px] cursor-pointer'>
+            <div className='font-[BasementGrotesque-Black] text-[#fdfadf] text-[30px] cursor-pointer'>
                 SILO
               </div>
             </Link>
