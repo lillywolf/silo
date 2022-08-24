@@ -22,7 +22,7 @@ export default function Backline() {
                     <br></br>
                     <p className='text-white'>FRONT ROOM (SMALL PA)</p>
                     <br></br>
-                    <p>2 x Electro-Voice ELX200-12P 12" 1200W 2-Way powered loudspeakers</p>
+                    <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeakers</p>
                     <p>3000 Watt Behringer Eurolive B1800XP subwoofer</p>
                     <p>2 Yamaha wedge stage monitors</p>
                     <p>Mackie ProFX16 Mixer w/ reverb and delay</p>
