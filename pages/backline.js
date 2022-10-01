@@ -57,7 +57,6 @@ export default function Backline() {
                     <p>2 x Chauvet Hurricane Hazer 1DX</p>
                     <p>2 x ADJ Ultra Hex Bar uplighting (capable of full blacklight, amber, white)</p>
                     <p>5 x ADJ 6p Hex Par - Fill Washes</p>
-                    <p>Motorized Disco Ball with multiple color-programmable pin spots</p>
                     <p>Chamsys QuickQ30 Control Board</p>
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
