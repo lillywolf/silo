@@ -6,7 +6,7 @@ function setup() {
     gtag('config', 'G-RS8GPCPFCR');
 }
 
-export default GTM = () => {
+export default function GTM() {
     return (
         <>
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-RS8GPCPFCR"></script>
