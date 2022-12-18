@@ -21,11 +21,11 @@ export default function Home() {
 
       <main className={ `${ styles.main } m-auto relative` }>
         <div className='relative'>
-        <div className='mx-auto w-9/12 pt-40' id="dice-event-list-widget"></div>
-        <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
-        <div className='m-auto sm:w-[520px] lg:w-[600px]'>
+        <div className='m-auto pt-40 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
         </div>
+        <div className='mx-auto w-9/12' id="dice-event-list-widget"></div>
+        <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
         </div>
       </main>
     </div>
