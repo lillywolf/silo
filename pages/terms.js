@@ -2,6 +2,7 @@ export default function Terms() {
     return (
         <div className='w-full'>
         <div className='terms block text-left mt-40 mx-auto w-[90%] sm:w-[75%]'>
+            <p><a href="/covid">COVID-19 Policy</a></p>
             <p><b>Last Updated: January 1, 2023</b></p>
 
             <p>
