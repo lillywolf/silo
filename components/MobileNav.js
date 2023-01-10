@@ -85,7 +85,7 @@ const Menu = ({ onNavClick }) => {
             <div className='bottom-0 w-full h-full p-5'>
               <div className='w-full overflow-hidden cursor-pointer' onClick={ onNavClick }>
                 <div className='w-2 h-3 relative inline-block float-left mt-[10px]'>
-                    <Image src='/x.svg' className='mt-1' layout='fill' />
+                    <Image src='/x.svg' className='mt-1' alt="Menu" layout='fill' />
                 </div>
                 <div className='inline-block float-left ml-2 mt-2 text-xs'>CLOSE</div>
               </div>

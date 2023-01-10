@@ -1,6 +1,7 @@
 export default function Booking() {
     return (
         <>
+            <title>SILO Brooklyn Booking</title>
             <div className='absolute w-full text-left'>
                 <div className='relative mt-40 w-9/12 text-s mx-auto lg:w-6/12'>
                     <p>BACKLINE</p>
@@ -15,6 +16,8 @@ export default function Booking() {
                     <p>4x CDJ 3000s</p>
                     <p>Pioneer DJM-V10</p>
                     <p>2x Technics 1200 turntables</p>
+                    <p>2x Electro-Voice PXM-12MP monitor tops</p>
+                    <p>Electro-Voice ETX18SP monitor subwoofer</p>
                     <p>Additional equipment available upon request</p>
                 </div>
             </div>

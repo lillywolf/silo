@@ -6,7 +6,7 @@ import GTM from '../components/GTM'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <GTM />
       </Head>
