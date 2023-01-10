@@ -12,6 +12,9 @@ export default function SocialIcons() {
             <div className='relative inline-block h-7 w-7 mr-4'>
                 <a href="http://soundcloud.com/silo-brooklyn" label='SoundCloud'><Image alt="SoundCloud" src='/soundcloud-white.svg' layout='fill'/></a>
             </div>
+            <div className='relative inline-block h-7 w-7 mr-4'>
+                <a href="https://discord.gg/kMMJZ87j9w" label='Discord'><Image alt="Discord" src='/discord-white.svg' layout='fill'/></a>
+            </div>
         </div>
     );
 }
