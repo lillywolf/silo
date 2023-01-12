@@ -1,5 +1,7 @@
 export default function Terms() {
     return (
+        <>
+        <title>SILO Brooklyn Terms</title>
         <div className='w-full'>
         <div className='terms block text-left mt-40 mx-auto w-[90%] sm:w-[75%]'>
             <p><a href="/covid">COVID-19 Policy</a></p>
@@ -190,5 +192,6 @@ export default function Terms() {
 
         </div>
         </div>
+        </>
     );
 }

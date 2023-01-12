@@ -1,6 +1,7 @@
 export default function Backline() {
     return (
         <>
+            <title>SILO Brooklyn Backline</title>
             <div className='absolute w-full text-left'>
                 <div className='relative mt-40 mb-40 w-9/12 text-s mx-auto lg:w-6/12'>
                     <p className='text-2xl text-white'>BACKLINE</p>
