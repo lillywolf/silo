@@ -25,62 +25,70 @@ export default function Menu() {
                     <div>
                         <h3 className="text-xl">SILO Margarita</h3>
                         <p>Milagro Tequila, Chartreuse, St. Germain, Lime, Serrano Simple Syrup, Club Soda, Basil, Tajín Rim</p>
-                        <p>15</p>
+                        <p>14</p>
                         <p>&nbsp;</p>
                     </div>
 
                     <div>
                         <h3 className="text-xl">Mezcal Paloma</h3>
                         <p>Ilegal Mezcal, Grapefruit Soda, Lime, Tajín Rim</p>
-                        <p>15</p>
+                        <p>14</p>
                         <p>&nbsp;</p>
                     </div>
 
                     <div>
                         <h3 className="text-xl">Cold Brew Martini</h3>
-                        <p>Sailor Jerry Spiced Rum, Artesanal Roasted Brazil Sweet Blue Cold Brew, Mr. Black Coffee Liqueur, Coconut Vanilla Simple Syrup, Mexican Chocolate Bitters, Cacao Rim</p>
-                        <p>15</p>
+                        <p>Sailor Jerry Spiced Rum, Artesanal Roasted Brazilian Sweet Blue Cold Brew, Mr. Black Coffee Liqueur, Coconut Vanilla Simple Syrup, Mexican Chocolate Bitters, Cacao Rim</p>
+                        <p>14</p>
                         <p>&nbsp;</p>
                     </div>
 
                     <div>
                         <h3 className="text-xl">Purple Negroni</h3>
                         <p>Empress Gin, Lillet Blanc, Luxardo Bianco, Eucalyptus Bitters, Orange</p>
-                        <p>15</p>
+                        <p>14</p>
                         <p>&nbsp;</p>
                     </div>
                     <div>
                         <h3 className="text-xl">The Brooklyn</h3>
                         <p>Rittenhouse Rye, Dolin Vermouth, Luxardo Maraschino, Ramazzotti Amaro, Spritz of Velvet Falernum</p>
-                        <p>15</p>
+                        <p>14</p>
                         <p>&nbsp;</p>
                     </div>
+                    <hr />
+                    <p>&nbsp;</p>
                     <div>
-                        <h3 className="text-xl">Well Mixed Drink</h3>
-                        <p>10</p>
+                        <h3 className="text-xl">Mixed Drinks</h3>
+                        <p>Well* 10 / Call 12 / Top Shelf 15 </p>
                         <p>&nbsp;</p>
                     </div>
-
+                    
                     <div>
                         <h3 className="text-xl">Beer</h3>
                         <p><span>Brooklyn-based KCBC selection of</span>&nbsp;16 oz. Lager, IPA and Seasonal Beers</p>
                         <p>10</p>
                         <p>&nbsp;</p>
-                        <p>Bud, Bud Light, Yuengling or Stella Artois 12 oz.</p>
-                        <p>8</p>
+                        <p>Stella Artois</p>
+                        <p>7</p>
+                        <p>&nbsp;</p>
+                        <p>Bud, Bud Light, Yuengling</p>
+                        <p>5</p>
                         <p>&nbsp;</p>
                     </div>
 
                     <div>
                         <h3 className="text-xl">Hard Seltzer</h3>
-                        <p>8</p>
+                        <p>7</p>
                         <p>&nbsp;</p>
                     </div>
 
                     <div>
                         <h3 className="text-xl">Wine</h3>
-                        <p><span>Rotating selection of Cabernet Sauvignon, Pinot Noir, Sauvignon Blanc, Chardonnay, Sparkling Ros</span><span>é</span>&nbsp;and Prosecco</p>
+                        <p>Archer Roose Sauvignon Blanc, Pinot Grigio, Malbec, Sparkling Rosé or Prosecco (8.4 oz. pour)</p>
                         <p>10</p>
+                        <p>&nbsp;</p>
+                        <p>Glass of Carnivor Cabernet Sauvignon or Imagery Pinot Noir</p>
+                        <p>8</p>
                         <p>&nbsp;</p>
 
                     </div>
@@ -90,15 +98,15 @@ export default function Menu() {
                     <h2 className="text-2xl">Combos</h2>
                     <div>
                         <h3 className="text-xl">Artist’s Special</h3>
-                        <p><span>Can of Bud, Bud Light or Yuengling Lager</span>&nbsp;&amp; Shot of Tequila or Whiskey</p>
-                        <p>8</p>
+                        <p>Can of Bud, Bud Light or Yuengling & Well* Shot</p>
+                        <p>9</p>
                         <p>&nbsp;</p>
                     </div>
 
                     <div>
                         <h3 className="text-xl">The Savage Detectives</h3>
-                        <p>Can of White Label Mate &amp; Shot of Mezcal</p>
-                        <p>10</p>
+                        <p>Can of White Label Mate & Shot of Mezcal</p>
+                        <p>11</p>
                         <p>&nbsp;</p>
                     </div>
 
@@ -160,7 +168,7 @@ export default function Menu() {
                     </div>
 
                     <div>
-                        <h3 className="text-xl">Vegan Protein Puffs (Ranch, Cheddar, Pizza, Hot &amp; Spicy)</h3>
+                        <h3 className="text-xl">Outstanding Puffs - Vegan Protein Puffs (Ranch, Cheddar, Pizza, Hot &amp; Spicy)</h3>
                         <p>3</p>
                         <p>&nbsp;</p>
                     </div>
@@ -168,6 +176,19 @@ export default function Menu() {
                     <div>
                         <h3 className="text-xl">Crunchy Roasted Edamame Beans (Sea Salt, Sriracha, Buffalo)</h3>
                         <p>3</p>
+                        <p>&nbsp;</p>
+                    </div>
+
+                    <hr />
+                    
+                    <div>
+                        <p>&nbsp;</p>
+                        <h2 className="text-2xl">Happy Hour Discount of $2 off all drink and combo purchases before 8 pm</h2>
+                        <p>&nbsp;</p>
+                        <h2 className="text-xl">*Silo doesn't have a well.</h2>
+                        <p>We don't serve anything we aren't willing to display on our shelves.</p>
+                        <p>For those on a budget, we've sourced the most reasonably priced liquor that we'd be comfortable serving to a friend at home.</p>
+                        <p>&nbsp;</p>
                         <p>&nbsp;</p>
                     </div>
                 </div>
