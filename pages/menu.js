@@ -23,7 +23,7 @@ export default function Menu() {
                     </div>
 
                     <div>
-                        <h3 className="text-xl">Silo Margarita</h3>
+                        <h3 className="text-xl">SILO Margarita</h3>
                         <p>Milagro Tequila, Chartreuse, St. Germain, Lime, Serrano Simple Syrup, Club Soda, Basil, Tajín Rim</p>
                         <p>15</p>
                         <p>&nbsp;</p>
