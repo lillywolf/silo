@@ -185,9 +185,9 @@ export default function Menu() {
                         <p>&nbsp;</p>
                         <h2 className="text-2xl">Happy Hour Discount of $2 off all drink and combo purchases before 8 pm</h2>
                         <p>&nbsp;</p>
-                        <h2 className="text-xl">*Silo doesn't have a well.</h2>
-                        <p>We don't serve anything we aren't willing to display on our shelves.</p>
-                        <p>For those on a budget, we've sourced the most reasonably priced liquor that we'd be comfortable serving to a friend at home.</p>
+                        <h2 className="text-xl">*SILO doesn&apos;t have a well.</h2>
+                        <p>We don&apos;t serve anything we aren&apos;t willing to display on our shelves.</p>
+                        <p>For those on a budget, we&apos;ve sourced the most reasonably priced liquor that we&apos;d be comfortable serving to a friend at home.</p>
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
                     </div>
