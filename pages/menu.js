@@ -98,7 +98,7 @@ export default function Menu() {
                     <div>
                         <h3 className="text-xl">The Savage Detectives</h3>
                         <p>Can of White Label Mate &amp; Shot of Mezcal</p>
-                        <p>8</p>
+                        <p>10</p>
                         <p>&nbsp;</p>
                     </div>
 
