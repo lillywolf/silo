@@ -30,8 +30,8 @@ export default function Policies() {
             <p className='answer'>All exits are final unless otherwise specified in the event’s ticket details.</p>
             <p className='prompt'>What if I want to have a smoke?</p>
             <p className='answer'>There is a designated smoking area just outside the side door to the right of the stage. There will be a member of our security team at the door who will check your stamp upon re-entering the venue.</p>
-            {/* <p className='prompt'>Its gonna be a hot night, but I got this mink coat on me...you guys got a coat check?</p>
-            <p className='answer'>There is a designated smoking area just outside the side door to the right of the stage. There will be a member of our security team at the door who will check your stamp upon re-entering the venue.</p> */}
+            <p className='prompt'>Its gonna be a hot night, but I got this big coat on me...you guys got a coat check?</p>
+            <p className='answer'>Yes! Each item is $3, cash or card.</p>
             <h3 className='bold mb-4'>COVID</h3>
             <p className='prompt'>Is vaccination required to enter SILO?</p>
             <p className='answer'>At this time, proof of vaccination is not required for entry to SILO events.</p>
