@@ -75,6 +75,41 @@
 }
 
 @font-face {
+  font-family: 'PPNeueMachina-InktrapLight';
+  src: url('../public/assets/NeueMachina/PPNeueMachina-InktrapLight.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMachina-PlainRegular';
+  src: url('../public/assets/NeueMachina/PPNeueMachina-PlainRegular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMachina-InktrapLightItalic';
+  src: url('../public/assets/NeueMachina/PPNeueMachina-InktrapLightItalic.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMachina-PlainRegularItalic';
+  src: url('../public/assets/NeueMachina/PPNeueMachina-PlainRegularItalic.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PPNeueMachina-InktrapUltrabold';
+  src: url('../public/assets/NeueMachina/PPNeueMachina-InktrapUltrabold.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Exo2';
   src: url('../public/assets/Exo2/Exo2-VariableFont_wght.ttf');
   font-weight: 400;
@@ -160,7 +195,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: NeueMachina, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: PPNeueMachina-PlainRegular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   color: #fdfadf;
@@ -179,6 +214,58 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.policies .prompt {
+  font-family: PPNeueMachina-PlainRegularItalic;
+  color: #f78fdf;
+  font-size: 17px;
+}
+
+.policies a {
+  color: #f78fdf;
+}
+
+.policies .answer {
+  margin-bottom: 20px;
+}
+
+.policies h3 {
+  font-family: PPNeueMachina-PlainRegular;
+  color: #96e0ff;
+  font-size: 22px;
+}
+
+.policies p {
+  font-size: 15px;
+  color: white;
+}
+
+.menu .title {
+  color: #96e0ff;
+  font-family: PPNeueMachina-InktrapUltrabold;
+  margin-bottom: 10px;
+}
+
+.menu .subtext {
+  font-family: PPNeueMachina-PlainRegularItalic;
+}
+
+.menu h3 {
+  color: #f78fdf;
+}
+
+.menu .price {
+  color: #96e0ff;
+}
+
+.menu p {
+  color: white;
+  font-size: 15px;
+}
+
+.menu .footer {
+  color: #fdfadf;
 }
 
 .terms p {
