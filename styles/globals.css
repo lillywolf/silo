@@ -268,6 +268,20 @@ a {
   color: #fdfadf;
 }
 
+.bottles .subtitle {
+  color: #f78fdf;
+  margin-top: 20px;
+}
+
+.bottles div {
+  display: inline-block;
+}
+
+.bottles .price {
+  color: #96e0ff;
+  float: right;
+}
+
 .terms p {
   color: white;
   margin-top: 20px;
