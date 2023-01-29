@@ -18,7 +18,7 @@ export default function About() {
                 <div className='relative pt-16 w-full text-md md:text-lg pb-20'>
                     <p>SILO, formerly known as Secret Loft, started as an underground party in a converted auto garage in Williamsburg in 2012. Over the years, as Secret Loft grew from an earnest experiment into a full-blown series with an energized following, so too did the vision; inspired by the success of their parties, the founders began to lay the groundwork for a new venture and SILO began to take shape.</p>
                     <br></br>
-                    <p>Much of SILO was built by the people that run it now. The acoustic panels, the mezzanine doors, the DJ booth, even the HDMI cables in the walls were installed or hand constructed by the owners and friends of Secret Loft.</p>
+                    {/* <p>A lot of SILO was built by the people that run it now. The acoustic panels, the mezzanine doors, the DJ booth, even the HDMI cables in the walls were installed or hand constructed by the owners and friends of Secret Loft.</p> */}
                     <br></br>
                     <p>SILO is opening in early 2023, and we can&apos;t wait to see you there.</p>
                     {/* <div className='relative max-w-[400px]'>
