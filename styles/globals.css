@@ -103,13 +103,6 @@
 }
 
 @font-face {
-  font-family: 'PPNeueMachina-PlainUltraBoldItalic';
-  src: url('../public/assets/NeueMachina/PPNeueMachina-PlainUltraBoldItalic.otf');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
   font-family: 'PPNeueMachina-InktrapUltrabold';
   src: url('../public/assets/NeueMachina/PPNeueMachina-InktrapUltrabold.otf');
   font-weight: 400;
