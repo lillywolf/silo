@@ -297,7 +297,6 @@ a {
 .menu p {
   color: white;
   font-family: AndaleMono-Italic;
-  /* font-size: 14px; */
 }
 
 .menu .footer {
@@ -563,7 +562,7 @@ a {
     border: 1px solid white;
     margin: 5px auto;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px !important;
   }
 
   .arrow {
@@ -604,6 +603,10 @@ a {
 }
 
 /* Privacy Policy */
+
+.privacy {
+  color: white;
+}
 
 [data-custom-class='body'],
 [data-custom-class='body'] * {

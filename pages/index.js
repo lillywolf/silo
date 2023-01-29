@@ -20,10 +20,10 @@ export default function Home() {
         <meta name="description" content="SILO Brooklyn" />
         <link rel="icon" href="/favicon.ico" />
         {/* NOTE: Consent must be the first script tag on the page */}
-        <Consent />
+        {/* <Consent /> */}
       </Head>
 
-      <main className={ `${ styles.main } m-auto relative bg-[url('/menu_background_1500x1800.jpg')]` }>
+      <main className={ `${ styles.main } m-auto relative bg-black` }>
         <div className='relative'>
         <div className='m-auto pt-40 w-11/12 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
