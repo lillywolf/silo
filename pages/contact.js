@@ -6,11 +6,11 @@ export default function Contact() {
     return (
         <>
             <title>SILO Brooklyn Contact</title>
-            <div className='absolute w-full mt-12 text-s text-center mx-auto'>
+            <div className='absolute w-full mt-12 text-xl text-center mx-auto'>
                 <div className='relative mt-16 lg:mt-28'>
-                    <p>For booking inquiries:</p>
+                    <p>for booking inquiries:</p>
                     <a href="mailto:booking@silobrooklyn.com" className='underline'>booking@silobrooklyn.com</a>
-                    <p className='mt-4'>For all others:</p>
+                    <p className='mt-4'>for all others:</p>
                     <a href="mailto:contact@silobrooklyn.com" className='underline'>contact@silobrooklyn.com</a>
                     {/* <br></br>
                     <br></br>

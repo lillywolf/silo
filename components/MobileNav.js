@@ -4,7 +4,6 @@ import { useState } from 'react';
 import SocialIcons from './SocialIcons';
 import Lockup from './Lockup';
 import MarkWhite from './MarkWhite';
-import SocialIconsBlack from './SocialIconsBlack';
 
 export default function MobileNav() {
     const [navOpen, setNavOpen] = useState();
@@ -21,12 +20,12 @@ export default function MobileNav() {
       <div className='absolute w-full'>
         <div className='absolute z-10'>
           { !navOpen && (
-            <div className='ml-1 mt-4 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
+            <div className='ml-4 mt-5 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
               {/* + MENU */}
-              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="16" height="16" fill="white">
-                  <rect width="100" height="6" rx="5"></rect>
-                  <rect y="30" width="100" height="6" rx="5"></rect>
-                  <rect y="60" width="100" height="6" rx="5"></rect>
+              <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="24" height="24" fill="white">
+                  <rect width="100" height="10" rx="5"></rect>
+                  <rect y="30" width="100" height="10" rx="5"></rect>
+                  <rect y="60" width="100" height="10" rx="5"></rect>
               </svg>
             </div>
           )}
@@ -35,7 +34,7 @@ export default function MobileNav() {
           </div>
         </div>
         <div className='absolute w-full h-6'>
-          <div className='font-[BasementGrotesque-Black] text-[30px] text-center relative mx-auto'>
+          <div className='font-[BasementGrotesque-Black] text-[46px] text-center relative mx-auto'>
             <Link className='' href='/'>
               <a>SILO</a>
             </Link>
@@ -81,29 +80,28 @@ const Brooklyn = () => {
 
 const Menu = ({ onNavClick }) => {
     return (
-        <div className='relative z-10 bg-[#eeeeeeff] text-[#2b2b2b] h-full w-full sm:w-1/2'>
-            <div className='bottom-0 w-full h-full p-5'>
+        <div className='relative bg-black z-10 h-full w-full sm:w-1/2'>
+            <div className='bottom-0 w-full h-full p-5 text-xl'>
               <div className='w-full overflow-hidden cursor-pointer' onClick={ onNavClick }>
-                <div className='w-2 h-3 relative inline-block float-left mt-[10px]'>
+                <div className='w-6 h-6 relative inline-block float-left mt-[10px]'>
                     <Image src='/x.svg' className='mt-1' alt="Menu" layout='fill' />
                 </div>
-                <div className='inline-block float-left ml-2 mt-2 text-xs'>CLOSE</div>
               </div>
               <Link href="/about">
-                  <a className='block w-3/4 mt-4' onClick={onNavClick}>ABOUT</a>
+                  <a className='block w-3/4 mt-4' onClick={onNavClick}>about</a>
               </Link>
               <Link href="/events">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>EVENTS</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>events</a>
               </Link>
               <Link href="/contact">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>CONTACT</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>contact</a>
               </Link>
               <div className='pt-8' onClick={onNavClick}>
-                <SocialIconsBlack />
+                <SocialIcons />
               </div>
-              <div className='text-xs mt-6'>
+              <div className='text-xl mt-6'>
                 <Link href="/">
-                    <a className='inline-block' onClick={onNavClick}>HOME</a>
+                    <a className='inline-block' onClick={onNavClick}>home</a>
                 </Link>
               </div>
             </div>

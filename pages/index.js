@@ -23,12 +23,12 @@ export default function Home() {
         <Consent />
       </Head>
 
-      <main className={ `${ styles.main } m-auto relative` }>
+      <main className={ `${ styles.main } m-auto relative bg-[url('/menu_background_1500x1800.jpg')]` }>
         <div className='relative'>
         <div className='m-auto pt-40 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
         </div>
-        <div className='mx-auto w-9/12' id="dice-event-list-widget"></div>
+        <div className='mx-auto w-[60%]' id="dice-event-list-widget"></div>
         <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
         </div>
       </main>

@@ -103,8 +103,29 @@
 }
 
 @font-face {
+  font-family: 'PPNeueMachina-PlainUltraBoldItalic';
+  src: url('../public/assets/NeueMachina/PPNeueMachina-PlainUltraBoldItalic.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
   font-family: 'PPNeueMachina-InktrapUltrabold';
   src: url('../public/assets/NeueMachina/PPNeueMachina-InktrapUltrabold.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AndaleMono';
+  src: url('../public/assets/AndaleMono/AndaleMono.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AndaleMono-Italic';
+  src: url('../public/assets/AndaleMono/AndaleMono-Italic.ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -198,13 +219,14 @@ body {
   font-family: PPNeueMachina-PlainRegular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  color: #fdfadf;
-  background-color: #111111;
+  color: white;
+  /* color: #fdfadf; */
+  background-color: black;
   height: 100vh;
 }
 
 #__next {
-  background-color: #111111;
+  /* background-color: #111111; */
 }
 
 a {
@@ -218,8 +240,8 @@ a {
 
 .policies .prompt {
   font-family: PPNeueMachina-PlainRegularItalic;
-  color: #f78fdf;
-  font-size: 17px;
+  color: #96e0ff;
+  font-size: 20px;
 }
 
 .policies a {
@@ -232,40 +254,63 @@ a {
 
 .policies h3 {
   font-family: PPNeueMachina-PlainRegular;
-  color: #96e0ff;
-  font-size: 22px;
+  color: #f78fdf;
+  font-size: 26px;
 }
 
 .policies p {
-  font-size: 15px;
+  font-size: 18px;
   color: white;
 }
 
 .menu .title {
-  color: #96e0ff;
-  font-family: PPNeueMachina-InktrapUltrabold;
+  font-family: AndaleMono-Italic;
+  color: white;
   margin-bottom: 10px;
 }
 
 .menu .subtext {
-  font-family: PPNeueMachina-PlainRegularItalic;
+  font-family: AndaleMono-Italic;
+}
+
+.menu .name-and-price {
+  /* font-size: 22px;
+  line-height: 28px; */
+  color: white;
 }
 
 .menu h3 {
-  color: #f78fdf;
+  font-family: AndaleMono-Italic;
+  text-transform: uppercase;
+  text-align: right;
+  width: 66%;
+  /* font-size: 22px; */
+  display: inline-block;
+  /* color: #f78fdf; */
 }
 
 .menu .price {
-  color: #96e0ff;
+  font-family: AndaleMono;
+  width: 33%;
+  text-align: right;
+  display: inline-block;
+}
+
+.menu .price.sub-price {
+  display: block;
+  width: 100%;
 }
 
 .menu p {
   color: white;
-  font-size: 15px;
+  font-family: AndaleMono-Italic;
+  /* font-size: 14px; */
 }
 
 .menu .footer {
-  color: #fdfadf;
+  font-family: AndaleMono-Italic;
+  font-size: 14px;
+  /* color: #fdfadf; */
 }
 
 .bottles .subtitle {
@@ -288,8 +333,8 @@ a {
 }
 
 .terms b {
-  font-family: NeueMachina-UltraBold;
-  color: #fdfadf;
+  font-family: PPNeueMachina-PlainRegular;
+  color: white;
 }
 
 .terms a {
@@ -317,11 +362,11 @@ a {
 #mc_embed_signup {
   animation: 1s ease-out 0s 1 fadein;
   font-family: 'NeueMachina';
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px 35px;
   display: flex;
   color: white;
-  background-color: #111111;
+  /* background-color: #111111; */
   width: 100%;
 }
 
@@ -333,14 +378,14 @@ a {
 }
 
 #mc_embed_signup h3 {
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.2px;
   margin: 0px 0;
   text-align: center;
 }
 
 #mc_embed_signup h4 {
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.2px;
   margin-top: 15px;
   text-align: center;
@@ -356,13 +401,14 @@ a {
   cursor: pointer;
   color: white;
   margin-top: 4px;
-  font-size: 14px;
-  height: 33px;
-  width: 78px;
+  font-size: 16px;
+  height: 38px;
+  width: 90px;
   background-color: black;
   border: 1px solid white;
   display: inline-block;
   padding: 2px 0 0px;
+  border-radius: 4px;
 }
 
 #mc_embed_signup input:focus {
@@ -392,10 +438,12 @@ a {
 }
 
 #mc_embed_signup .email {
-  height: 30px;
-  margin: 5px 0;
+  height: 38px;
+  border-radius: 4px;
+  margin: 4px 0;
   padding: 5px;
-  border-bottom: 1px solid white;
+  background-color: transparent;
+  border: 1px solid white;
   width: 100%;
 }
 
@@ -415,8 +463,9 @@ a {
 }
 
 #mce-error-response, #mce-success-response {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 10px;
+  color: white;
 }
 
 #mce-success-response {
@@ -424,11 +473,12 @@ a {
 }
 
 #mc_embed_signup .mce_inline_error {
-  color: orangered !important;
+  color: white !important;
   padding: 10px 0 !important;
   margin-bottom: 0 !important;
   margin-top: 5px !important;
-  font-size: 12px !important;
+  font-size: 16px !important;
+  border-color: white !important;
   background-color: transparent !important;
   font-weight: normal !important;
 }
@@ -436,8 +486,8 @@ a {
 #mc_embed_signup #mce-EMAIL {
   font-family: 'NeueMachina';
   padding: 15px 8px !important;
-  font-size: 14px !important;
-  background-color: #111111 !important;
+  font-size: 16px !important;
+  /* background-color: #111111 !important; */
   color: white !important;
 }
 
@@ -481,7 +531,7 @@ a {
 /* CSS For the email signup page */
 .email-signup #mc_embed_signup {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .email-signup #mc_embed_signup h3 {
@@ -509,7 +559,7 @@ a {
   #mc_embed_signup h3 {
     /* border-bottom: 1px dashed grey; */
     padding-bottom: 5px;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   #mc_embed_signup h4 {
@@ -518,9 +568,9 @@ a {
 
   #mc_embed_signup .sign-up {
     border: 1px solid white;
-    margin: 4px auto;
+    margin: 5px auto;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .arrow {
@@ -542,7 +592,7 @@ a {
   .genres-list {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 11px;
+    font-size: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -564,7 +614,7 @@ a {
 
 [data-custom-class='body'],
 [data-custom-class='body'] * {
-  color: #fdfadf !important;
+  color: white !important;
   background: transparent !important;
 }
 
@@ -580,7 +630,7 @@ a {
 
 [data-custom-class='subtitle'],
 [data-custom-class='subtitle'] * {
-  font-size: 14px !important;
+  font-size: 18px !important;
 }
 
 [data-custom-class='heading_1'],
@@ -595,7 +645,7 @@ a {
 
 [data-custom-class='body_text'],
 [data-custom-class='body_text'] * {
-  font-size: 14px !important;
+  font-size: 18px !important;
 }
 
 [data-custom-class='link'],

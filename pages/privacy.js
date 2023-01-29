@@ -2,7 +2,7 @@ export default function Privacy() {
   return (
     <>
       <title>SILO Brooklyn Privacy Policy</title>
-      <div className='block px-10 text-left text-sm pt-40 mx-auto pb-20 w-[90%] sm:w-[75%]'>
+      <div className='block px-10 text-left text-lg pt-40 mx-auto pb-20 w-[90%] sm:w-[75%]'>
         <div dangerouslySetInnerHTML={{ __html: privacyPolicySnippet() }} />
       </div>
     </>
