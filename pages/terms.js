@@ -3,8 +3,8 @@ export default function Terms() {
         <>
         <title>SILO Brooklyn Terms</title>
         <div className='w-full'>
-        <div className='terms px-10 block text-left text-lg pt-40 mx-auto'>
-            <p className="text-2xl"><a href="/covid">COVID-19 Policy</a></p>
+        <div className='terms px-10 block text-left text-sm md:text-lg pt-40 mx-auto'>
+            <p className="text-lg"><a href="/covid">COVID-19 Policy</a></p>
             <p><b>Last Updated: January 1, 2023</b></p>
 
             <p>
