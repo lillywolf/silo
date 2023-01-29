@@ -28,7 +28,7 @@ export default function Home() {
         <div className='m-auto pt-40 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
         </div>
-        <div className='mx-auto w-[60%]' id="dice-event-list-widget"></div>
+        <div className='mx-auto w-full md:w-[60%]' id="dice-event-list-widget"></div>
         <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
         </div>
       </main>
