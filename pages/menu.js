@@ -1,6 +1,6 @@
 export default function Menu() {
     return (
-        <div className="menu bg-[url('/menu_background_1500x1800.jpg')] pt-12 md:pt-20 lg:pt-28 pb-40 px-6 md:px-10 w-full">
+        <div className="menu pt-12 md:pt-20 lg:pt-28 pb-40 px-6 md:px-10 w-full">
             <div className="w-full mx-auto md:w-3/4 lg:w-[880px] text-right font-[Andale-Mono]">
                 <title>SILO Brooklyn Menu</title>
                 <div className='mt-20'>
