@@ -11,7 +11,7 @@ export default function Home() {
     
       return () => window.DiceEventListWidget.destroy();
     }
-  }, [])   
+  })   
 
   return (
     <div className={styles.container}>
@@ -28,7 +28,7 @@ export default function Home() {
         <div className='m-auto pt-40 w-11/12 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
         </div>
-        <div className='mx-auto w-10/12 md:w-[60%]' id="dice-event-list-widget"></div>
+        <div className='mx-auto w-10/12 md:w-7/12' id="dice-event-list-widget"></div>
         <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
         </div>
       </main>

@@ -7,11 +7,11 @@ export default function Events() {
     
             return () => window.DiceEventListWidget.destroy();
         }
-    }, [])   
+    })   
  
     return (
         <div className='absolute text-center text-white w-full mt-40'>
-            <div className='mx-auto w-9/12' id="dice-event-list-widget"></div>
+            <div className='mx-auto w-10/12 md:w-7/12' id="dice-event-list-widget"></div>
             <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
         </div>
     );
