@@ -3,7 +3,7 @@ export default function Privacy() {
     <>
       <title>SILO Brooklyn Privacy Policy</title>
       <div className='privacy block text-left text-lg px-10 pt-40 pb-20 mx-auto'>
-        <div dangerouslySetInnerHTML={{ __html: privacyPolicySnippet() }} />
+        {/* <div dangerouslySetInnerHTML={{ __html: privacyPolicySnippet() }} /> */}
       </div>
     </>
   )

@@ -5,7 +5,7 @@ export default function Location() {
         <>
             <title>SILO Brooklyn Location</title>
             <div className='absolute w-full text-left'>
-                <div className='mt-40 mx-auto w-8/12'>
+                <div className='mt-40 mx-auto w-10/12 sm:w-9/12 lg:w-8/12'>
                     <div className='block relative mt-4 mb-4 text-xl text-center md:text-left'>
                         <p>we are located at 90 Scott Ave, Brooklyn NY</p>
                         <p>SUBWAY</p>
