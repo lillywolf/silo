@@ -23,7 +23,7 @@ export default function Home() {
         {/* <Consent /> */}
       </Head>
 
-      <main className={ `${ styles.main } m-auto relative bg-black` }>
+      <main className={ `${ styles.main } m-auto relative bg-[url('/menu_background_1000x1800.jpg')]` }>
         <div className='relative'>
         <div className='m-auto pt-40 w-11/12 sm:w-[520px] lg:w-[600px]'>
             <EmailSignup />
