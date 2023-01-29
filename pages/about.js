@@ -20,7 +20,7 @@ export default function About() {
                     <br></br>
                     <p>Much of SILO was built, both metaphorically and not, by the team that runs it now. The acoustic panels, the mezzanine doors, the DJ booth, and numerous other fixtures were hand constructed by the owners and friends of Secret Loft. The decor and interior design, the cocktail menu, all developed internally. Even the HDMI cables that live inside the walls were run by the team, working in down coats and using a borrowed lift and safety harnesses in the winter of 2021.</p>
                     <br></br>
-                    <p>SILO is opening in early 2023, and we can't wait to see you there.</p>
+                    <p>SILO is opening in early 2023, and we can&apos;t wait to see you there.</p>
                     {/* <div className='relative max-w-[400px]'>
                         <Image src='/exterior_1.jpeg' width={300} height={200} layout="responsive" objectFit="contain"/>
                     </div> */}
