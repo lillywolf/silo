@@ -1,6 +1,6 @@
 export default function Policies() {
     return (
-        <div className='policies pt-40 pb-40 px-10 mx-auto w-full md:w-3/4'>
+        <div className='policies pt-32 md:pt-40 pb-40 px-10 mx-auto w-full md:w-3/4'>
             {/* <p className='answer'>A short intro paragraph</p> */}
             <h3 className='bold mb-4'>Age Restrictions</h3>
             <p className='prompt'>How old do I have to be to enter SILO?</p>

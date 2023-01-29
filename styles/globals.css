@@ -234,7 +234,7 @@ a {
 .policies .prompt {
   font-family: PPNeueMachina-PlainRegularItalic;
   color: #96e0ff;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .policies a {
@@ -537,6 +537,17 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .policies .prompt {
+    font-size: 16px;
+  }
+
+  .policies h3 {
+    font-size: 20px;
+  }
+
+  .policies p {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

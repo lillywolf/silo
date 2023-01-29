@@ -7,7 +7,7 @@ export default function Events() {
     
             return () => window.DiceEventListWidget.destroy();
         }
-    })   
+    }, [])   
  
     return (
         <div className='absolute text-center text-white w-full mt-40'>
