@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 export default function Layout({ children, pathname }) {
     return (
-        <div className="width-full min-h-screen bg-contain bg-[url('/menu_background_1000x1800.jpg')] md:bg-auto md:bg-[url('/menu_background_1500x1800.jpg')]">
+        <div className="width-full min-h-screen bg-contain bg-[url('/menu_background_780x1800.jpg')] md:bg-auto md:bg-[url('/menu_background_1500x1800.jpg')]">
             <div className='absolute top-0 w-full z-10 h-12 sm:h-16 lg:hidden'>
                 <MobileNav />
             </div>
