@@ -63,16 +63,16 @@ export default function Menu() {
                     <h2 className="title text-md sm:text-lg md:text-xl lg:text-2xl">beer</h2>
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>10 oz Lager, Hazy Pale Ale, Pilsner, Seasonal Beers</h3>
+                            <h3>16 oz Hazy Pale Ale, Pilsner, Seasonal Beers</h3>
                             <div className="price">10</div>
                         </div>
                         <p className="text-xs">Brooklyn-based KCBC Selection</p>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Stella Artois</h3>
+                            <h3>Corona, Stella Artois</h3>
                             <div className="price">7</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Bud, Bud Light, Yuengling, Corona</h3>
+                            <h3>Bud, Bud Light, Yuengling</h3>
                             <div className="price">5</div>
                         </div>
                         <p>&nbsp;</p>
