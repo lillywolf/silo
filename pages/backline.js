@@ -9,23 +9,26 @@ export default function Backline() {
                     <p className='text-white'>MAIN ROOM SOUND SYSTEM</p>
                     <br></br>
                     <p>2 x Danley SH96HO mains</p>
-                    <p>2 x Danley BC218 subwoofers</p>
-                    <p>2 x Danley SH46 rear fills (low-end extension down to 22 Hz)</p>
+                    <p>2 x Danley BC218 subwoofers (low-end extension down to 22 Hz)</p>
+                    <p>2 x Danley SH46 rear fills</p>
                     <p>2 x Danley 20K4 amplifiers (total 40,000 watts amplifier power)</p>
                     <p>2 x Electrovoice PXM-12MP stage monitors configurable on stands facing DJ console or as floor wedges</p>
+                    <p>Electrovoice ELX-200 18SP 18 inch powered sub-woofer (optional DJ sub monitor)</p>
                     <p>Allen & Heath SQ-5 digital mixer (48 channels, 96kHz processing) with AR2412 digital stage box</p>
                     <br></br>
                     <p className='text-white'>DJ</p>
                     <br></br>
-                    <p>2 x Pioneer CDJ-3000</p>
-                    <p>2 x Pioneer PLX-1000 turntables</p>
-                    <p>Pioneer DJM-V10 6-channel mixer</p>
+                    <p>4 x Pioneer CDJ-3000</p>
+                    <p>3 x Pioneer CDJ-2000 NXS2</p>
+                    <p>2 x Technics SL-1200 MK7 turntable w/ Audio Technica AT-VM95E Cartridge</p>
+                    <p>Pioneer DJM-V10 6-channel digital mixer</p>
+                    <p>Pioneer DJM-900 NXS2 4-channel digital mixer</p>
+                    <p>Allen & Heath Xone96 6-channel analog mixer</p>
                     <br></br>
                     <p className='text-white'>FRONT ROOM (SMALL PA)</p>
                     <br></br>
                     <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeakers</p>
                     <p>3000 Watt Behringer Eurolive B1800XP subwoofer</p>
-                    <p>2 Yamaha wedge stage monitors</p>
                     <p>Mackie ProFX16 Mixer w/ reverb and delay</p>
                     <br></br>
                     <p className='text-white'>MICS</p>
@@ -56,6 +59,7 @@ export default function Backline() {
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>3 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>2 x Chauvet Hurricane Hazer 1DX</p>
+                    <p>1 x Chauvet Hurricane Haze 2D</p>
                     <p>2 x ADJ Ultra Hex Bar uplighting (capable of full blacklight, amber, white)</p>
                     <p>5 x ADJ 6p Hex Par - Fill Washes</p>
                     <p>Chamsys QuickQ30 Control Board</p>
