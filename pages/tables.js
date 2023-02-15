@@ -3,8 +3,10 @@ export default function BottleService () {
         <div className='bottles mt-40 pb-40 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
             <div className='col w-full md:mx-8 md:w-5/12'>
                 <p className='subtitle'>Tequila</p>
-                <p><div>Casamigos Blanco</div><div className='price'>$700</div></p>
-                <p><div>Casamigos Reposado</div><div className='price'>$700</div></p>
+                <p><div>Don Julio 1942 Tequila</div><div className='price'>$1000</div></p>
+                <p><div>Tequila Reposado by Clase Azul</div><div className='price'>$1000</div></p>
+                <p><div>Casamigos Reposado</div><div className='price'>$650</div></p>
+                <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
                 <p><div>Milagro</div><div className='price'>$500</div></p>
                 <p className='subtitle'>Mezcal</p>
                 <p><div>Ilegal Mezcal</div><div className='price'>$700</div></p>
@@ -28,12 +30,17 @@ export default function BottleService () {
                 <p className='subtitle'>Rum</p>
                 <p><div>Bacardi Silver</div><div className='price'>$500</div></p>
                 <p><div>Sailor Jerry</div><div className='price'>$500</div></p>
+                <p className='subtitle'>Champagne</p>
+                <p><div>Veuve Clicquot Brut Yellow Label</div><div className='price'>$400</div></p>
+                <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$450</div></p>
+                <p><div>Dom Perignon Brut</div><div className='price'>$900</div></p>
                 <p className='subtitle'>Red Bull</p>
                 <p><div>5 cans</div><div className='price'>$25</div></p>
                 <p><div>10 cans</div><div className='price'>$50</div></p>
-                <p><div>Regular, Sugar Free</div></p>
-                <p className='subtitle'>Fiji Water</p>
-                <p><div>6 pack</div><div className='price'>$25</div></p>
+                <p><div>Regular, Sugar Free, Tropical</div></p>
+                <p className='subtitle'>Liquid Death Mountain Water</p>
+                <p><div>4 pack</div><div className='price'>$16</div></p>
+                <p><div>Still or Sparkling</div></p>
             </div>
         </div>
     );
