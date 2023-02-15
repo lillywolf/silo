@@ -12,8 +12,6 @@ export default function Contact() {
                     <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a>
                     <p>for booking inquiries:</p>
                     <a href="mailto:booking@silobrooklyn.com" className='underline'>booking@silobrooklyn.com</a>
-                    <p className='mt-4'>for tables:</p>
-                    <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a>
                     <p className='mt-4'>for lost and found:</p>
                     <a href="mailto:lostandfound@silobrooklyn.com" className='underline'>lostandfound@silobrooklyn.com</a>
                     <p className='mt-4'>for accessibility requests:</p>
