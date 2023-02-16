@@ -1,10 +1,10 @@
-export default function Backline() {
+export default function Tech() {
     return (
         <>
-            <title>SILO Brooklyn Backline</title>
+            <title>SILO Technical Equipment</title>
             <div className='absolute w-full text-left'>
                 <div className='relative mt-40 mb-40 w-9/12 text-s mx-auto lg:w-6/12'>
-                    <p className='text-2xl text-white'>BACKLINE</p>
+                    <p className='text-2xl text-white'>SILO TECHNICAL EQUIPMENT</p>
                     <br></br>
                     <p className='text-white'>MAIN ROOM SOUND SYSTEM</p>
                     <br></br>
@@ -18,7 +18,7 @@ export default function Backline() {
                     <br></br>
                     <p className='text-white'>DJ</p>
                     <br></br>
-                    <p>4 x Pioneer CDJ-3000</p>
+                    <p>5 x Pioneer CDJ-3000</p>
                     <p>3 x Pioneer CDJ-2000 NXS2</p>
                     <p>2 x Technics SL-1200 MK7 turntable w/ Audio Technica AT-VM95E Cartridge</p>
                     <p>Pioneer DJM-V10 6-channel digital mixer</p>
