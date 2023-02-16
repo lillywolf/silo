@@ -1,47 +1,101 @@
-export default function BottleService () {
+import Image from 'next/image'
+
+export default function Tables() {
     return (
-        <div className='bottles mt-40 pb-40 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
-            <div className='col w-full md:mx-8 md:w-5/12'>
-                <p className='subtitle'>Tequila</p>
-                <p><div>Don Julio 1942 Tequila</div><div className='price'>$1000</div></p>
-                <p><div>Tequila Reposado by Clase Azul</div><div className='price'>$1000</div></p>
-                <p><div>Casamigos Reposado</div><div className='price'>$650</div></p>
-                <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
-                <p><div>Milagro</div><div className='price'>$500</div></p>
-                <p className='subtitle'>Mezcal</p>
-                <p><div>Ilegal Mezcal</div><div className='price'>$700</div></p>
-                <p><div>Montelobos Mezcal</div><div className='price'>$700</div></p>
-                <p className='subtitle'>Vodka</p>
-                <p><div>Grey Goose</div><div className='price'>$650</div></p>
-                <p><div>Tito’s</div><div className='price'>$500</div></p>
-                <p className='subtitle'>Whiskey</p>
-                <p><div>Johnny Walker Blue Label</div><div className='price'>$1200</div></p>
-                <p><div>Johnny Walker Black Label</div><div className='price'>$800</div></p>
-                <p><div>Glenfiddich 12 Year</div><div className='price'>$800</div></p>
-                <p><div>Bulleit Bourbon</div><div className='price'>$600</div></p>
-                <p><div>Jameson Irish Whiskey</div><div className='price'>$500</div></p>
+        <>
+            <title>Table Service at SILO</title>
+            <div className='tables pt-40 pb-6 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
+                <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
+                <div className='col w-full md:mx-8 md:w-5/12'>
+                    <p className='subtitle'>Tequila</p>
+                    <p><div>Don Julio 1942 Tequila</div><div className='price'>$1000</div></p>
+                    <p><div>Clase Azul Tequila Reposado</div><div className='price'>$1000</div></p>
+                    <p><div>Casamigos Reposado</div><div className='price'>$650</div></p>
+                    <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
+                    <p><div>Milagro</div><div className='price'>$500</div></p>
+                    <p className='subtitle'>Mezcal</p>
+                    <p><div>Ilegal Mezcal</div><div className='price'>$700</div></p>
+                    <p><div>Montelobos Mezcal</div><div className='price'>$700</div></p>
+                    <p className='subtitle'>Vodka</p>
+                    <p><div>Grey Goose</div><div className='price'>$650</div></p>
+                    <p><div>Tito’s</div><div className='price'>$500</div></p>
+                    <p className='subtitle'>Whiskey</p>
+                    <p><div>Johnny Walker Blue Label</div><div className='price'>$1200</div></p>
+                    <p><div>Johnny Walker Black Label</div><div className='price'>$800</div></p>
+                    <p><div>Glenfiddich 12 Year</div><div className='price'>$800</div></p>
+                    <p><div>Bulleit Bourbon</div><div className='price'>$600</div></p>
+                    <p><div>Jameson Irish Whiskey</div><div className='price'>$500</div></p>
+                </div>
+                <div className='col w-full md:mx-8 md:w-5/12 md:align-top'>
+                    <p className='subtitle'>Champagne</p>
+                    <p><div>Veuve Clicquot Brut</div><div className='price'>$400</div></p>
+                    <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$450</div></p>
+                    <p><div>Dom Perignon Brut</div><div className='price'>$900</div></p>
+                    <p className='subtitle'>Cognac</p>
+                    <p><div>Hennessy VS</div><div className='price'>$650</div></p>
+                    <p className='subtitle'>Gin</p>
+                    <p><div>Bombay Sapphire</div><div className='price'>$650</div></p>
+                    <p><div>Hendrick’s</div><div className='price'>$500</div></p>
+                    <p className='subtitle'>Rum</p>
+                    <p><div>Bacardi Silver</div><div className='price'>$500</div></p>
+                    <p><div>Sailor Jerry</div><div className='price'>$500</div></p>
+                    <p className='subtitle'>Red Bull</p>
+                    <p><div>5 cans</div><div className='price'>$25</div></p>
+                    <p><div>10 cans</div><div className='price'>$50</div></p>
+                    <p><div>Regular, Sugar Free, Tropical</div></p>
+                    <p className='subtitle'>Liquid Death Mountain Water</p>
+                    <p><div>4 pack</div><div className='price'>$16</div></p>
+                    <p><div>Still or Sparkling</div></p>
+                </div>
+                <div className='col w-full py-20 md:mx-8 md:w-10/12'>
+                    <p>Table reservations include tickets to the event and expedited entry.</p>
+                    <p className='mt-2'>There is a minimum spend based on your party size.</p>
+                    <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
+                </div>
+                <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SECTION PHOTOS</div>
             </div>
-            <div className='col w-full md:mx-8 md:w-5/12 md:align-top'>
-                <p className='subtitle'>Gin</p>
-                <p><div>Bombay Sapphire</div><div className='price'>$650</div></p>
-                <p><div>Hendrick’s</div><div className='price'>$500</div></p>
-                <p className='subtitle'>Cognac</p>
-                <p><div>Hennessy VS</div><div className='price'>$650</div></p>
-                <p className='subtitle'>Rum</p>
-                <p><div>Bacardi Silver</div><div className='price'>$500</div></p>
-                <p><div>Sailor Jerry</div><div className='price'>$500</div></p>
-                <p className='subtitle'>Champagne</p>
-                <p><div>Veuve Clicquot Brut Yellow Label</div><div className='price'>$400</div></p>
-                <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$450</div></p>
-                <p><div>Dom Perignon Brut</div><div className='price'>$900</div></p>
-                <p className='subtitle'>Red Bull</p>
-                <p><div>5 cans</div><div className='price'>$25</div></p>
-                <p><div>10 cans</div><div className='price'>$50</div></p>
-                <p><div>Regular, Sugar Free, Tropical</div></p>
-                <p className='subtitle'>Liquid Death Mountain Water</p>
-                <p><div>4 pack</div><div className='price'>$16</div></p>
-                <p><div>Still or Sparkling</div></p>
-            </div>
-        </div>
+            <div className='flex gap-6 tables-photos pb-36'>
+                    <div className='item basis-1/3'>
+                        <div className='mt-3'>
+                        <Image
+                            src="/tables1.jpg"
+                            width="50%"
+                            height="33%"
+                            layout="responsive"
+                            alt="Photo of the main showroom with tables"
+                        />
+                        </div>
+                        <div className='pt-6'>
+                        <Image
+                            src="/tables2.jpg"
+                            width="50%"
+                            height="33%"
+                            layout="responsive"
+                            alt="Photo of VIP tables on the right side of the show room"
+                        />
+                        </div>
+                    </div>
+                    <div className='item basis-1/3'>
+                        <div>
+                        <Image
+                            src="/tables3.jpg"
+                            width="50%"
+                            height="33%"
+                            layout="responsive"
+                            alt="Photo of VIP tables in the show room"
+                        />
+                        </div>
+                        <div className='pt-6'>
+                        <Image
+                            src="/tables4.jpg"
+                            width="50%"
+                            height="33%"
+                            layout="responsive"
+                            alt="Photo of VIP tables in the show room"
+                        />
+                        </div>
+                    </div>
+                </div>
+        </>
     );
 }

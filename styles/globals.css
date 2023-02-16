@@ -305,18 +305,24 @@ a {
   /* color: #fdfadf; */
 }
 
-.bottles .subtitle {
+.tables .subtitle {
   color: #f78fdf;
   margin-top: 20px;
 }
 
-.bottles div {
+.tables div {
   display: inline-block;
 }
 
-.bottles .price {
+.tables .price {
   color: #96e0ff;
   float: right;
+}
+
+.tables-photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .terms p {
