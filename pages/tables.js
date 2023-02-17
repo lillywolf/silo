@@ -28,9 +28,9 @@ export default function Tables() {
                 </div>
                 <div className='col w-full md:mx-8 md:w-5/12 md:align-top'>
                     <p className='subtitle'>Champagne</p>
-                    <p><div>Veuve Clicquot Brut</div><div className='price'>$400</div></p>
-                    <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$450</div></p>
-                    <p><div>Dom Perignon Brut</div><div className='price'>$900</div></p>
+                    <p><div>Veuve Clicquot Brut</div><div className='price'>$375</div></p>
+                    <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$375</div></p>
+                    <p><div>Dom Perignon Brut</div><div className='price'>$575</div></p>
                     <p className='subtitle'>Cognac</p>
                     <p><div>Hennessy VS</div><div className='price'>$650</div></p>
                     <p className='subtitle'>Gin</p>
