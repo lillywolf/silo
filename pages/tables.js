@@ -14,8 +14,9 @@ export default function Tables() {
                     <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
                     <p><div>Milagro</div><div className='price'>$500</div></p>
                     <p className='subtitle'>Mezcal</p>
-                    <p><div>Ilegal Mezcal</div><div className='price'>$700</div></p>
-                    <p><div>Montelobos Mezcal</div><div className='price'>$700</div></p>
+                    <p><div>Casamigos Mezcal</div><div className='price'>$800</div></p>
+                    <p><div>Ilegal Mezcal</div><div className='price'>$600</div></p>
+                    <p><div>Montelobos Mezcal</div><div className='price'>$600</div></p>
                     <p className='subtitle'>Vodka</p>
                     <p><div>Grey Goose</div><div className='price'>$650</div></p>
                     <p><div>Tito’s</div><div className='price'>$500</div></p>
@@ -30,8 +31,9 @@ export default function Tables() {
                     <p className='subtitle'>Champagne</p>
                     <p><div>Veuve Clicquot Brut</div><div className='price'>$375</div></p>
                     <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$375</div></p>
-                    <p><div>Dom Perignon Brut</div><div className='price'>$575</div></p>
+                    <p><div>Dom Perignon Brut</div><div className='price'>$800</div></p>
                     <p className='subtitle'>Cognac</p>
+                    <p><div>Remy Martin Mix Tape - Limited Edition VSOP</div><div className='price'>$650</div></p>
                     <p><div>Hennessy VS</div><div className='price'>$650</div></p>
                     <p className='subtitle'>Gin</p>
                     <p><div>Bombay Sapphire</div><div className='price'>$650</div></p>
