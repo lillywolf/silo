@@ -15,7 +15,7 @@ function mailchimpSnippet() {
         <div id="mc_embed_signup">
         <form action="https://secretloft.us14.list-manage.com/subscribe/post?u=d9dcc8b8380559a2218a1e426&amp;id=6c77cd1c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-            <h3>We’re building a new dance floor in Brooklyn.</h3>
+            <h3>We built a new dance floor in Brooklyn.</h3>
             <!-- p class="subscribe">&#x1F496;&#x1F496;</p -->
             <h4>Sign up for early access to our parties:</h4>
             <div class="mc-email-group">

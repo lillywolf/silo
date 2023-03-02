@@ -93,6 +93,9 @@ const Menu = ({ onNavClick }) => {
               <Link href="/events">
                   <a className='block w-3/4 mt-1' onClick={onNavClick}>events</a>
               </Link>
+              <Link href="/comedy-and-community">
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>community</a>
+              </Link>
               <Link href="/faq">
                   <a className='block w-3/4 mt-1' onClick={onNavClick}>faq</a>
               </Link>
