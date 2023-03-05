@@ -10,7 +10,7 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>SILO Margarita</h3>
-                            <div className="price">14</div>
+                            <div className="price">15</div>
                         </div>
                         <p className="text-xs md:text-sm">Milagro Tequila, Chartreuse, St. Germain, Lime, Spicy Simple Syrup, Club Soda, Basil, Tajín Rim</p>
                         <p>&nbsp;</p>
@@ -19,7 +19,7 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>Mezcal Paloma</h3>
-                            <div className="price">14</div>
+                            <div className="price">15</div>
                         </div>
                         <p className="text-xs md:text-sm">Banhez Mezcal, Grapefruit Soda, Lime, Tajín Rim, Orange Rosemary Simple</p>
                         <p>&nbsp;</p>
@@ -28,7 +28,7 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>Cold Brew Martini</h3>
-                            <div className="price">14</div>
+                            <div className="price">15</div>
                         </div>
                         <p className="text-xs md:text-sm">Spiced Rum, Brazilian Cold  Brew, Mr. Black Coffee Liqueur, Coconut, Vanilla, Cacao Rim</p>
                         <p>&nbsp;</p>
@@ -37,7 +37,7 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>Purple Negroni</h3>
-                            <div className="price">14</div>
+                            <div className="price">15</div>
                         </div>
                         <p className="text-xs md:text-sm">Empress Gin, Lillet Blanc, Luxardo Bianco, Eucalyptus Bitters, Orange</p>
                         <p>&nbsp;</p>
@@ -45,7 +45,7 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>The Brooklyn</h3>
-                            <div className="price">14</div>
+                            <div className="price">15</div>
                         </div>
                         <p className="text-xs md:text-sm">Rittenhouse Rye, Dolin Vermouth, Luxardo Maraschino, Ramazzotti Amaro, Spritz of Velvet Falernum</p>
                         <p>&nbsp;</p>
@@ -54,9 +54,9 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>Mixed Drinks</h3>
-                            <div className="price">well* 11</div>
-                            <div className="price sub-price">call 13</div>
-                            <div className="price sub-price">top shelf 15</div>
+                            <div className="price">well* 12</div>
+                            <div className="price sub-price">call 14</div>
+                            <div className="price sub-price">top shelf 16</div>
                         </div>
                         <p>&nbsp;</p>
                     </div>
@@ -64,7 +64,7 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>16 oz Hazy Pale Ale, Pilsner, Seasonal Beers</h3>
-                            <div className="price">10</div>
+                            <div className="price">11</div>
                         </div>
                         <p className="text-xs">Brooklyn-based KCBC Selection</p>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
@@ -83,31 +83,31 @@ export default function Menu() {
                         <p>&nbsp;</p>
                         <h2 className="title text-md sm:text-lg md:text-xl lg:text-2xl">wine</h2>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Archer Roose Sauvignon Blanc</h3>
+                            <h3>Sauvignon Blanc (9 oz can)</h3>
                             <div className="price">12</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Pinot Grigio</h3>
+                            <h3>Pinot Grigio (9 oz can)</h3>
                             <div className="price">12</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Sparkling Rosé</h3>
+                            <h3>Sparkling Rosé (9 oz can)</h3>
                             <div className="price">12</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Prosecco</h3>
+                            <h3>Prosecco (9 oz can)</h3>
                             <div className="price">12</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Malbec</h3>
+                            <h3>Malbec (9 oz can)</h3>
                             <div className="price">12</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Carnivor Cabernet Sauvignon</h3>
+                            <h3>Carnivor Cabernet Sauvignon (glass)</h3>
                             <div className="price">9</div>
                         </div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
-                            <h3>Imagery Pinot Noir</h3>
+                            <h3>Imagery Pinot Noir (glass)</h3>
                             <div className="price">9</div>
                         </div>
                     </div>
@@ -116,13 +116,13 @@ export default function Menu() {
                     <div>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>Artist’s Special</h3>
-                            <div className="price">10</div>
+                            <div className="price">13</div>
                         </div>
                         <p className="text-xs md:text-sm">Can of Bud, Bud Light or Yuengling & Well* Shot</p>
                         <p>&nbsp;</p>
                         <div className="name-and-price text-sm sm:text-lg md:text-xl lg:text-2xl">
                             <h3>The Savage Detectives</h3>
-                            <div className="price">12</div>
+                            <div className="price">13</div>
                         </div>
                         <p className="text-xs md:text-sm">Can of White Label Mate & Shot of Mezcal</p>
                     </div>
