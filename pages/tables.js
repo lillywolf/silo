@@ -33,7 +33,7 @@ export default function Tables() {
                     <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$375</div></p>
                     <p><div>Dom Perignon Brut</div><div className='price'>$800</div></p>
                     <p className='subtitle'>Cognac</p>
-                    <p><div>Remy Martin Mix Tape - Limited Edition VSOP</div><div className='price'>$650</div></p>
+                    <p><span>Remy Martin Mix Tape - Limited Edition VSOP</span><span className='price'>$650</span></p>
                     <p><div>Hennessy VS</div><div className='price'>$650</div></p>
                     <p className='subtitle'>Gin</p>
                     <p><div>Bombay Sapphire</div><div className='price'>$650</div></p>
@@ -46,7 +46,7 @@ export default function Tables() {
                     <p><div>10 cans</div><div className='price'>$50</div></p>
                     <p><div>Regular, Sugar Free, Tropical</div></p>
                     <p className='subtitle'>Liquid Death Mountain Water</p>
-                    <p><div>4 pack</div><div className='price'>$16</div></p>
+                    <p><div>4 pack</div><div className='price'>$20</div></p>
                     <p><div>Still or Sparkling</div></p>
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
