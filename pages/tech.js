@@ -19,11 +19,13 @@ export default function Tech() {
                     <p className='text-white'>DJ</p>
                     <br></br>
                     <p>5 x Pioneer CDJ-3000</p>
-                    <p>3 x Pioneer CDJ-2000 NXS2</p>
+                    <p>4 x Pioneer CDJ-2000 NXS2</p>
                     <p>2 x Technics SL-1200 MK7 turntable w/ Audio Technica AT-VM95E Cartridge</p>
                     <p>Pioneer DJM-V10 6-channel digital mixer</p>
                     <p>Pioneer DJM-900 NXS2 4-channel digital mixer</p>
                     <p>Allen & Heath Xone96 6-channel analog mixer</p>
+                    <p>Pioneer DJ RMX-1000 Performance Effects System</p>
+                    <p>Pioneer EFX-1000 DJ Effects Unit</p>
                     <br></br>
                     <p className='text-white'>FRONT ROOM (SMALL PA)</p>
                     <br></br>
