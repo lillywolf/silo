@@ -52,12 +52,12 @@ export default function Tables() {
                     <p><div>Still or Sparkling</div></p>
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
-                    <p>Table reservations include tickets to the event and expedited entry.</p>
+                    <p>Table reservations include tickets to the event, complimentary coat check, mixers, and expedited entry.</p>
                     <p className='mt-2'>There is a minimum spend based on your party size.</p>
                     <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
                 </div>
             </div>
-            <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SECTION PHOTOS</div>
+            <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12 text-center'>TABLE SECTION PHOTOS</div>
             <div className='flex gap-6 tables-photos pb-36'>
                     <div className='item basis-1/3'>
                         <div className='mt-3'>
