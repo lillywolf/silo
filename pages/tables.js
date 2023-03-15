@@ -8,9 +8,9 @@ export default function Tables() {
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Tequila</p>
-                    <p><div>Volcan De Mi Tierra X.A Tequila</div><div className='price'>$1200</div></p>
+                    <p><span>Volcan De Mi Tierra X.A Tequila</span><span className='price'>$1200</span></p>
                     <p><div>Don Julio 1942 Tequila</div><div className='price'>$1000</div></p>
-                    <p><div>Clase Azul Tequila Reposado</div><div className='price'>$1000</div></p>
+                    <p><span>Clase Azul Tequila Reposado</span><span className='price'>$1000</span></p>
                     <p><div>Casamigos Reposado</div><div className='price'>$700</div></p>
                     <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
                     <p><div>Milagro</div><div className='price'>$500</div></p>
@@ -22,8 +22,8 @@ export default function Tables() {
                     <p><div>Grey Goose</div><div className='price'>$650</div></p>
                     <p><div>Tito’s</div><div className='price'>$500</div></p>
                     <p className='subtitle'>Whiskey</p>
-                    <p><div>Johnny Walker Blue Label</div><div className='price'>$1200</div></p>
-                    <p><div>Johnny Walker Black Label</div><div className='price'>$800</div></p>
+                    <p><span>Johnny Walker Blue Label</span><span className='price'>$1200</span></p>
+                    <p><span>Johnny Walker Black Label</span><span className='price'>$800</span></p>
                     <p><div>Glenfiddich 12 Year</div><div className='price'>$800</div></p>
                     <p><div>Bulleit Bourbon</div><div className='price'>$600</div></p>
                     <p><div>Jameson Irish Whiskey</div><div className='price'>$500</div></p>
@@ -56,8 +56,8 @@ export default function Tables() {
                     <p className='mt-2'>There is a minimum spend based on your party size.</p>
                     <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
                 </div>
-                <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SECTION PHOTOS</div>
             </div>
+            <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SECTION PHOTOS</div>
             <div className='flex gap-6 tables-photos pb-36'>
                     <div className='item basis-1/3'>
                         <div className='mt-3'>
