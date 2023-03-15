@@ -8,9 +8,10 @@ export default function Tables() {
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Tequila</p>
+                    <p><div>Volcan De Mi Tierra X.A Tequila</div><div className='price'>$1200</div></p>
                     <p><div>Don Julio 1942 Tequila</div><div className='price'>$1000</div></p>
                     <p><div>Clase Azul Tequila Reposado</div><div className='price'>$1000</div></p>
-                    <p><div>Casamigos Reposado</div><div className='price'>$650</div></p>
+                    <p><div>Casamigos Reposado</div><div className='price'>$700</div></p>
                     <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
                     <p><div>Milagro</div><div className='price'>$500</div></p>
                     <p className='subtitle'>Mezcal</p>
@@ -33,8 +34,9 @@ export default function Tables() {
                     <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$375</div></p>
                     <p><div>Dom Perignon Brut</div><div className='price'>$800</div></p>
                     <p className='subtitle'>Cognac</p>
-                    <p><span>Remy Martin Mix Tape - Limited Edition VSOP</span><span className='price'>$650</span></p>
+                    <p><div>Hennessy VSOP</div><div className='price'>$800</div></p>
                     <p><div>Hennessy VS</div><div className='price'>$650</div></p>
+                    <p><span>Remy Martin Mix Tape - Limited Edition VSOP</span><span className='price'>$650</span></p>
                     <p className='subtitle'>Gin</p>
                     <p><div>Bombay Sapphire</div><div className='price'>$650</div></p>
                     <p><div>Hendrick’s</div><div className='price'>$500</div></p>
