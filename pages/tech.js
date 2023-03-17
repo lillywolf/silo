@@ -64,7 +64,7 @@ export default function Tech() {
                     <p>1 x Chauvet Hurricane Haze 2D</p>
                     <p>2 x ADJ Ultra Hex Bar uplighting (capable of full blacklight, amber, white)</p>
                     <p>5 x ADJ 6p Hex Par - Fill Washes</p>
-                    <p>Chamsys QuickQ30 Control Board</p>
+                    <p>PC with twin touch screens and Grand MA 2 Command Wing and Fader Wing Control Boards</p>
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
                     <br></br>
