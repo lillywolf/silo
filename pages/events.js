@@ -48,17 +48,17 @@ export const EventComponent = ({ event }) => {
     const d = new Date(date);
 
     return (
-        <div className="flex w-full py-2 px-8 sm:block sm:grid-cols-2 sm:px-2 sm:py-4 sm:w-1/2 xl:grid-cols-3 xl:w-1/3">
+        <div className="flex w-full py-2 px-8 sm:block sm:grid-cols-2 sm:px-2 sm:py-4 sm:w-1/2 md:text-center xl:grid-cols-3 xl:w-1/3">
             <Link href={url}>
                 <div className="w-1/3 cursor-pointer relative sm:w-full aspect-square">
-                    <Image src={images[0]} layout="fill"/>
+                    <Image src={images[0]} layout="fill" objectFit="contain"/>
                 </div>
             </Link>
             <div className="w-2/3 px-4 sm:px-0 sm:w-full">
                 <div className="uppercase font-[Hauora] text-base lg:text-md pt-4">
                     {d.toLocaleString("en-US", options)}
                 </div>
-                <div className="cursor-pointer hover:underline uppercase text-base sm:text-base lg:text-xl py-2">
+                <div className="cursor-pointer hover:underline uppercase text-base sm:text-lg lg:text-xl py-2">
                     <Link href={url}>{name}</Link>
                 </div>
             </div>
