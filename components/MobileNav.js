@@ -20,7 +20,7 @@ export default function MobileNav() {
       <div className='absolute w-full'>
         <div className='absolute z-10'>
           { !navOpen && (
-            <div className='ml-6 mt-6 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
+            <div className='ml-8 mt-8 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
               {/* + MENU */}
               <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="24" height="24" fill="white">
                   <rect width="100" height="10" rx="5"></rect>

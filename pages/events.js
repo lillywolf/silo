@@ -55,10 +55,10 @@ export const EventComponent = ({ event }) => {
                 </div>
             </Link>
             <div className="w-2/3 px-4 sm:px-0 sm:w-full">
-                <div className="uppercase font-[Hauora] text-base lg:text-md pt-4">
+                <div className="uppercase font-[Hauora] text-xs sm:text-base lg:text-md pt-4">
                     {d.toLocaleString("en-US", options)}
                 </div>
-                <div className="cursor-pointer hover:underline uppercase text-base sm:text-lg lg:text-xl py-2">
+                <div className="cursor-pointer hover:underline uppercase text-[14px] xs:text-base sm:text-lg lg:text-xl py-2">
                     <Link href={url}>{name}</Link>
                 </div>
             </div>
