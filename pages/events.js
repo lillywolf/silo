@@ -7,7 +7,7 @@ export default function Events({ events }) {
         <div className='absolute mt-28 text-left text-white w-full lg:mt-40 lg:text-center'>
             <div className='mx-auto px-2 text-sm leading-6 sm:w-10/12 md:text-lg md:w-7/12' id="dice-event-list-widget"></div>
                 <div className="flex flex-wrap sm:w-10/12 lg:w-7/12 mx-auto">
-                    { events.data.map((event) => <EventComponent event={event} />) }
+                    { events.data.map((event) => <EventComponent key={event.id} event={event} />) }
                 </div>
         </div>
     );

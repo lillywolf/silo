@@ -22,7 +22,7 @@ export default function Home({ events }) {
         </div>
         <div className='mx-auto w-10/12 md:w-7/12' id="dice-event-list-widget"></div>
           <div className="flex flex-wrap sm:w-10/12 lg:w-7/12 mx-auto">
-              { events.data.map((event) => <EventComponent event={event} />) }
+              { events.data.map((event) => <EventComponent key={event.id} event={event} />) }
           </div>
         </div>
       </main>
