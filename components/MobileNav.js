@@ -20,7 +20,7 @@ export default function MobileNav() {
       <div className='absolute w-full'>
         <div className='absolute z-10'>
           { !navOpen && (
-            <div className='ml-4 mt-5 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
+            <div className='ml-6 mt-6 md:mr-0 text-l cursor-pointer' onClick={ onNavClick }>
               {/* + MENU */}
               <svg className='w-10 cursor-pointer' viewBox="0 0 100 80" width="24" height="24" fill="white">
                   <rect width="100" height="10" rx="5"></rect>
@@ -33,7 +33,7 @@ export default function MobileNav() {
             <Menu onNavClick={ onNavClick } />
           </div>
         </div>
-        <div className='absolute w-full h-6'>
+        <div className='absolute w-full h-6 mt-4'>
           <div className='font-[BasementGrotesque-Black] text-[46px] text-center relative mx-auto'>
             <Link className='' href='/'>
               <a>SILO</a>
@@ -88,22 +88,22 @@ const Menu = ({ onNavClick }) => {
                 </div>
               </div>
               <Link href="/about">
-                  <a className='block w-3/4 mt-4' onClick={onNavClick}>about</a>
+                  <a className='block w-3/4 mt-4' onClick={onNavClick}>ABOUT</a>
               </Link>
               <Link href="/events">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>events</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>EVENTS</a>
               </Link>
               <Link href="/comedy-and-community">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>community</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>COMMUNITY</a>
               </Link>
               <Link href="/faq">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>faq</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>FAQ</a>
               </Link>
               <Link href="/menu">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>menu</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>MENU</a>
               </Link>
               <Link href="/contact">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>contact</a>
+                  <a className='block w-3/4 mt-1' onClick={onNavClick}>CONTACT</a>
               </Link>
               <div className='pt-8' onClick={onNavClick}>
                 <SocialIcons />

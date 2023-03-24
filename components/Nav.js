@@ -76,23 +76,23 @@ export default function Nav({ showBigLogo }) {
 
 const Links = () => {
   return (
-    <>
-      <div className='inline-block ml-12 text-xl'>
-        <Link href="/about">about</Link>
+    <div className='text-sm lg:text-base xl:text-xl'>
+      <div className='inline-block ml-12'>
+        <Link href="/about">ABOUT</Link>
       </div>
-      <div className='inline-block ml-6 text-xl'>
-        <Link href="/menu">menu</Link>
+      <div className='inline-block ml-6'>
+        <Link href="/menu">MENU</Link>
       </div>
-      <div className='inline-block ml-6 text-xl'>
-        <Link href="/faq">faq</Link>
+      <div className='inline-block ml-6'>
+        <Link href="/faq">FAQ</Link>
       </div>
-      <div className='inline-block ml-6 text-xl'>
-        <Link href="/comedy-and-community">community</Link>
+      <div className='inline-block ml-6'>
+        <Link href="/comedy-and-community">COMMUNITY</Link>
       </div>
-      <div className='inline-block ml-6 text-xl'>
-        <Link href="/contact">contact</Link>
+      <div className='inline-block ml-6'>
+        <Link href="/contact">CONTACT</Link>
       </div>
-    </>
+    </div>
   );
 }
 

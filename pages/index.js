@@ -2,17 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import EmailSignup from '../components/EmailSignup'
 import Consent from '../components/Consent'
-import { useEffect } from 'react'
+import { EventComponent } from './events'
 
-export default function Home() {
-  useEffect(() => {
-    if (window.DiceEventListWidget) {
-      window.DiceEventListWidget.create({"information":"simple","eventTitle":"event","showImages":true,"showAudio":true,"showNewBadge":false,"hidePostponed":false,"hideCancelled":true,"layout":"gallery","roundButtons":true,"theme":"dark","fontFamily":"inherit","partnerId":"c3d5496a","apiKey":"nkvo0ySBVc1OdE6tLTHO35ZF35vioOQV2chuvMob","version":2,"showPrice":true,"__p":false,"__pc":{},"highlightColour":"#fb00ff","numberOfEvents":"10","venues":["Silo Brooklyn"]})
-    
-      return () => window.DiceEventListWidget.destroy();
-    }
-  }, [])   
-
+export default function Home({ events }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -29,9 +21,26 @@ export default function Home() {
             <EmailSignup />
         </div>
         <div className='mx-auto w-10/12 md:w-7/12' id="dice-event-list-widget"></div>
-        <script src="https://widgets.dice.fm/dice-event-list-widget.js" type="text/javascript"></script>
+          <div className="flex flex-wrap sm:w-10/12 lg:w-7/12 mx-auto">
+              { events.data.map((event) => <EventComponent event={event} />) }
+          </div>
         </div>
       </main>
     </div>
   )
+}
+
+export async function getServerSideProps() {
+  const response = await fetch("https://events-api.dice.fm/v1/events?filter%5Bvenues%5D%5B%5D=Silo+Brooklyn", {
+      headers: {
+          "x-api-key": "nkvo0ySBVc1OdE6tLTHO35ZF35vioOQV2chuvMob"
+      }
+  });
+  const events = await response.json();
+
+  return {
+      props: {
+          events
+      }
+  }
 }
