@@ -10,8 +10,10 @@ export default function Contact() {
                 <div className='relative mt-16 lg:mt-28'>
                     <p className='mt-4'>for table reservations:</p>
                     <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a>
-                    <p className='mt-4'>for booking inquiries:</p>
+                    <p className='mt-4'>for artist and public event booking:</p>
                     <a href="mailto:booking@silobrooklyn.com" className='underline'>booking@silobrooklyn.com</a>
+                    <p className='mt-4'>for private event booking:</p>
+                    <a href="mailto:booking@silobrooklyn.com" className='underline'>silo@thekagency.com</a>        
                     <p className='mt-4'>for lost and found:</p>
                     <a href="mailto:lostandfound@silobrooklyn.com" className='underline'>lostandfound@silobrooklyn.com</a>
                     <p className='mt-4'>for accessibility requests:</p>
