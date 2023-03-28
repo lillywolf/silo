@@ -9,9 +9,9 @@ export default function Tables() {
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Tequila</p>
                     <p><span>Volcan De Mi Tierra X.A Tequila</span><span className='price'>$1200</span></p>
-                    <p><span>Don Julio 1942 Tequila</div><div className='price'>$1000</span></p>
+                    <p><span>Don Julio 1942 Tequila</span><span className='price'>$1000</span></p>
                     <p><span>Clase Azul Tequila Reposado</span><span className='price'>$1000</span></p>
-                    <p><span>Casamigos Reposado</div><div className='price'>$700</span></p>
+                    <p><span>Casamigos Reposado</span><span className='price'>$700</span></p>
                     <p><div>Casamigos Blanco</div><div className='price'>$600</div></p>
                     <p><div>Milagro</div><div className='price'>$500</div></p>
                     <p className='subtitle'>Mezcal</p>
