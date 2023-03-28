@@ -60,17 +60,17 @@ export default function Tech() {
                     <p>14 x Rogue 300W R3 Beam Lights</p>
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>3 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
-                    <p>2 x Chauvet Hurricane Hazer 1DX</p>
-                    <p>1 x Chauvet Hurricane Haze 2D</p>
                     <p>2 x ADJ Ultra Hex Bar uplighting (capable of full blacklight, amber, white)</p>
-                    <p>5 x ADJ 6p Hex Par - Fill Washes</p>
+                    <p>5 x ADJ 6p Hex Par - Fill Washes (front room bar)</p>
+                    <p>2 x ADJ Inno Spot Pro (front room bar)</p>
+                    <p>1 x Chauvet DJ Hurricane 2000 Fog Machine</p>
                     <p>PC with twin touch screens and Grand MA 2 Command Wing and Fader Wing Control Boards</p>
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
                     <br></br>
                     <p>NEC PH1202HL1 12,000 lumen large venue DLP laser projector</p>
-                    <p>8 x 4000 lumen, 300,000:1 contrast Optoma Projectors, projection mapped across ceiling</p>
-                    <p>12-core liquid cooled PC workstation with 18x4K HDMI outputs, running Resolume Arena 7</p>
+                    <p>8 x 4000 lumen, 300,000:1 contrast Optoma Projectors, projection mapped across ceiling and walls</p>
+                    <p>12-core liquid cooled PC workstation with 8x4K HDMI outputs, running Resolume Arena 7</p>
                     <br></br>
                 </div>
             </div>
