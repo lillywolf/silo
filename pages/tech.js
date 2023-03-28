@@ -72,6 +72,13 @@ export default function Tech() {
                     <p>8 x 4000 lumen, 300,000:1 contrast Optoma Projectors, projection mapped across ceiling and walls</p>
                     <p>12-core liquid cooled PC workstation with 8x4K HDMI outputs, running Resolume Arena 7</p>
                     <br></br>
+                    <p className='text-white'>MULTI-CAMERA LIVE STREAMING</p>
+                    <br></br>
+                    <p>Main camera: Sony Alpha A7 III, 4K recording, 1080P streaming resolution, great in low light</p>
+                    <p>2 x Logitech C920 HD Pro Webcam, 1080P HD resolution, used for DJ closeups or second angle</p>
+                    <p>Green Screen</p>
+                    <p>2017 Macbook Pro running OBS Studio 29. We run sound to our stream directly from our mixer's digital output.</p>
+                    <br></br>
                 </div>
             </div>
         </>
