@@ -77,7 +77,7 @@ export default function Tech() {
                     <p>Main camera: Sony Alpha A7 III, 4K recording, 1080P streaming resolution, great in low light</p>
                     <p>2 x Logitech C920 HD Pro Webcam, 1080P HD resolution, used for DJ closeups or second angle</p>
                     <p>Green Screen</p>
-                    <p>2017 Macbook Pro running OBS Studio 29. We run sound to our stream directly from our mixer's digital output.</p>
+                    <p>2017 Macbook Pro running OBS Studio 29. We run sound to the stream directly from the FOH mixer digital output.</p>
                     <br></br>
                 </div>
             </div>
