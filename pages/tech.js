@@ -13,7 +13,7 @@ export default function Tech() {
                     <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeaker stage fills</p>
                     <p>2 x Electro-Voice ETX200-12P 12&quot; 2000W 2-Way powered loudspeaker mid room fills</p>
                     <p>2 x Danley SH46 rear fills</p>
-                    <p>2 x Danley TH115 rear subwoofer fill</p>
+                    <p>2 x Danley TH115 rear subwoofer fills</p>
                     <p>2 x Danley 20K4 amplifiers (total 40,000 watts amplifier power)</p>
                     <p>2 x Electrovoice PXM-12MP stage monitors configurable on stands facing DJ console or as floor wedges</p>
                     <p>Electrovoice ELX-200 18SP 18 inch powered sub-woofer (optional DJ sub monitor)</p>
