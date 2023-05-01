@@ -11,7 +11,7 @@ export default function Tech() {
                     <p>2 x Danley SH96HO mains</p>
                     <p>2 x Danley BC218 subwoofers (low-end extension down to 22 Hz)</p>
                     <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeaker stage fills</p>
-                    <p>2 x Electro-Voice ETX200-12P 12&quot; 1200W 2-Way powered loudspeaker mid room fills</p>
+                    <p>2 x Electro-Voice ETX200-12P 12&quot; 2000W 2-Way powered loudspeaker mid room fills</p>
                     <p>2 x Danley SH46 rear fills</p>
                     <p>2 x Danley TH115 rear subwoofer fill</p>
                     <p>2 x Danley 20K4 amplifiers (total 40,000 watts amplifier power)</p>
