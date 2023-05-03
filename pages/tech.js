@@ -10,7 +10,10 @@ export default function Tech() {
                     <br></br>
                     <p>2 x Danley SH96HO mains</p>
                     <p>2 x Danley BC218 subwoofers (low-end extension down to 22 Hz)</p>
+                    <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeaker stage fills</p>
+                    <p>2 x Electro-Voice ETX200-12P 12&quot; 2000W 2-Way powered loudspeaker mid room fills</p>
                     <p>2 x Danley SH46 rear fills</p>
+                    <p>2 x Danley TH115 rear subwoofer fills</p>
                     <p>2 x Danley 20K4 amplifiers (total 40,000 watts amplifier power)</p>
                     <p>2 x Electrovoice PXM-12MP stage monitors configurable on stands facing DJ console or as floor wedges</p>
                     <p>Electrovoice ELX-200 18SP 18 inch powered sub-woofer (optional DJ sub monitor)</p>
@@ -23,6 +26,7 @@ export default function Tech() {
                     <p>2 x Technics SL-1200 MK7 turntable w/ Audio Technica AT-VM95E Cartridge</p>
                     <p>Pioneer DJM-V10 6-channel digital mixer</p>
                     <p>Pioneer DJM-900 NXS2 4-channel digital mixer</p>
+                    <p>Pioneer DJM-S7 2-channel battle mixer for Serato</p>
                     <p>Allen & Heath Xone96 6-channel analog mixer</p>
                     <p>Pioneer DJ RMX-1000 Performance Effects System</p>
                     <p>Pioneer EFX-1000 DJ Effects Unit</p>
@@ -35,7 +39,7 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>MICS</p>
                     <br></br>
-                    <p>2 x Shure BLX288PG58 wireless mics</p>
+                    <p>2 x Shure BLX288PG58 wireless mics with receiver</p>
                     <p>3 x Shure SM-58 vocal mic</p>
                     <p>1 x Shure SM-57 instrument mic</p>
                     <p>6 x Behringer XM8500 super cardioid vocal mics</p>
