@@ -15,7 +15,7 @@ export default function Tech() {
                     <p>2 x Danley SH46 rear fills</p>
                     <p>2 x Danley TH115 rear subwoofer fills</p>
                     <p>2 x Danley 20K4 amplifiers (total 40,000 watts amplifier power)</p>
-                    <p>2 x Electrovoice PXM-12MP stage monitors configurable on stands facing DJ console or as floor wedges</p>
+                    <p>2 x Electrovoice PXM-12MP booth monitors configurable on stands or on desk facing the DJ</p>
                     <p>Electrovoice ELX-200 18SP 18 inch powered sub-woofer (optional DJ sub monitor)</p>
                     <p>Allen & Heath SQ-5 digital mixer (48 channels, 96kHz processing) with AR2412 digital stage box</p>
                     <br></br>
@@ -30,6 +30,9 @@ export default function Tech() {
                     <p>Allen & Heath Xone96 6-channel analog mixer</p>
                     <p>Pioneer DJ RMX-1000 Performance Effects System</p>
                     <p>Pioneer EFX-1000 DJ Effects Unit</p>
+                    <p>DJ booth is usually positioned in the center of the dancefloor.</p>
+                    <p>DJ is on an 8&quot; high 8 ft x 6 ft riser.</p>
+                    <p>DJ desk is 8 ft x 4 ft, at 36 &quot; height from DJ platform level.</p>
                     <br></br>
                     <p className='text-white'>FRONT ROOM (SMALL PA)</p>
                     <br></br>
