@@ -84,7 +84,7 @@ const Links = () => {
         <Link href="/faq">FAQ</Link>
       </div>
       <div className='inline-block ml-6'>
-        <Link href="/comedy-and-community">COMEDY & COMMUNITY</Link>
+        <Link href="/comedy-and-community">COMMUNITY</Link>
       </div>
       <div className='inline-block ml-6'>
         <Link href="/contact">CONTACT</Link>

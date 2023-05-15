@@ -11,7 +11,7 @@ export default function Events() {
 
     const embedDice = useCallback(() => {
         if (window.DiceEventListWidget) {
-            window.DiceEventListWidget.create({"information":"simple","eventTitle":"event","showImages":true,"showAudio":false,"showNewBadge":false,"hidePostponed":false,"hideCancelled":true,"layout":"list","roundButtons":true,"theme":"dark","fontFamily":"inherit","partnerId":"c3d5496a","apiKey":"nkvo0ySBVc1OdE6tLTHO35ZF35vioOQV2chuvMob","version":2,"showPrice":true,"__p":false,"__pc":{},"highlightColour":"#fb00ff","numberOfEvents":"10","title":"Comedy & Community Events","venues":["SILO - Comedy & Community Events"]})
+            window.DiceEventListWidget.create({"information":"simple","eventTitle":"event","showImages":true,"showAudio":false,"showNewBadge":false,"hidePostponed":false,"hideCancelled":true,"layout":"list","roundButtons":true,"theme":"dark","fontFamily":"inherit","partnerId":"c3d5496a","apiKey":"nkvo0ySBVc1OdE6tLTHO35ZF35vioOQV2chuvMob","version":2,"showPrice":true,"__p":false,"__pc":{},"highlightColour":"#fb00ff","numberOfEvents":"10","title":"Community Events","venues":["SILO - Comedy & Community Events"]})
         }
     }, []);
  
