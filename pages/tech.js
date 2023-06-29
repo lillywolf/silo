@@ -14,7 +14,7 @@ export default function Tech() {
                     <p>2 x Electro-Voice ETX200-12P 12&quot; 2000W 2-Way powered loudspeaker mid room fills</p>
                     <p>2 x Danley SH46 rear fills</p>
                     <p>2 x Danley TH115 rear subwoofer fills</p>
-                    <p>2 x Danley 20K4 amplifiers (total 40,000 watts amplifier power)</p>
+                    <p>3 x Danley 20K4 amplifiers (total 60,000 watts amplifier power)</p>
                     <p>2 x Electrovoice PXM-12MP booth monitors configurable on stands or on desk facing the DJ</p>
                     <p>Electrovoice ELX-200 18SP 18 inch powered sub-woofer (optional DJ sub monitor)</p>
                     <p>Allen & Heath SQ-5 digital mixer (48 channels, 96kHz processing) with AR2412 digital stage box</p>
@@ -23,7 +23,7 @@ export default function Tech() {
                     <br></br>
                     <p>5 x Pioneer CDJ-3000</p>
                     <p>4 x Pioneer CDJ-2000 NXS2</p>
-                    <p>2 x Technics SL-1200 MK7 turntable w/ Audio Technica AT-VM95E Cartridge</p>
+                    <p>2 x Pioneer PLX-1000 turntable w/ Ortofon Concorde MK2 Club Cartridges</p>
                     <p>Pioneer DJM-V10 6-channel digital mixer</p>
                     <p>Pioneer DJM-900 NXS2 4-channel digital mixer</p>
                     <p>Pioneer DJM-S7 2-channel battle mixer for Serato</p>
@@ -39,13 +39,14 @@ export default function Tech() {
                     <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeakers</p>
                     <p>3000 Watt Behringer Eurolive B1800XP subwoofer</p>
                     <p>Mackie ProFX16 Mixer w/ reverb and delay</p>
+                    <p>For front room events we will bring the DJ booth subwoofer and monitor speakers into the front room to supplement the sound</p>
                     <br></br>
                     <p className='text-white'>MICS</p>
                     <br></br>
                     <p>2 x Shure BLX288PG58 wireless mics with receiver</p>
                     <p>3 x Shure SM-58 vocal mic</p>
                     <p>1 x Shure SM-57 instrument mic</p>
-                    <p>6 x Behringer XM8500 super cardioid vocal mics</p>
+                    <p>8 x Behringer XM8500 super cardioid vocal mics</p>
                     <p>1 x Audix D6 kick drum mic</p>
                     <p>5 mic stands, 1 kick mic stand, two keyboard stands, music stand</p>
                     <br></br>
