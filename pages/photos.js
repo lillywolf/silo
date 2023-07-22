@@ -23,7 +23,7 @@ export default function Photos({ files }) {
             {
                 files.map(file => {
                     return (
-                        <div className="photo">
+                        <div className="photo" key={file}>
                             <Image width={200} height={200} src={ `/assets/photos/${ file }` } objectFit="cover" />
                         </div>
                     );
