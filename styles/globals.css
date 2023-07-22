@@ -231,6 +231,17 @@ a {
   box-sizing: border-box;
 }
 
+.photos {
+  text-align: center;
+  margin: 140px auto 0;
+  width: 75%;
+}
+
+.photo {
+  margin: 10px;
+  display: inline;
+}
+
 .policies .prompt {
   font-family: PPNeueMachina-PlainRegularItalic;
   color: #96e0ff;
