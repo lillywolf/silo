@@ -16,28 +16,46 @@ export async function getServerSideProps(context) {
     const text = await bucketMetadata.text();
     const xml = await parseStringPromise(text);
 
-    const urls = xml.ListBucketResult.Contents.map((obj) => {
+    const photos = xml.ListBucketResult.Contents.map((obj) => {
         if ((/(^photos.*)/g).exec(obj.Key[0])) {
+            return obj.Key[0];
+        }
+    }).filter(url => url);
+
+    const videos = xml.ListBucketResult.Contents.map((obj) => {
+        if ((/(^videos.*)/g).exec(obj.Key[0])) {
             return obj.Key[0];
         }
     }).filter(url => url);
 
     return {
         props: {
-            urls
+            photos,
+            videos
         }
     }
 }
 
-export default function Photos({ urls }) {
+export default function Photos({ photos, videos }) {
     return (
       <>
         <div className="photos">
             {
-                urls.map(url => {
+                photos.map(url => {
                     return (
                         <div className="photo" key={url}>
                             <Image width={200} height={200} src={ `${ S3_URL }/${ url }` } objectFit="cover" />
+                        </div>
+                    );
+                })
+            }
+            {
+                videos.map(url => {
+                    return (
+                        <div className="video" key={url}>
+                            {/* <video loop controls width={ 200 } style={{ width: '200px' }}>
+                                <source src={ `${ S3_URL }/${ url }` } type = "video/mp4" />
+                            </video> */}
                         </div>
                     );
                 })

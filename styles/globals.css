@@ -237,9 +237,19 @@ a {
   width: 75%;
 }
 
-.photo {
+.photo, .video {
   margin: 10px;
   display: inline;
+}
+
+.video {
+  overflow: hidden;
+  height: 200px;
+}
+
+.video video {
+  display: inline;
+  width: 200px;
 }
 
 .policies .prompt {
