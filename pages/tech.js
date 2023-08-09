@@ -36,17 +36,19 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>FRONT ROOM (SMALL PA)</p>
                     <br></br>
-                    <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeakers</p>
-                    <p>3000 Watt Behringer Eurolive B1800XP subwoofer</p>
+                    <p>2 x Danley SH60 2000W 3-Way loudspeakers</p>
+                    <p>2 x 2000 Watt Danley TH115 subwoofer</p>
                     <p>Mackie ProFX16 Mixer w/ reverb and delay</p>
-                    <p>For front room events we will bring the DJ booth subwoofer and monitor speakers into the front room to supplement the sound</p>
+                    <p>For front room events we have a rollable 2&quot; deep x 8&quot; wide DJ booth and we set up the main room monitor subwoofer and speakers</p>
                     <br></br>
                     <p className='text-white'>MICS</p>
                     <br></br>
-                    <p>2 x Shure BLX288PG58 wireless mics with receiver</p>
+                    <p>Shure SLXD Series Wireless System with 2 SM58 Handheld Transmitters and SLXD4D Wireless Receiver</p>
+                    <p>An additional 2 Shure BLX288PG58 wireless mics with receiver</p>
                     <p>3 x Shure SM-58 vocal mic</p>
-                    <p>1 x Shure SM-57 instrument mic</p>
+                    <p>3 x Shure SM-57 instrument mic</p>
                     <p>8 x Behringer XM8500 super cardioid vocal mics</p>
+                    <p>CAD Stage 7 - 7-piece drum mic kit with stands</p>
                     <p>1 x Audix D6 kick drum mic</p>
                     <p>5 mic stands, 1 kick mic stand, two keyboard stands, music stand</p>
                     <br></br>
@@ -55,7 +57,7 @@ export default function Tech() {
                     <p>200 watt Yamaha keyboard amp w/ 4 inputs</p>
                     <p>150 watt Ampeg bass amp</p>
                     <p>100 watt Fender Champion Combo amp with effects</p>
-                    <p>2 DI boxes for plugging acoustic guitars/violins directly into the PA</p>
+                    <p>4 passive DI boxes for plugging acoustic guitars/violins directly into the PA</p>
                     <br></br>
                     <p className='text-white'>INSTRUMENTS</p>
                     <br></br>
