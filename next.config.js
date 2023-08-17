@@ -11,6 +11,11 @@ const nextConfig = {
         destination: '/',
         permanent: false,
       },
+      {
+        source: '/community',
+        destination: '/comedy-and-community',
+        permanent: false,
+      },
     ]
   },
 }
