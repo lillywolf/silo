@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import { parseStringPromise } from 'xml2js';
+import PhotoCarousel from '../components/PhotoCarousel';
+import { useState } from 'react';
+
+import styles from '../styles/Photos.module.css'
 
 const S3_URL = 'https://silobrooklyn.s3.us-east-2.amazonaws.com';
 
@@ -18,13 +22,13 @@ export async function getServerSideProps(context) {
 
     const photos = xml.ListBucketResult.Contents.map((obj) => {
         if ((/(^photos.*)/g).exec(obj.Key[0])) {
-            return obj.Key[0];
+            return `${ S3_URL }/${ obj.Key[0] }`;
         }
     }).filter(url => url);
 
     const videos = xml.ListBucketResult.Contents.map((obj) => {
         if ((/(^videos.*)/g).exec(obj.Key[0])) {
-            return obj.Key[0];
+            return `${ S3_URL }/${ obj.Key[0] }`;
         }
     }).filter(url => url);
 
@@ -37,30 +41,57 @@ export async function getServerSideProps(context) {
 }
 
 export default function Photos({ photos, videos }) {
+    const [photoIndex, setPhotoIndex] = useState(0);
+    const [isCarouselOpen, setIsCarouselOpen] = useState(false);
+
+    const openPhotoCarousel = (index) => {
+        setPhotoIndex(index);
+        setIsCarouselOpen(true);
+    }
+
+    const closePhotoCarousel = () => {
+        setIsCarouselOpen(false);
+    }
+
     return (
-      <>
-        <div className="photos">
-            {
-                photos.map(url => {
-                    return (
-                        <div className="photo" key={url}>
-                            <Image width={200} height={200} src={ `${ S3_URL }/${ url }` } objectFit="cover" />
-                        </div>
-                    );
-                })
+        <div className={ styles.photosContainer }>
+            { isCarouselOpen && (
+                <div className={ styles.carouselContainer }>
+                    <PhotoCarousel
+                        photos={ photos }
+                        photoIndex={ photoIndex }
+                        onClose={ closePhotoCarousel }>
+                    </PhotoCarousel>
+                </div>)
             }
-            {
-                videos.map(url => {
-                    return (
-                        <div className="video" key={url}>
-                            {/* <video loop controls width={ 200 } style={{ width: '200px' }}>
-                                <source src={ `${ S3_URL }/${ url }` } type = "video/mp4" />
-                            </video> */}
-                        </div>
-                    );
-                })
-            }
+            { isCarouselOpen && <div className={ styles.overlay } onClick={ closePhotoCarousel }></div> }
+            <div className={ `photos ${ styles.isCarouselOpen}` }>
+                {
+                    photos.map((url, index) => {
+                        return (
+                            <div className="photo" key={url} onClick={() => openPhotoCarousel(index)}>
+                                <Image 
+                                    width={200}
+                                    height={200}
+                                    src={ url }
+                                    objectFit="cover"
+                                />
+                            </div>
+                        );
+                    })
+                }
+                {
+                    videos.map(url => {
+                        return (
+                            <div className="video" key={url}>
+                                {/* <video loop controls width={ 200 } style={{ width: '200px' }}>
+                                    <source src={ `${ S3_URL }/${ url }` } type = "video/mp4" />
+                                </video> */}
+                            </div>
+                        );
+                    })
+                }
+            </div>
         </div>
-      </>
     )
-  }
+}

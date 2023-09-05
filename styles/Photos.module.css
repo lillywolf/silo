@@ -1,0 +1,68 @@
+
+.photosContainer {
+}
+
+.photoCarousel {
+    position: fixed;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    z-index: 100;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 80%;
+    height: 100vw;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.photo {
+    height: 100%;
+    display: flex;
+    flex: 1 1 auto;
+    position: relative;
+    object-fit: contain;
+}
+
+.leftArrow {
+    height: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.rightArrow {
+    height: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.close {
+    position: absolute;
+    right: 52px;
+    top: 0;
+    font-size: 26px;
+}
