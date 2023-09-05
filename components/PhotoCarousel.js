@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import Image from "next/image";
 
 import styles from '../styles/Photos.module.css'
@@ -6,15 +6,48 @@ import styles from '../styles/Photos.module.css'
 export default function PhotoCarousel({ photos, photoIndex, onClose }) {
     const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(photoIndex);
 
-    const onArrowClick = (direction) => {
+    useEffect(() => {
+        document.addEventListener("keydown", handleKeyDown);
+
+        return () => document.removeEventListener("keydown", handleKeyDown);
+    }, [selectedPhotoIndex]);
+
+    const handleKeyDown = useCallback((e) => {
+        switch (e.keyCode) {
+            case 27: {      // escape key
+                onClose();
+                return;
+            }
+            case 37: {
+                goLeft();
+                return;
+            }
+            case 39: {
+                goRight();
+                return;
+            }
+            default:
+                onClose();
+        }
+    });
+
+    const onArrowClick = useCallback((direction) => {
         if (direction === "right") {
-            setSelectedPhotoIndex((selectedPhotoIndex + 1) % photos.length);
+            goRight();
 
             return;
         }
 
+        goLeft();
+    });
+
+    const goRight = () => {
+        setSelectedPhotoIndex((selectedPhotoIndex + 1) % photos.length);
+    };
+
+    const goLeft = () => {
         setSelectedPhotoIndex((((selectedPhotoIndex - 1) % photos.length) + photos.length) % photos.length);
-    }
+    };
 
     return (
         <div className={ styles.photoCarousel }>
