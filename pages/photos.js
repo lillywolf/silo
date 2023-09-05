@@ -80,17 +80,6 @@ export default function Photos({ photos, videos }) {
                         );
                     })
                 }
-                {
-                    videos.map(url => {
-                        return (
-                            <div className="video" key={url}>
-                                {/* <video loop controls width={ 200 } style={{ width: '200px' }}>
-                                    <source src={ `${ S3_URL }/${ url }` } type = "video/mp4" />
-                                </video> */}
-                            </div>
-                        );
-                    })
-                }
             </div>
         </div>
     )
