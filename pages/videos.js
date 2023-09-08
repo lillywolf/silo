@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import { parseStringPromise } from 'xml2js';
 import { useState } from 'react';
+import ReactPlayer from 'react-player';
 
 import styles from '../styles/Videos.module.css'
 import VideoPlayer from '../components/VideoPlayer';
@@ -62,10 +62,13 @@ export default function Videos({ videos }) {
                 {
                     videos.map((url, index) => {
                         return (
-                            <div className="video" key={url}>
-                                <video className={ styles.video } loop controls width={ 200 } style={{ width: '200px' }}>
+                            <div className="video" key={url} onClick={ () => openVideoPlayer(index) }>
+                                {/* <video className={ styles.video } loop controls width={ 200 } style={{ width: '200px' }} onclick={ (e) => { e.preventDefault() } }>
                                     <source src={ url } type = "video/mp4" />
-                                </video>
+                                </video> */}
+                                <div className={ styles.video }>
+                                    <ReactPlayer url={ url } />
+                                </div>
                             </div>
                         );
                     })

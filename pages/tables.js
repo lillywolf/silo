@@ -19,8 +19,7 @@ export default function Tables() {
                     <p><span>Hennessy VS Cognac</span></p>
                     <p><span>Remy Martin VSOP Cognac</span></p>
                     <p><span>Veuve Clicquot Yellow Label Brut Champagne</span></p>
-                    <p className='subtitle'>Ultra Premium Spirits:</p>
-                    <p><div></div><div className='price'>$1000</div></p>
+                    <p className='subtitle'>Ultra Premium Spirits:<div className='price'>$1000</div></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
                     <p><span>Volcan de Mi Tierra Anejo Tequila</span></p>

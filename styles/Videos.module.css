@@ -67,17 +67,16 @@
     text-align: center;
     margin: 140px auto 0;
     width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .video {
-    margin: 10px;
-    display: inline;
-    overflow: hidden;
     height: 200px;
 }
   
 .video video {
-    display: inline;
     width: 200px;
     object-fit: contain;
 }

@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
+import ReactPlayer from 'react-player';
 
 import styles from '../styles/Videos.module.css'
 
@@ -57,9 +58,7 @@ export default function VideoPlayer({ videos, videoIndex, onClose }) {
                 </div>
             </div>
             <div className={ styles.player }>
-                <video loop controls>
-                    <source src={ videos[selectedVideoIndex] } type = "video/mp4" />
-                </video>
+                <ReactPlayer url={ videos[selectedVideoIndex] }/>
             </div>
             <div className={ styles.rightArrow } onClick={() => onArrowClick("right")}>
                 <div className={ styles.icon }>
