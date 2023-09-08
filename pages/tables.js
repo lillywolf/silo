@@ -3,54 +3,28 @@ import Image from 'next/image'
 export default function Tables() {
     return (
         <>
-            <title>Table Service at SILO</title>
+            <title>SILO Brooklyn Bottle Service Menu</title>
             <div className='tables pt-40 pb-6 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
-                    <p className='subtitle'>Tequila</p>
-                    <p><span>Volcan De Mi Tierra X.A Tequila</span><span className='price'>$1000</span></p>
-                    <p><span>Don Julio 1942 Tequila</span><span className='price'>$1000</span></p>
-                    <p><span>Clase Azul Tequila Reposado</span><span className='price'>$1000</span></p>
-                    <p><span>Casamigos Reposado</span><span className='price'>$600</span></p>
-                    <p><div>Casamigos Blanco</div><div className='price'>$500</div></p>
-                    <p><div>Milagro</div><div className='price'>$400</div></p>
-                    <p className='subtitle'>Mezcal</p>
-                    <p><div>Casamigos Mezcal</div><div className='price'>$600</div></p>
-                    <p><div>Ilegal Mezcal</div><div className='price'>$400</div></p>
-                    <p className='subtitle'>Vodka</p>
-                    <p><div>Grey Goose</div><div className='price'>$550</div></p>
-                    <p><div>Tito’s</div><div className='price'>$400</div></p>
-                    <p><div>New Amsterdam</div><div className='price'>$350</div></p>
-                    <p className='subtitle'>Whiskey</p>
-                    <p><span>Johnny Walker Blue Label</span><span className='price'>$1000</span></p>
-                    <p><span>Johnny Walker Black Label</span><span className='price'>$700</span></p>
-                    <p><div>Glenfiddich 12 Year</div><div className='price'>$700</div></p>
-                    <p><div>Bulleit Bourbon</div><div className='price'>$550</div></p>
-                    <p><div>Jameson Irish Whiskey</div><div className='price'>$400</div></p>
-                </div>
-                <div className='col w-full md:mx-8 md:w-5/12 md:align-top'>
-                    <p className='subtitle'>Champagne</p>
-                    <p><div>Dom Perignon Brut</div><div className='price'>$800</div></p>
-                    <p><div>Veuve Clicquot Brut</div><div className='price'>$350</div></p>
-                    <p><div>Veuve Clicquot Brut Rose</div><div className='price'>$350</div></p>
-                    <p className='subtitle'>Cognac</p>
-                    <p><div>Hennessy VSOP</div><div className='price'>$700</div></p>
-                    <p><div>Hennessy VS</div><div className='price'>$500</div></p>
-                    <p><span>Remy Martin Mix Tape - Limited Edition VSOP</span><span className='price'>$500</span></p>
-                    <p className='subtitle'>Gin</p>
-                    <p><div>Bombay Sapphire</div><div className='price'>$500</div></p>
-                    <p><div>Hendrick’s</div><div className='price'>$500</div></p>
-                    <p><div>New Amsterdam</div><div className='price'>$350</div></p>
-                    <p className='subtitle'>Rum</p>
-                    <p><div>Bacardi Silver</div><div className='price'>$350</div></p>
-                    <p><div>Sailor Jerry</div><div className='price'>$350</div></p>
-                    <p className='subtitle'>Red Bull</p>
-                    <p><div>5 cans</div><div className='price'>$25</div></p>
-                    <p><div>10 cans</div><div className='price'>$50</div></p>
-                    <p><div>Regular, Sugar Free, Tropical</div></p>
-                    <p className='subtitle'>Liquid Death Mountain Water</p>
-                    <p><div>4 pack</div><div className='price'>$20</div></p>
-                    <p><div>Still or Sparkling</div></p>
+                    <p className='subtitle'>Mix and Match</p>
+                    <p><span>1 Bottle:</span><span className='price'>$400</span></p>
+                    <p><span>2 Bottles:</span><span className='price'>$750</span></p>
+                    <p><span>3 Bottles:</span><span className='price'>$1050</span></p>
+                    <p className='subtitle'></p>
+                    <p><span>Casamigos Blanco Tequila</span></p>
+                    <p><span>Casamigos Reposado Tequila</span></p>
+                    <p><span>Tito’s Vodka</span></p>
+                    <p><span>Jameson Irish Whiskey</span></p>
+                    <p><span>Hennessy VS Cognac</span></p>
+                    <p><span>Remy Martin VSOP Cognac</span></p>
+                    <p><span>Veuve Clicquot Yellow Label Brut Champagne</span></p>
+                    <p className='subtitle'>Ultra Premium Spirits:</p>
+                    <p><div></div><div className='price'>$1000</div></p>
+                    <p><span>Don Julio 1942 Anejo Tequila</span></p>
+                    <p><span>Clase Azul Reposado Tequila</span></p>
+                    <p><span>Volcan de Mi Tierra Anejo Tequila</span></p>
+                    <p><span>Krug Grand Cuvee Champagne</span></p>
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
                     <p>Table reservations include tickets to the event, complimentary coat check, mixers, and expedited entry.</p>
