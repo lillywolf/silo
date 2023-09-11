@@ -8,12 +8,12 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>MAIN ROOM SOUND SYSTEM</p>
                     <br></br>
-                    <p>2 x Danley SH96HO mains</p>
-                    <p>2 x Danley BC218 subwoofers (low-end extension down to 22 Hz)</p>
+                    <p>2 x Danley SH96HO mains (2800W each)</p>
+                    <p>2 x Danley BC218 subwoofers (6800W each, low-end extension down to 22 Hz)</p>
                     <p>2 x Electro-Voice ELX200-12P 12&quot; 1200W 2-Way powered loudspeaker stage fills</p>
                     <p>2 x Electro-Voice ETX200-12P 12&quot; 2000W 2-Way powered loudspeaker mid room fills</p>
-                    <p>2 x Danley SH46 rear fills</p>
-                    <p>2 x Danley TH115 rear subwoofer fills</p>
+                    <p>2 x Danley SH46 rear fills (2800 watts each)</p>
+                    <p>2 x Danley TH115 rear subwoofer fills (2000W each)</p>
                     <p>3 x Danley 20K4 amplifiers (total 60,000 watts amplifier power)</p>
                     <p>2 x Electrovoice PXM-12MP booth monitors configurable on stands or on desk facing the DJ</p>
                     <p>Electrovoice ELX-200 18SP 18 inch powered sub-woofer (optional DJ sub monitor)</p>
@@ -37,7 +37,7 @@ export default function Tech() {
                     <p className='text-white'>FRONT ROOM (SMALL PA)</p>
                     <br></br>
                     <p>2 x Danley SH60 2000W 3-Way loudspeakers</p>
-                    <p>2 x 2000 Watt Danley TH115 subwoofer</p>
+                    <p>2 x Danley TH115 2000W subwoofer</p>
                     <p>Mackie ProFX16 Mixer w/ reverb and delay</p>
                     <p>For front room events we have a rollable 2&quot; deep x 8&quot; wide DJ booth and we set up the main room monitor subwoofer and speakers</p>
                     <br></br>
