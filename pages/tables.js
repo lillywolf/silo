@@ -19,7 +19,7 @@ export default function Tables() {
                     <p><span>Hennessy VS Cognac</span></p>
                     <p><span>Remy Martin VSOP Cognac</span></p>
                     <p><span>Veuve Clicquot Yellow Label Brut Champagne</span></p>
-                    <p className='subtitle'>Ultra Premium Spirits:<div className='price'>$1000</div></p>
+                    <p className='subtitle'>Ultra Premium Spirits:<div className='price'>$800</div></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
                     <p><span>Volcan de Mi Tierra Anejo Tequila</span></p>
@@ -27,7 +27,8 @@ export default function Tables() {
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
                     <p>Table reservations include tickets to the event, complimentary coat check, mixers, and expedited entry.</p>
-                    <p className='mt-2'>There is a minimum spend based on your party size.</p>
+                    <p className='mt-2'>We ask that your party buy at least one bottle per four guests.</p>
+                    <p className='mt-2'>Prices above do not include tax and 20% gratuity.</p>
                     <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
                 </div>
             </div>
