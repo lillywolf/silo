@@ -99,9 +99,6 @@ const Menu = ({ onNavClick }) => {
               <Link href="/faq">
                   <a className='block w-3/4 mt-1' onClick={onNavClick}>FAQ</a>
               </Link>
-              <Link href="/menu">
-                  <a className='block w-3/4 mt-1' onClick={onNavClick}>MENU</a>
-              </Link>
               <Link href="/contact">
                   <a className='block w-3/4 mt-1' onClick={onNavClick}>CONTACT</a>
               </Link>
