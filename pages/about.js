@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 export default function About() {
     return (
@@ -75,12 +74,6 @@ export default function About() {
                     {/* <br></br> */}
                     <p>SILO opened in early 2023.</p>
                     <p>We are currently open on Fridays and Saturdays from 10pm-4am and most Thursdays from 6pm to midnight.</p>
-                    <div className='relative pt-8 pb-2 w-full text-md md:text-lg cursor-pointer hover:underline'>
-                        <Link href="/photos">Photos</Link>
-                    </div>
-                    <div className='relative pt-2 pb-2 w-full text-md md:text-lg cursor-pointer hover:underline'>
-                        <Link href="/tech">Tech/Backline</Link>
-                    </div>
                     {/* <div className='relative max-w-[400px]'>
                         <Image src='/exterior_1.jpeg' width={300} height={200} layout="responsive" objectFit="contain"/>
                     </div> */}
