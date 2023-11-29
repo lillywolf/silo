@@ -26,7 +26,9 @@ export default function Tables() {
                     <p><span>Krug Grand Cuvee Champagne</span></p>
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
-                    <p>Table reservations include tickets to the event, complimentary coat check, mixers, and expedited entry.</p>
+                    <p>Table reservations include complimentary coat check, mixers, and expedited entry.</p>
+                    <p>Table reservations usually include complimentary admission, but it varies depending on the night and the 
+                        booked entertainment, so please check with <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> to verify when you make your reservation.</p>
                     <p className='mt-2'>We ask that your party buy at least one bottle per four guests.</p>
                     <p className='mt-2'>Prices above do not include tax and 20% gratuity.</p>
                     <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
