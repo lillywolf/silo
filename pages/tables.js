@@ -23,7 +23,9 @@ export default function Tables() {
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
                     <p><span>Volcan de Mi Tierra Anejo Tequila</span></p>
+                    <p><span>Gray Goose Vodka</span></p>
                     <p><span>Krug Grand Cuvee Champagne</span></p>
+                    <p><span>Dom Perignon Champagne</span></p>
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
                     <p>Table reservations include complimentary coat check, mixers, and expedited entry.</p>
