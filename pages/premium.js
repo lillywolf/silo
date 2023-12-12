@@ -13,7 +13,7 @@ export default function Premium() {
                     <p><span>3 Bottles:</span><span className='price'>$1650</span></p>
                     <p className='subtitle'></p>
                     <p><span>Casamigos Blanco Tequila</span></p>
-                    <p><span>Casamigos Reposado Tequila</span></p>
+                    <p><span>Espolon Reposado Tequila</span></p>
                     <p><span>Tito’s Vodka</span></p>
                     <p><span>Jameson Irish Whiskey</span></p>
                     <p><span>Hennessy VS Cognac</span></p>
