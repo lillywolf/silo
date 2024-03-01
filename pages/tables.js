@@ -13,7 +13,7 @@ export default function Tables() {
                     <p><span>3 Bottles:</span><span className='price'>$1050</span></p>
                     <p className='subtitle'></p>
                     <p><span>Casamigos Blanco Tequila</span></p>
-                    <p><span>Espolon Reposado Tequila</span></p>
+                    <p><span>Casamigos Reposado Tequila</span></p>
                     <p><span>Tito’s Vodka</span></p>
                     <p><span>Jameson Irish Whiskey</span></p>
                     <p><span>Hennessy VS Cognac</span></p>
@@ -22,7 +22,7 @@ export default function Tables() {
                     <p className='subtitle'>Ultra Premium Spirits:<div className='price'>$800</div></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
-                    <p><span>Volcan de Mi Tierra Anejo Tequila</span></p>
+                    <p><span>Volcan de Mi Tierra Extra Anejo Tequila</span></p>
                     <p><span>Gray Goose Vodka</span></p>
                     <p><span>Krug Grand Cuvee Champagne</span></p>
                     <p><span>Dom Perignon Champagne</span></p>
