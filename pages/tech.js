@@ -34,12 +34,12 @@ export default function Tech() {
                     <p>DJ is on an 8&quot; high 8 ft x 6 ft riser.</p>
                     <p>DJ desk is 8 ft x 4 ft, at 36 &quot; height from DJ platform level.</p>
                     <br></br>
-                    <p className='text-white'>FRONT ROOM (SMALL PA)</p>
+                    <p className='text-white'>FRONT ROOM ("SMALL" PA)</p>
                     <br></br>
                     <p>2 x Danley SH60 2000W 3-Way loudspeakers</p>
-                    <p>2 x Danley TH115 2000W subwoofer</p>
+                    <p>2 x Danley TH118XL 3600W subwoofer</p>
                     <p>Mackie ProFX16 Mixer w/ reverb and delay</p>
-                    <p>For front room events we have a rollable 2&quot; deep x 8&quot; wide DJ booth and we set up the main room monitor subwoofer and speakers</p>
+                    <p>For front room events we have a rollable 2&quot; deep x 8&quot; wide DJ booth with EV PXM-12MP monitors</p>
                     <br></br>
                     <p className='text-white'>MICS</p>
                     <br></br>
@@ -70,11 +70,12 @@ export default function Tech() {
                     <p>14 x Rogue 300W R3 Beam Lights</p>
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>3 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
-                    <p>2 x X-Laser Caliente Aurora lasers</p>
-                    <p>5 x ADJ 6p Hex Par - Fill Washes (front room bar)</p>
-                    <p>2 x ADJ Inno Spot Pro (front room bar)</p>
+                    <p>4 x X-Laser Skywriter HPX M-5 full color lasers</p>
+                    <p>8 x ADJ 12p Hex Par Blinders</p>
+                    <p>5 x ADJ 6p Hex Par - Fill Washes (front room)</p>
+                    <p>8 x ADJ Inno Spot Pro (front room)</p>
                     <p>1 x Chauvet DJ Hurricane 2000 Fog Machine</p>
-                    <p>1 x Chauvet DJ Hurricane Hazer 1DX (front room bar)</p>
+                    <p>1 x Chauvet DJ Hurricane Hazer 1DX (front room)</p>
                     <p>PC with twin touch screens and Grand MA 2 Command Wing and Fader Wing Control Boards</p>
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
