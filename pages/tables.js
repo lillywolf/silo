@@ -4,7 +4,7 @@ export default function Tables() {
     return (
         <>
             <title>SILO Brooklyn Bottle Service Menu</title>
-            <div className='tables pt-40 pb-6 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
+            <div className='tables pt-40 pb-4 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Mix and Match</p>
@@ -36,6 +36,20 @@ export default function Tables() {
                     <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
                 </div>
             </div>
+            <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12 text-center'>TABLES LAYOUT (Planet Names)</div>
+            <div className='w-full mx-auto pt-3 md:pb-16 w-11/12 sm:w-11/12 lg:w-11/12'>
+                <div className='flex flex-wrap gap-3'>
+                    <div className='item basis-1/4 grow'>
+                        <Image
+                            src="/silo_tables_layout.jpg"
+                            width="100%"
+                            height="33%"
+                            layout="responsive"
+                            alt="Tables Layout"
+                        />
+                    </div>
+                </div>
+            </div>
             <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12 text-center'>TABLE SECTION PHOTOS</div>
             <div className='flex gap-6 tables-photos pb-36'>
                     <div className='item basis-1/3'>
@@ -59,7 +73,7 @@ export default function Tables() {
                         </div>
                     </div>
                     <div className='item basis-1/3'>
-                        <div>
+                        <div className='mt-3'>
                         <Image
                             src="/tables3.jpg"
                             width="50%"
