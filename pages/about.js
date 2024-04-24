@@ -74,7 +74,7 @@ export default function About() {
                     {/* <p>SILO was built by the people that run it now. The acoustic panels, the mezzanine doors, the DJ booth, even the HDMI cables in the walls were installed or hand constructed by the owners and friends of Secret Loft.</p> */}
                     {/* <br></br> */}
                     <p>SILO opened in early 2023.</p>
-                    <p>We are currently open on Fridays and Saturdays from 10pm-4am and most Thursdays from 6pm to midnight.</p>
+                    <p>We are open on Wednesdays 8pm-1am, Thursdays 9pm-2am, Fridays and Saturdays from 10pm-4am, and sometimes Sundays from 4-10pm.</p>
                     <div className='relative pt-8 pb-2 w-full text-md md:text-lg cursor-pointer hover:underline'>
                         <Link href="/photos">Photos</Link>
                     </div>

@@ -4,7 +4,7 @@ export default function Premium() {
     return (
         <>
             <title>SILO Brooklyn Premium Bottle Service Menu</title>
-            <div className='tables pt-40 pb-6 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
+            <div className='tables pt-40 pb-4 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Mix and Match</p>
@@ -32,6 +32,20 @@ export default function Premium() {
                     <p className='mt-2'>We ask that your party buy at least one bottle per four guests.</p>
                     <p className='mt-2'>Prices above do not include tax and 20% gratuity.</p>
                     <p className='mt-2'>Contact <a href="mailto:tables@silobrooklyn.com" className='underline'>tables@silobrooklyn.com</a> for details.</p>
+                </div>
+            </div>
+            <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12 text-center'>TABLES LAYOUT (Planet Names)</div>
+            <div className='w-full mx-auto pt-3 md:pb-16 w-11/12 sm:w-11/12 lg:w-11/12'>
+                <div className='flex flex-wrap gap-3'>
+                    <div className='item basis-1/4 grow'>
+                        <Image
+                            src="/silo_tables_layout.jpg"
+                            width="100%"
+                            height="33%"
+                            layout="responsive"
+                            alt="Tables Layout"
+                        />
+                    </div>
                 </div>
             </div>
             <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12 text-center'>TABLE SECTION PHOTOS</div>
