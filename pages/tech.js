@@ -34,7 +34,7 @@ export default function Tech() {
                     <p>DJ is on an 8&quot; high 8 ft x 6 ft riser.</p>
                     <p>DJ desk is 8 ft x 4 ft, at 36 &quot; height from DJ platform level.</p>
                     <br></br>
-                    <p className='text-white'>FRONT ROOM ("SMALL" PA)</p>
+                    <p className='text-white'>FRONT ROOM</p>
                     <br></br>
                     <p>2 x Danley SH60 2000W 3-Way loudspeakers</p>
                     <p>2 x Danley TH118XL 3600W subwoofer</p>
