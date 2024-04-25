@@ -8,7 +8,7 @@ export default function Terms() {
             <p><b>Last Updated: January 1, 2023</b></p>
 
             <p>
-                Welcome to the website of Silo Brooklyn LLC (“Company”, “we”, “us” or “our”). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, these “Terms of Use”), govern your access to and use of silobrooklyn.com, including any content, functionality and services offered on or through silobrooklyn.com (the “Website”).
+                Welcome to the website of Silo Brooklyn LLC (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, these “Terms of Use”), govern your access to and use of silobrooklyn.com, including any content, functionality and services offered on or through silobrooklyn.com (the &quot;Website&quot;).
             </p>
 
             <p><b>Acceptance of Terms of Use</b></p>
@@ -17,7 +17,7 @@ export default function Terms() {
 
             <p><b>Changes to the Terms of Use</b></p>
 
-            <p>We may change these Terms from time to time. All changes are effective immediately when we post them. Your continued use of the Website following the posting of revised Terms of Use means that you accept and agree to the changes. You are expected to check this page each time you access the Website so you are aware of any changes, as they are binding on you. The date of the most recent change or update to these Terms of Use will be stated at the beginning of these Terms of Use.</p>
+            <p>We may change these Terms from time to time. All changes are effective immediately when we post them. Your continued use of the Website following the posting of revised Terms of Use means that you accept and agree to the changes. You are expected to check this page each time you access the Website so you are aware of any changes, as they are binding on you. The date of the most recent change or update to these Terms of Use will be stated at the beginning of these Terms of Use.</p>
 
             <p><b>Accessing the Website</b></p>
 
@@ -31,7 +31,7 @@ export default function Terms() {
 
             <p>You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Website without our prior written consent.</p> 
 
-            <p>The name “SILO” and “SILO Brooklyn”, the SILO logo, and all related names, logos, product and service names, designs, and slogans are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written permission of the Company. All other names, logos, product and service names, designs, and slogans on this Website are the trademarks of their respective owners. Under no circumstances will you acquire any ownership rights or other interest in any such marks or content on this Website by or through your use of the Website.</p>
+            <p>The name &quot;SILO&quot; and &quot;SILO Brooklyn&quot;, the SILO logo, and all related names, logos, product and service names, designs, and slogans are trademarks of the Company or its affiliates or licensors. You must not use such marks without the prior written permission of the Company. All other names, logos, product and service names, designs, and slogans on this Website are the trademarks of their respective owners. Under no circumstances will you acquire any ownership rights or other interest in any such marks or content on this Website by or through your use of the Website.</p>
 
             <p>These Terms of Use permit you to use the Website for your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store or transmit any of the material on our Website, except as follows:</p>
 
@@ -51,7 +51,7 @@ export default function Terms() {
             <li>Access or use for any commercial purposes any part of the Website or any services or materials available through the Website.</li>
             </ul>
 
-            <p>If you wish to make any use of material on the Website other than that set out in this section, please address your request to contact@silobrooklyn.com.</p>
+            <p>If you wish to make any use of material on the Website other than that set out in this section, please address your request to contact@silobrooklyn.com.</p>
 
             <p>If you print, copy, modify, download, or otherwise use or provide any other person with access to any part of the Website in breach of the Terms of Use, your right to use the Website will stop immediately and you must, at our option, return or destroy any copies of the materials you have made. No right, title, or interest in or to the Website or any content on the Website is transferred to you, and all rights not expressly granted are reserved by Us. Any use of the Website not expressly permitted by these Terms of Use is a breach hereof and may violate copyright, trademark, and other laws.</p>
 
@@ -65,7 +65,7 @@ export default function Terms() {
             <li>To send, knowingly receive, upload, download, use, or re-use any material which violates the rights of any individual or entity established in any jurisdiction.</li>
             <li>To transmit, or procure the sending of, any advertising or promotional material without our prior written consent, including any “junk mail,” “chain letter,” “spam,” or any other similar solicitation.</li>
             <li>To impersonate or attempt to impersonate the Company, a Company employee, another user, or any other person or entity (including, without limitation, by using e-mail addresses or screen names associated with any of the foregoing).</li>
-            <li>To engage in any other conduct that restricts or inhibits anyone’s use or enjoyment of the Services, or which, as determined by us, may harm the Company or users of the Services or expose them to liability.</li>
+            <li>To engage in any other conduct that restricts or inhibits anyone&apos;s use or enjoyment of the Services, or which, as determined by us, may harm the Company or users of the Services or expose them to liability.</li>
             </ul>
             
             <p>Additionally, you agree not to:</p>
@@ -81,7 +81,7 @@ export default function Terms() {
             <li>Otherwise attempt to interfere with the proper working of the Website.</li>
             </ul>
 
-            <p>You understand and agree that in the Company’s sole discretion, and without prior notice, the Company may terminate your access to the Site or exercise any other remedy available, if the Company believes that you have in any manner violated the Terms or the law. You agree that monetary damages may not provide a sufficient remedy to the Company for violations of these Terms and you consent to injunctive or other equitable relief for such violations. The Company may release user information about you if required by law or subpoena, or if the information is necessary or appropriate to release to address any unlawful or harmful activity.</p>
+            <p>You understand and agree that in the Company&apos;s sole discretion, and without prior notice, the Company may terminate your access to the Site or exercise any other remedy available, if the Company believes that you have in any manner violated the Terms or the law. You agree that monetary damages may not provide a sufficient remedy to the Company for violations of these Terms and you consent to injunctive or other equitable relief for such violations. The Company may release user information about you if required by law or subpoena, or if the information is necessary or appropriate to release to address any unlawful or harmful activity.</p>
 
             <p><b>Monitoring and Enforcement; Termination</b></p>
 
@@ -106,7 +106,7 @@ export default function Terms() {
 
             <p><b>Information about You and Your Visits to the Website</b></p>
 
-            <p>All information we collect on this Website is subject to our <a href="/privacy">Privacy Policy</a>. By using the Website, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy.</p>
+            <p>All information we collect on this Website is subject to our <a href="/privacy">Privacy Policy</a>. By using the Website, you consent to all actions taken by us with respect to your information in compliance with the Privacy Policy.</p>
 
             <p><b>Links to Third Party Sites and Services</b></p>
 
@@ -147,7 +147,7 @@ export default function Terms() {
 
             <p>You understand that we cannot and do not guarantee or warrant that files available for downloading from the internet or the Website will be free of viruses or other destructive code. You are responsible for implementing sufficient procedures and checkpoints to satisfy your particular requirements for anti-virus protection and accuracy of data input and output, and for maintaining a means external to our Website for any reconstruction of any lost data. TO THE FULLEST EXTENT PROVIDED BY LAW, WE WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES, OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA, OR OTHER PROPRIETARY MATERIAL DUE TO (A) YOUR USE OF THE WEBSITE OR ANY SERVICES OBTAINED THROUGH THE WEBSITE OR (B) YOUR DOWNLOADING OF ANY MATERIAL POSTED ON IT, OR ON ANY WEBSITE LINKED TO IT.</p>
             
-            <p>YOUR USE OF THE WEBSITE, ITS CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE (A) ARE AT YOUR OWN RISK, AND (B) ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER WE, NOR ANY PERSON ASSOCIATED WITH US, MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE WEBSITE. WITHOUT LIMITING THE PRECEDING SENTENCE, NEITHER WE, NOR ANYONE ASSOCIATED WITH US, REPRESENTS OR WARRANTS THAT (A) THE WEBSITE, ITS CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, (B) DEFECTS WILL BE CORRECTED, (C) THE WEBSITE OR THE SOFTWARE OR SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR (D) THE WEBSITE OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.</p>
+            <p>YOUR USE OF THE WEBSITE, ITS CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE (A) ARE AT YOUR OWN RISK, AND (B) ARE PROVIDED ON AN &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER WE, NOR ANY PERSON ASSOCIATED WITH US, MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE WEBSITE. WITHOUT LIMITING THE PRECEDING SENTENCE, NEITHER WE, NOR ANYONE ASSOCIATED WITH US, REPRESENTS OR WARRANTS THAT (A) THE WEBSITE, ITS CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, (B) DEFECTS WILL BE CORRECTED, (C) THE WEBSITE OR THE SOFTWARE OR SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR (D) THE WEBSITE OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.</p>
 
             <p>TO THE FULLEST EXTENT PROVIDED BY LAW, WE DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.</p>
             
@@ -155,7 +155,7 @@ export default function Terms() {
 
             <p><b>Indemnification</b></p>
 
-            <p>You agree to defend, indemnify, and hold us, our affiliates, licensors, and service providers, and our, and their, respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns harmless from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys’ fees) arising out of or relating to (a) your violation of these Terms or your use of the Website, (b) any use of the Website’s content, services, and products other than as expressly authorized in these Terms, or (d) your use of any information obtained from the Website.</p>
+            <p>You agree to defend, indemnify, and hold us, our affiliates, licensors, and service providers, and our, and their, respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns harmless from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys&apos; fees) arising out of or relating to (a) your violation of these Terms or your use of the Website, (b) any use of the Website’s content, services, and products other than as expressly authorized in these Terms, or (d) your use of any information obtained from the Website.</p>
 
             <p><b>Termination</b></p>
 
