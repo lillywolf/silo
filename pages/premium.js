@@ -7,10 +7,7 @@ export default function Premium() {
             <div className='tables pt-40 pb-4 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
-                    <p className='subtitle'>Mix and Match</p>
-                    <p><span>1 Bottle:</span><span className='price'>$600</span></p>
-                    <p><span>2 Bottles:</span><span className='price'>$1150</span></p>
-                    <p><span>3 Bottles:</span><span className='price'>$1650</span></p>
+                    <p className='subtitle'>Premium Spirits:<div className='price'>$600</div></p>
                     <p className='subtitle'></p>
                     <p><span>Casamigos Blanco Tequila</span></p>
                     <p><span>Casamigos Reposado Tequila</span></p>
@@ -22,8 +19,9 @@ export default function Premium() {
                     <p className='subtitle'>Ultra Premium Spirits:<div className='price'>$1000</div></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
-                    <p><span>Volcan de Mi Tierra Anejo Tequila</span></p>
-                    <p><span>Gray Goose Vodka</span></p>
+                    <p><span>Volcan de Mi Tierra Extra Anejo Tequila</span></p>
+                    <p><span>Gray Goose Vodka (1L)</span></p>
+                    <p><span>Johnny Walker Black Label (1L)</span></p>
                     <p><span>Krug Grand Cuvee Champagne</span></p>
                     <p><span>Dom Perignon Champagne</span></p>
                 </div>
