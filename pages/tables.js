@@ -8,7 +8,7 @@ export default function Tables() {
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Premium Spirits:<div className='price'>$400</div></p>
-                    <br>
+                    <p></p>
                     <p><span>Casamigos Blanco Tequila</span></p>
                     <p><span>Casamigos Reposado Tequila</span></p>
                     <p><span>Tito’s Vodka</span></p>
@@ -16,9 +16,9 @@ export default function Tables() {
                     <p><span>Hennessy VS Cognac</span></p>
                     <p><span>Remy Martin VSOP Cognac</span></p>
                     <p><span>Veuve Clicquot Yellow Label Brut Champagne</span></p>
-                    <br>
+                    <p></p>
                     <p className='subtitle'>Ultra Premium Spirits:<div className='price'>$800</div></p>
-                    <br>
+                    <p></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
                     <p><span>Volcan de Mi Tierra Extra Anejo Tequila</span></p>
