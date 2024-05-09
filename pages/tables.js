@@ -8,7 +8,6 @@ export default function Tables() {
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
                     <p className='subtitle'>Premium Spirits:<div className='price'>$400</div></p>
-                    <p className='subtitle'></p>
                     <p><span>Casamigos Blanco Tequila</span></p>
                     <p><span>Casamigos Reposado Tequila</span></p>
                     <p><span>Tito’s Vodka</span></p>
