@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import EmailSignup from '../components/EmailSignup'
+import Link from 'next/link'
 import Consent from '../components/Consent'
 import { EventComponent } from './events'
 
@@ -17,8 +18,14 @@ export default function Home({ events }) {
 
       <main className={ `${ styles.main } m-auto relative` }>
         <div className='relative'>
-        <div className='m-auto pt-28 md:pt-40 w-11/12 sm:w-[520px] lg:w-[600px]'>
-            <EmailSignup />
+          <div className='m-auto pt-24 md:pt-40 w-11/12 sm:w-[520px] lg:w-[600px]'>
+              <EmailSignup />
+          </div>
+          <div className='text-center pb-8 pt-4 m-auto w-2 sm:w-[620px] lg:w-[800px]'>
+            <a target="_blank" href="https://us14.campaign-archive.com/home/?u=d9dcc8b8380559a2218a1e426&id=9259d2343b">
+              <div className='text-sm lg:text-base xl:text-xl newsletter-link'>[ BEHIND THE BOOTH ]</div>
+              <div>SILO'S DANCE MUSIC NEWS & CULTURE NEWSLETTER</div>
+            </a>
         </div>
         <div className='mx-auto w-10/12 md:w-7/12'></div>
           <div className="flex flex-wrap sm:w-10/12 lg:w-7/12 mx-auto">

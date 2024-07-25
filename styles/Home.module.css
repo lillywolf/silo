@@ -92,6 +92,10 @@
   margin-left: 0.5rem;
 }
 
+.newsletter-link {
+  color: #00E8FF
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
