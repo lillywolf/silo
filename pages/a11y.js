@@ -6,7 +6,7 @@ export default function Accessibility() {
                 <div>SILO is a single-story building with a ground floor wheelchair accessible entrance.</div>
                 <div className='mt-4'>If you need dedicated space for wheelchair seating during 
                 a show or you have a disability and need assistace entering the venue or finding seating, 
-                email us at <a href="mailto:a11y@silobrooklyn.com">a11y@silobrooklyn.com</a> and we'll be happy to help.</div>
+                email us at <a href="mailto:a11y@silobrooklyn.com">a11y@silobrooklyn.com</a> and we&apos;ll be happy to help.</div>
             </div>
         </>
     );

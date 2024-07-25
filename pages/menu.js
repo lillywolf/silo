@@ -203,7 +203,7 @@ export default function Menu() {
                     
                     <div>
                         <p className="footer">&nbsp;</p>
-                        <h2 className="title text-xs sm:text-sm md:text-md lg:text-lg">happy hour discount of $2 off all drink and combo purchases before 8 pm</h2>
+                        <h2 className="title text-xs sm:text-sm md:text-md lg:text-lg">happy hour discount of $3 off all drink and combo purchases before 8 pm</h2>
                         <p>&nbsp;</p>
                         <h2 className="title text-sm sm:text-md md:text-lg lg:text-xl">*SILO doesn&apos;t have a well.</h2>
                         <p className="text-xs sm:text-sm md:text-md lg:text-lg">We don&apos;t serve anything we aren&apos;t willing to display on our shelves.</p>
