@@ -21,7 +21,7 @@ export default function Home({ events }) {
           <div className='m-auto pt-24 md:pt-40 w-11/12 sm:w-[520px] lg:w-[600px]'>
               <EmailSignup />
           </div>
-          <div className='text-center pb-8 pt-4 m-auto w-2 sm:w-[620px] lg:w-[800px]'>
+          <div className='text-center pb-8 pt-4 m-auto w-4 sm:w-[620px] lg:w-[800px]'>
             <a target="_blank" rel="noreferrer" href="https://us14.campaign-archive.com/home/?u=d9dcc8b8380559a2218a1e426&id=9259d2343b">
               <div className='text-sm lg:text-base xl:text-xl newsletter-link'>[ BEHIND THE BOOTH ]</div>
               <div>SILO&apos;S DANCE MUSIC NEWS & CULTURE NEWSLETTER</div>
