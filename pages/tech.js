@@ -71,14 +71,16 @@ export default function Tech() {
                     <br></br>
                     <p>14 x Rogue 300W R3 Beam Lights</p>
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
-                    <p>3 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
+                    <p>5 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>4 x X-Laser Skywriter HPX M-5 RGB lasers</p>
                     <p>8 x ADJ 12p Hex Par Blinders</p>
+                    <p>4 x ADJ Jolt Panel FX2 Wash/Blinder/Strobe Fixtures</p>
+                    <p>12 x 45 foot long pixel-mapped LED strip lights controlled by ELM software</p>
                     <p>5 x ADJ 6p Hex Par - Fill Washes (front room)</p>
                     <p>8 x ADJ Inno Spot Pro Beam Lights (front room)</p>
                     <p>1 x Chauvet DJ Hurricane 2000 Fog Machine</p>
                     <p>1 x Chauvet DJ Hurricane Hazer 1DX (front room)</p>
-                    <p>PC with twin touch screens and Grand MA 2 Command Wing and Fader Wing Control Boards</p>
+                    <p>PC with three touch screens and GrandMA 2 Command Wing and 2 X Fader Wing Control Boards</p>
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
                     <br></br>
