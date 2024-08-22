@@ -13,7 +13,7 @@ export default function Contact() {
                     <p className='mt-4'>for artist and public event booking:</p>
                     <a href="mailto:booking@silobrooklyn.com" className='underline'>booking@silobrooklyn.com</a>
                     <p className='mt-4'>for private event booking:</p>
-                    <a href="mailto:silo@thekagency.com" className='underline'>silo@thekagency.com</a>        
+                    <a href="mailto:silo@thekagency.com" className='underline'>contact@silobrooklyn.com</a>        
                     <p className='mt-4'>for lost and found:</p>
                     <a href="mailto:lostandfound@silobrooklyn.com" className='underline'>lostandfound@silobrooklyn.com</a>
                     <p className='mt-4'>for accessibility requests:</p>
