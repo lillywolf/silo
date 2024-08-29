@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["dice-media.imgix.net", "silobrooklyn.s3.us-east-2.amazonaws.com"]
+    domains: ["dice-media.imgix.net", "lh3.googleusercontent.com"]
   },
   async redirects() {
     return [
