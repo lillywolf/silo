@@ -63,7 +63,7 @@ export default function PhotoCarousel({ photos, photoIndex, onClose }) {
                     <Image src="/chevron-right.svg" width="50" height="50" objectFit="contain"/>
                 </div>
             </div>
-            {/* <button className={ styles.close } onClick={ onClose }>x</button> */}
+            <button className={ styles.close } onClick={ onClose }>x</button>
         </div>
     );
 }

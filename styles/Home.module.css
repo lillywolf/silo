@@ -34,10 +34,6 @@
   text-decoration: underline;
 }
 
-.title,
-.description {
-}
-
 .description {
   margin: 4rem 0;
   line-height: 1.5;
@@ -90,10 +86,6 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
-
-.newsletter-link {
-  color: #00E8FF
 }
 
 @media (max-width: 600px) {
