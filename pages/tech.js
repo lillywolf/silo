@@ -86,14 +86,15 @@ export default function Tech() {
                     <br></br>
                     <p>BenQ LU960ST2 5200 lumen short throw laser projector for stage back wall</p>
                     <p>8 x 4000 lumen, 300,000:1 contrast Optoma Projectors, projection mapped across ceiling and walls</p>
-                    <p>12-core liquid cooled PC workstation with 4x4K HDMI outputs, running Resolume Arena 7</p>
+                    <p>Epson 4000 lumen extreme short throw laser projector above front garage door</p>
+                    <p>12-core liquid cooled PC workstation with GeForce RTX 3090 24GB graphics card, running Resolume Arena 7</p>
                     <br></br>
                     <p className='text-white'>MULTI-CAMERA LIVE STREAMING</p>
                     <br></br>
                     <p>Main camera: Sony Alpha A7 III, 4K recording, 1080P streaming resolution, great in low light</p>
                     <p>2 x Logitech C920 HD Pro Webcam, 1080P HD resolution, used for DJ closeups or second angle</p>
                     <p>Green Screen</p>
-                    <p>2017 Macbook Pro running OBS Studio 29. We run sound to the stream directly from the FOH mixer digital output.</p>
+                    <p>Macbook Pro running OBS Studio 29. We run sound to the stream directly from the FOH mixer digital output.</p>
                     <br></br>
                 </div>
             </div>
