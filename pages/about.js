@@ -21,16 +21,18 @@ export default function About() {
                 <div className='relative pt-16 w-full text-md md:text-lg pb-20'>
                     <p>SILO, formerly known as Secret Loft, started as an underground party in a converted auto garage in Williamsburg in 2012. Over the years, as Secret Loft grew from an earnest experiment into a full-blown series with an energized following, so too did the vision, and SILO began to take shape.</p>
                     <br></br>
-                    {/* <p>SILO was built by the people that run it now. The acoustic panels, the mezzanine doors, the DJ booth, even the HDMI cables in the walls were installed or hand constructed by the owners and friends of Secret Loft.</p> */}
-                    {/* <br></br> */}
                     <p>SILO opened in early 2023.</p>
-                    <p>We are open on Wednesdays 8pm-1am, Thursdays 9pm-2am, Fridays and Saturdays from 10pm-4am, and sometimes Sundays from 4-10pm.</p>
+                    <p>We are open on Wednesdays 8pm-1am, Thursdays 9pm-3am, Fridays and Saturdays from 10pm-4am, and sometimes Sundays from 4-10pm.</p>
                     <div className='relative pt-8 pb-2 w-full text-md md:text-lg cursor-pointer hover:underline'>
                         <Link href="/photos">Photos</Link>
                     </div>
                     <div className='relative pt-2 pb-2 w-full text-md md:text-lg cursor-pointer hover:underline'>
                         <Link href="/tech">Tech/Backline</Link>
                     </div>
+                    <div className='relative pt-2 pb-2 w-full text-md md:text-lg cursor-pointer hover:underline'>
+                        <Link target="_blank" rel="noreferrer" href="https://us14.campaign-archive.com/home/?u=d9dcc8b8380559a2218a1e426&id=9259d2343b">Behind the Booth: SILO&apos;s Dance Music News & Culture Newsletter</Link>
+                    </div>
+
                     {/* <div className='relative max-w-[400px]'>
                         <Image src='/exterior_1.jpeg' width={300} height={200} layout="responsive" objectFit="contain"/>
                     </div> */}
