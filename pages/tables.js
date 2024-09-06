@@ -7,7 +7,7 @@ export default function Tables() {
             <div className='tables pt-40 pb-4 px-10 mx-auto w-full md:w-[850px] md:flex-col'>
                 <div className='text-2xl text-white col w-full md:mx-8 md:w-10/12'>TABLE SERVICE MENU</div>
                 <div className='col w-full md:mx-8 md:w-5/12'>
-                    <p className='subtitle'>Premium Spirits:<div className='price'>$600</div></p>
+                    <p className='subtitle'>Premium Spirits:<div className='price'>$400</div></p>
                     <p><span>Casamigos Blanco Tequila</span></p>
                     <p><span>Casamigos Reposado Tequila</span></p>
                     <p><span>Casamigos Mezcal</span></p>
@@ -21,7 +21,7 @@ export default function Tables() {
                     <p><span>Veuve Clicquot Yellow Label Brut Champagne</span></p>
                     <p className='subtitle'></p>
 
-                    <p>Ultra Premium Spirits:<div className='price'>$1000</div></p>
+                    <p>Ultra Premium Spirits:<div className='price'>$800</div></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
                     <p><span>Volcan de Mi Tierra Extra Anejo Tequila</span></p>
