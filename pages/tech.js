@@ -23,14 +23,18 @@ export default function Tech() {
                     <br></br>
                     <p>6 x Pioneer CDJ-3000</p>
                     <p>4 x Pioneer CDJ-2000 NXS2</p>
-                    <p>2 x Pioneer PLX-1000 turntable w/ Ortofon Concorde MK2 Club Cartridges</p>
+                    <p>2 x Technics SL1000-MK2 turntable w/ Ortofon Concorde MK2 Club Cartridges</p>
+                    <p>2 x Pioneer PLX-1000 turntable</p>
                     <p>Pioneer DJM-V10LF 6-channel digital mixer</p>
                     <p>Pioneer DJM-V10 6-channel digital mixer</p>
                     <p>Pioneer DJM-A9 4-channel digital mixer</p>
                     <p>Pioneer DJM-900 NXS2 4-channel digital mixer</p>
                     <p>Pioneer DJM-S7 2-channel battle mixer for Serato</p>
+                    <p>Pioneer DJM-S11 2-channel battle mixer for Serato</p>
+                    <p>AlphaTheta Euphonia rotary mixer</p>
                     <p>Allen & Heath Xone96 6-channel analog mixer</p>
-                    <p>Pioneer DJ RMX-1000 Performance Effects System</p>
+                    <p>Pioneer RMX-1000 Performance Effects System</p>
+                    <p>Pioneer DJS-1000 DJ Sampler</p>
                     <p>Pioneer EFX-1000 DJ Effects Unit</p>
                     <p>DJ booth is usually positioned in the center of the dancefloor.</p>
                     <p>DJ is on an 8&quot; high 8 ft x 6 ft riser.</p>
@@ -38,16 +42,16 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>FRONT ROOM</p>
                     <br></br>
-                    <p>2 x Danley SH60 2000W 3-Way loudspeakers</p>
+                    <p>4 x Danley SH60 2000W 3-Way loudspeakers</p>
                     <p>2 x Danley TH118XL 3600W subwoofer</p>
                     <p>2 x EV PXM-12MP DJ booth monitors</p>
-                    <p>For front room events we have a rollable 2&quot; deep x 8&quot; wide DJ booth</p>
+                    <p>For front room events we have a rolling 2&quot; deep x 8&quot; wide DJ booth</p>
                     <br></br>
                     <p className='text-white'>MICS</p>
                     <br></br>
                     <p>Shure SLXD Series Wireless System with 2 SM58 Handheld Transmitters and SLXD4D Wireless Receiver</p>
                     <p>An additional 2 Shure BLX288PG58 wireless mics with receiver</p>
-                    <p>3 x Shure SM-58 vocal mic</p>
+                    <p>4 x Shure SM-58 vocal mic</p>
                     <p>3 x Shure SM-57 instrument mic</p>
                     <p>8 x Behringer XM8500 super cardioid vocal mics</p>
                     <p>CAD Stage 7 - 7-piece drum mic kit with stands</p>
@@ -84,7 +88,7 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
                     <br></br>
-                    <p>BenQ LU960ST2 5200 lumen short throw laser projector for stage back wall</p>
+                    <p>2 x BenQ LU960ST2 5200 lumen short throw laser projector for stage back wall</p>
                     <p>8 x 4000 lumen, 300,000:1 contrast Optoma Projectors, projection mapped across ceiling and walls</p>
                     <p>Epson 4000 lumen extreme short throw laser projector above front garage door</p>
                     <p>12-core liquid cooled PC workstation with GeForce RTX 3090 24GB graphics card, running Resolume Arena 7</p>
