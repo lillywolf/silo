@@ -11,23 +11,20 @@ export default function Tables() {
                     <p><span>Casamigos Blanco Tequila</span></p>
                     <p><span>Casamigos Reposado Tequila</span></p>
                     <p><span>Casamigos Mezcal</span></p>
-                    <p><span>Don Julio Añejo Tequila</span></p>
+                    <p><span>Don Julio Reposado Tequila</span></p>
                     <p><span>Tito’s Vodka</span></p>
-                    <p><span>Gray Goose Vodka</span></p>
                     <p><span>Jameson Irish Whiskey</span></p>
                     <p><span>Johnnie Walker Black Label Scotch</span></p>
                     <p><span>Hennessy VS Cognac</span></p>
-                    <p><span>Remy Martin VSOP Cognac</span></p>
+                    <p><span>D&#39;usee VSOP Cognac</span></p>
                     <p><span>Veuve Clicquot Yellow Label Brut Champagne</span></p>
                     <p className='subtitle'></p>
 
                     <p>Ultra Premium Spirits:<div className='price'>$800</div></p>
                     <p><span>Don Julio 1942 Anejo Tequila</span></p>
                     <p><span>Clase Azul Reposado Tequila</span></p>
-                    <p><span>Volcan de Mi Tierra Extra Anejo Tequila</span></p>
-                    <p><span>Johnnie Walker Blue Label Scotch</span></p>
-                    <p><span>D&#39;usee VSOP Cognac</span></p>
-                    <p><span>Nikka Coffey Grain Japanese Whiskey</span></p>
+                    <p><span>Grey Goose Vodka (1L)</span></p>
+                    <p><span>Woodford Reserve Bourbon (1L)</span></p>
                     <p><span>Krug Grand Cuvee Champagne</span></p>
                     <p><span>Dom Perignon Champagne</span></p>
                 </div>
