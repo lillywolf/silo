@@ -1,4 +1,4 @@
-export default function Policies() {
+ export default function Policies() {
     return (
         <div className='policies pt-32 md:pt-40 pb-40 px-10 mx-auto w-full md:w-3/4'>
             {/* <p className='answer'>A short intro paragraph</p> */}
@@ -18,16 +18,18 @@ export default function Policies() {
             <p className='prompt'>Do you guys use haze/fog?</p>
             <p className='answer'>Our ticketed music events have loud music and use strobe lights and haze. If you have allergies or sensitivities to these things, please be aware that we use them in our performances.</p>
             <p className='prompt'>I’m kind of hungry and thirsty. What should I do?</p>
-            <p className='answer'>Food and snacks are available until 10pm on weekends and 2am on weekdays. Water and earplugs are always free, and you can find them at the front room bar.</p>
+            <p className='answer'>There is a water station at the front bar with free water. The bar sells chicken tenders, vegan nuggets, hippeas, and pork rinds.</p>
+            <p className='prompt'>Do you sell earplugs?</p>
+            <p className='answer'>Earplugs are $2 at the front bar.</p>
             <h3 className='bold mb-4'>Ticket Sales and Entry</h3>
             <p className='prompt'>How do I get tickets at SILO?</p>
             <p className='answer'>All tickets can be found on our <a href="https://dice.fm/venue/silo-brooklyn-eb72">Dice.fm page</a>, and all ticket sales are final. If an event is postponed or rescheduled, ticket holders will be able to keep their ticket for the rescheduled date or claim a refund. In the event of a full cancellation, refunds will be processed automatically.</p>
             <p className='prompt'>Will there be tickets at the door?</p>
             <p className='answer'>Yes! We sell tickets at the door on a first-come first-serve basis.</p>
             <p className='prompt'>Do you only have ticketed events?</p>
-            <p className='answer'>The front room lounge of SILO is open Wednesday, 8pm-2am for Open Decks and Thursday 9pm-3am, usuallly for a DJ event with a local collective.</p>
+            <p className='answer'>The front room lounge of SILO is open Wednesday, 8pm-2am for Open Decks and Thursday 9pm-3am, usually for a DJ event with a local collective. Open Decks and most Thursday events are free as long as you RSVP ahead of time on Dice. Once a month or so we have a free-with-RSVP weekend event.</p>
             <p className='prompt'>Are exits final? What if I gotta step out for a second?</p>
-            <p className='answer'>All exits are final unless otherwise specified in the event’s ticket details.</p>
+            <p className='answer'>We usually allow re-entry, but for sold out shows exits may be final if we are at capacity.</p>
             <p className='prompt'>What if I want to have a smoke?</p>
             <p className='answer'>There is a designated smoking area just outside the side door to the right of the stage. There will be a member of our security team at the door who will check your stamp upon re-entering the venue.</p>
             <p className='prompt'>Its gonna be a hot night, but I got this big coat on me...you guys got a coat check?</p>
