@@ -14,9 +14,9 @@ export default function Policies() {
             <p className='prompt'>I’m a wheelchair user and want to experience a night at SILO. How do you make it accessible for me to enter?</p>
             <p className='answer'>All spaces in the venue, including the stage, are accessible to wheelchair users. Our main entrance at 90 Scott Avenue is accessible. Our staff is trained to assist you, so just give them a heads up when you arrive and they will make sure you’re able to get in. Reserved seating can be arranged by emailing a11y@silobrooklyn.com. If you have another accessibility concern, please email a11y@silobrooklyn.com, and we would be happy to see how we can accommodate :)</p>
             <p className='prompt'>What about restrooms?</p>
-            <p className='answer'>All of our restrooms are gender neutral. There are three accessible stalls, one in each of the two restrooms at the front and one in the back behind the stage. If you need any assistance, just let a staff member know and they’ll help you out.</p>
+            <p className='answer'>All of our restrooms are gender neutral. There are two accessible stalls, one in each of the two restrooms at the front. If you need any assistance, let a staff member know and they’ll help you out.</p>
             <p className='prompt'>Do you guys use haze/fog?</p>
-            <p className='answer'>Our ticketed music events have loud music and do use strobe lights, fog, and haze. If you have allergies or sensitivities to these things, please be aware that we use them in our performances.</p>
+            <p className='answer'>Our ticketed music events have loud music and use strobe lights and haze. If you have allergies or sensitivities to these things, please be aware that we use them in our performances.</p>
             <p className='prompt'>I’m kind of hungry and thirsty. What should I do?</p>
             <p className='answer'>Food and snacks are available until 10pm on weekends and 2am on weekdays. Water and earplugs are always free, and you can find them at the front room bar.</p>
             <h3 className='bold mb-4'>Ticket Sales and Entry</h3>
@@ -25,16 +25,13 @@ export default function Policies() {
             <p className='prompt'>Will there be tickets at the door?</p>
             <p className='answer'>Yes! We sell tickets at the door on a first-come first-serve basis.</p>
             <p className='prompt'>Do you only have ticketed events?</p>
-            <p className='answer'>The front room lounge of SILO is open Wednesday, Thursday, and Sunday from 6pm to midnight and it’s free to enter. Stop in and have a drink :)</p>
+            <p className='answer'>The front room lounge of SILO is open Wednesday, 8pm-2am for Open Decks and Thursday 9pm-3am, usuallly for a DJ event with a local collective.</p>
             <p className='prompt'>Are exits final? What if I gotta step out for a second?</p>
             <p className='answer'>All exits are final unless otherwise specified in the event’s ticket details.</p>
             <p className='prompt'>What if I want to have a smoke?</p>
             <p className='answer'>There is a designated smoking area just outside the side door to the right of the stage. There will be a member of our security team at the door who will check your stamp upon re-entering the venue.</p>
             <p className='prompt'>Its gonna be a hot night, but I got this big coat on me...you guys got a coat check?</p>
-            <p className='answer'>Yes! Each item is $4, cash or card.</p>
-            <h3 className='bold mb-4'>COVID</h3>
-            <p className='prompt'>Is vaccination required to enter SILO?</p>
-            <p className='answer'>At this time, proof of vaccination is not required for entry to SILO events.</p>
+            <p className='answer'>Yes! Each item is $5, cash or card.</p>
         </div>
     )
 }
