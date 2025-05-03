@@ -51,6 +51,7 @@ export default function Tech() {
                     <br></br>
                     <p>Shure SLXD Series Wireless System with 2 SM58 Handheld Transmitters and SLXD4D Wireless Receiver</p>
                     <p>An additional 2 Shure BLX288PG58 wireless mics with receiver</p>
+                    <p>Shure PSM300 In-Ear Wireless Monitor System</p>
                     <p>4 x Shure SM-58 vocal mic</p>
                     <p>3 x Shure SM-57 instrument mic</p>
                     <p>8 x Behringer XM8500 super cardioid vocal mics</p>
@@ -73,7 +74,7 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>LIGHTING</p>
                     <br></br>
-                    <p>14 x Rogue 300W R3 Beam Lights</p>
+                    <p>22 x Rogue 300W R3 Beam Lights</p>
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>5 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>4 x X-Laser Skywriter HPX M-5 RGB lasers</p>
