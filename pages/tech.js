@@ -94,12 +94,11 @@ export default function Tech() {
                     <p>Epson 4000 lumen extreme short throw laser projector above front garage door</p>
                     <p>12-core liquid cooled PC workstation with GeForce RTX 3090 24GB graphics card, running Resolume Arena 7</p>
                     <br></br>
-                    <p className='text-white'>MULTI-CAMERA LIVE STREAMING</p>
+                    <p className='text-white'>RECORDING</p>
                     <br></br>
-                    <p>Main camera: Sony Alpha A7 III, 4K recording, 1080P streaming resolution, great in low light</p>
-                    <p>2 x Logitech C920 HD Pro Webcam, 1080P HD resolution, used for DJ closeups or second angle</p>
-                    <p>Green Screen</p>
-                    <p>Macbook Pro running OBS Studio 29. We run sound to the stream directly from the FOH mixer digital output.</p>
+                    <p>Main camera: Sony FX3, 4K recording, Sigma 14-24mm f/2.8 DG DN Art Lens. Have your DP bring an extra 256 GB SD card and we can record onto it for you.</p>
+                    <p>We use Audio Hijack to record from the FOH mixer digital output and will provide an mp3 copy of your set for download.</p>
+                    <p>Ask us if you would like rates for photo/video or multi-camera recording of your set from our resident photographer, Joshua Pollak.</p>
                     <br></br>
                 </div>
             </div>
