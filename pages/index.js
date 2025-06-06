@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import EmailSignup from '../components/EmailSignup'
 import Link from 'next/link'
-import Consent from '../components/Consent'
 import { EventComponent } from './events'
 
 export default function Home({ events }) {
@@ -12,8 +11,6 @@ export default function Home({ events }) {
         <title>SILO Brooklyn</title>
         <meta name="description" content="SILO Brooklyn" />
         <link rel="icon" href="/favicon.ico" />
-        {/* NOTE: Consent must be the first script tag on the page */}
-        {/* <Consent /> */}
       </Head>
 
       <main className={ `${ styles.main } m-auto relative` }>
