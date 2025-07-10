@@ -11,9 +11,6 @@ export default function Footer() {
                 <Link href="/a11y">
                     <a className='mr-3 md:mr-6'>ACCESSIBILITY</a>
                 </Link>
-                <Link href="/policies">
-                    <a className='mr-3 md:mr-6'>POLICIES</a>
-                </Link>
                 <Link href="/terms">
                     <a className='mr-3 md:mr-6'>TERMS</a>
                 </Link>
