@@ -16,12 +16,13 @@ export default function Policies() {
 
                 <div className='mt-8 prompt'><b>PACBI STATEMENT</b></div>
                 <div className='mt-4'>
-                    <p>We endorse the Palestinian Campaign for the Academic and Cultural Boycott of Israel (<span className="newsletter-link"><Link className="newsletter-link" target="_blank" href="https://bdsmovement.net/pacbi/cultural-boycott-guidelines">PACBI</Link></span>) and pledge to boycott all institutions and funders complicit in the Israeli occupation.</p>
+                    <p>We endorse the Palestinian Campaign for the Academic and Cultural Boycott of Israel (<span className="newsletter-link"><Link className="newsletter-link" target="_blank" href="https://bdsmovement.net/pacbi/cultural-boycott-guidelines">PACBI</Link></span>) and pledge to boycott all institutions and funders complicit in the Israeli occupation and genocide.</p>
                     <br/>
                     <p>SILO Brooklyn vows to:</p>
                     <ul>
                         <li className='ml-4'>&bull; boycott any cultural product or event funded, commissioned, and/or sponsored by an official Israeli body.</li>
                         <li className='ml-4'>&bull; not collaborate with or take money from Israeli institutions.</li>
+                        <li className='ml-4'>&bull; refuse “normalization” efforts seeking to justify Israel&apos;s war crimes or present a false symmetry between oppressed and oppressor.</li>
                         <li className='ml-4'>&bull; advocate for others to similarly divest from Israel, end support for the oppression of Palestinians, and pressure Israel to comply with international law.</li>
                     </ul>
                     <br/>
