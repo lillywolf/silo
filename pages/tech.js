@@ -74,7 +74,7 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>LIGHTING</p>
                     <br></br>
-                    <p>22 x Rogue 300W R3 Beam Lights</p>
+                    <p>24 x Rogue 300W R3 Beam Lights</p>
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>5 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>4 x X-Laser Skywriter HPX M-5 RGB lasers</p>
@@ -89,8 +89,8 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>PROJECTION SYSTEM</p>
                     <br></br>
-                    <p>2 x BenQ LU960ST2 5200 lumen short throw laser projector for stage back wall</p>
-                    <p>8 x 4000 lumen, 300,000:1 contrast Optoma Projectors, projection mapped across ceiling and walls</p>
+                    <p>Panasonic PT-MZ20K 20,000 lumen short throw laser projector for stage back wall</p>
+                    <p>2 x BenQ LU960ST2 5200 lumen short throw laser projector for dancefloor side panels</p>
                     <p>Epson 4000 lumen extreme short throw laser projector above front garage door</p>
                     <p>12-core liquid cooled PC workstation with GeForce RTX 3090 24GB graphics card, running Resolume Arena 7</p>
                     <br></br>
