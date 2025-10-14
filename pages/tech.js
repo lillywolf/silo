@@ -76,11 +76,11 @@ export default function Tech() {
                     <br></br>
                     <p>24 x Rogue 300W R3 Beam Lights</p>
                     <p>4 x ADJ 18p Hex Par Stage Wash (capable of full blacklight, amber, white)</p>
-                    <p>5 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
+                    <p>3 x ADJ Vizi Hex Wash 7 - Moving Head Stage Wash (capable of full blacklight, amber, white)</p>
                     <p>4 x X-Laser Skywriter HPX M-20 RGB lasers</p>
                     <p>4 x X-Laser Skywriter HPX M-5 RGB lasers</p>
                     <p>8 x ADJ 12p Hex Par Blinders</p>
-                    <p>4 x ADJ Jolt Panel FX2 Wash/Blinder/Strobe Fixtures</p>
+                    <p>8 x ADJ Jolt Panel FX2 Pixel Panel / Strobe Fixtures</p>
                     <p>12 x 45 foot long pixel-mapped LED strip lights controlled by ELM software</p>
                     <p>5 x ADJ 6p Hex Par - Fill Washes (front room)</p>
                     <p>8 x ADJ Inno Spot Pro Beam Lights (front room)</p>
