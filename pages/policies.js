@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-export default function Policies() {
+export default function _Policies() {
     return (
         <>
             <title>SILO Brooklyn Policies</title>
