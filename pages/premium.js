@@ -25,7 +25,6 @@ export default function Premium() {
                     <p><span>Clase Azul Reposado Tequila</span></p>
                     <p><span>Grey Goose Vodka (1L)</span></p>
                     <p><span>Woodford Reserve Bourbon (1L)</span></p>
-                    <p><span>Krug Grand Cuvee Champagne</span></p>
                     <p><span>Dom Perignon Champagne</span></p>
                 </div>
                 <div className='col w-full py-20 md:mx-8 md:w-10/12'>
