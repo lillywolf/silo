@@ -13,7 +13,7 @@ export default function Policies() {
                     <p>If anyone or anything makes you feel unsafe while you&apos;re inside, talk to any staff-member and they will help you.</p>
                     <p>In essence, be respectful and be kind.</p>
                 </div>
-
+<!-- 
                 <div className='mt-8 prompt'><b>PACBI STATEMENT</b></div>
                 <div className='mt-4'>
                     <p>We endorse the Palestinian Campaign for the Academic and Cultural Boycott of Israel (<span className="newsletter-link"><Link className="newsletter-link" target="_blank" href="https://bdsmovement.net/pacbi/cultural-boycott-guidelines">PACBI</Link></span>) and pledge to boycott all institutions and funders complicit in the Israeli occupation and genocide.</p>
@@ -30,6 +30,7 @@ export default function Policies() {
                     <br/>
                     <div className="newsletter-link"><Link target="_blank" href="https://www.writersagainstthewarongaza.com/pacbi">Writers Against the War on Gaza: PACBI FAQ</Link></div>
                 </div>
+-->        
             </div>
         </>
     );
