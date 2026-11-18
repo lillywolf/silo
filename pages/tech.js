@@ -8,19 +8,20 @@ export default function Tech() {
                     <br></br>
                     <p className='text-white'>MAIN ROOM SOUND SYSTEM</p>
                     <br></br>
-                    <p>2 x Danley SH96HO 2800W mains</p>
-                    <p>2 x Danley BC218 6800W main subwoofers (low-end extension down to 22 Hz)</p>
-                    <p>2 x Danley SH46 2800W rear fills</p>
-                    <p>2 x Danley TH115 rear subwoofer fills (2000W each)</p>
-                    <p>4 x Danley 20K4 amplifiers (total 80,000 watts amplifier power)</p>
-                    <p>2 x Danley SM60F 1600W DJ booth monitors</p>
-                    <p>2 x Danley TH115 2000W DJ booth sub monitors</p>
-                    <p>Allen & Heath SQ-5 digital mixer (48 channels, 96kHz processing) with AR2412 and AB168 digital stage boxes</p>
-                    <p>2 x Electro-Voice ELX200-12P 1200W 2-Way powered loudspeaker stage fills</p>
-                    <p>2 x Electro-Voice ETX200-12P 2000W 2-Way powered loudspeaker mid room fills</p>
+                    <p>2 x Danley SH96HO 2800W low, 800W high mains</p>
+                    <p>2 x Danley BC218 3400W main subwoofers (low-end extension down to 22 Hz)</p>
+                    <p>2 x Danley SH46 1400W rear fills</p>
+                    <p>2 x Danley TH118 1700W rear subwoofer fills</p>
+                    <p>2 x Danley SH69 1000W stage fills</p>
+                    <p>2 x Danley SM60F 800W DJ booth monitors</p>
+                    <p>2 x Danley TH115 1000W DJ booth sub monitors</p>
+                    <p>Speaker ratings are continuous power</p>
+                    <p>5 x Danley 20K4 amplifiers (total 100,000 watts peak amplifier power)</p>
+                    <p>Allen & Heath SQ-56+ digital mixer (48 channels, 96kHz processing) with AR2412 and AB168 digital stage boxes</p>
                     <br></br>
                     <p className='text-white'>DJ</p>
                     <br></br>
+                    <p>2 x Pioneer CDJ-3000X</p>
                     <p>6 x Pioneer CDJ-3000</p>
                     <p>4 x Pioneer CDJ-2000 NXS2</p>
                     <p>2 x Technics SL1000-MK2 turntable w/ Ortofon Concorde MK2 Club Cartridges</p>
@@ -34,16 +35,16 @@ export default function Tech() {
                     <p>AlphaTheta Euphonia rotary mixer</p>
                     <p>Allen & Heath Xone96 6-channel analog mixer</p>
                     <p>Pioneer RMX-1000 Performance Effects System</p>
+                    <p>Pioneer RMX-Ignite Performance Effects System</p>
                     <p>Pioneer DJS-1000 DJ Sampler</p>
-                    <p>Pioneer EFX-1000 DJ Effects Unit</p>
                     <p>DJ booth is usually positioned in the center of the dancefloor.</p>
                     <p>DJ is on an 8&quot; high 8 ft x 6 ft riser.</p>
                     <p>DJ desk is 8 ft x 4 ft, at 36 &quot; height from DJ platform level.</p>
                     <br></br>
                     <p className='text-white'>FRONT ROOM</p>
                     <br></br>
-                    <p>4 x Danley SH60 2000W 3-Way loudspeakers</p>
-                    <p>2 x Danley TH118XL 3600W subwoofer</p>
+                    <p>4 x Danley SH60 1000W 3-Way loudspeakers</p>
+                    <p>2 x Danley TH118XL 1700W subwoofer</p>
                     <p>2 x EV PXM-12MP DJ booth monitors</p>
                     <p>For front room events we have a rolling 2&quot; deep x 8&quot; wide DJ booth</p>
                     <br></br>
@@ -51,7 +52,7 @@ export default function Tech() {
                     <br></br>
                     <p>Shure SLXD Series Wireless System with 2 SM58 Handheld Transmitters and SLXD4D Wireless Receiver</p>
                     <p>An additional 2 Shure BLX288PG58 wireless mics with receiver</p>
-                    <p>Shure PSM300 In-Ear Wireless Monitor System</p>
+                    <p>2 x Shure PSM300 In-Ear Wireless Monitor System w/ 3 belt pack receivers</p>
                     <p>4 x Shure SM-58 vocal mic</p>
                     <p>3 x Shure SM-57 instrument mic</p>
                     <p>8 x Behringer XM8500 super cardioid vocal mics</p>
@@ -81,6 +82,7 @@ export default function Tech() {
                     <p>4 x X-Laser Skywriter HPX M-5 RGB lasers</p>
                     <p>8 x ADJ 12p Hex Par Blinders</p>
                     <p>8 x ADJ Jolt Panel FX2 Pixel Panel / Strobe Fixtures</p>
+                    <p>10 x GalaxyJet LED 12x60W RGBW 12 Moving Head Wave Bar Fixtures for lighting curve effects along the stage truss</p>
                     <p>12 x 45 foot long pixel-mapped LED strip lights controlled by ELM software</p>
                     <p>5 x ADJ 6p Hex Par - Fill Washes (front room)</p>
                     <p>8 x ADJ Inno Spot Pro Beam Lights (front room)</p>
