@@ -15,7 +15,7 @@ export default function Tech() {
                     <p>2 x Danley SH69 1000W stage fills</p>
                     <p>2 x Danley SM60F 800W DJ booth monitors</p>
                     <p>2 x Danley TH115 1000W DJ booth sub monitors</p>
-                    <p>Speaker ratings are continuous power</p>
+                    <p>(Speaker ratings are continuous power)</p>
                     <p>5 x Danley 20K4 amplifiers (total 100,000 watts peak amplifier power)</p>
                     <p>Allen & Heath SQ-56+ digital mixer (48 channels, 96kHz processing) with AR2412 and AB168 digital stage boxes</p>
                     <br></br>
